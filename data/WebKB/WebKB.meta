@@ -1,0 +1,20 @@
+Number of vertices (papers with features):
+877
+Number of papers:
+877
+Number of papers without any features (excluded):
+0
+Number of edges:
+1608
+Vocabulary size:
+1703
+Number of classes:
+5
+Classes:
+course
+faculty
+project
+staff
+student
+Density:
+1.83352

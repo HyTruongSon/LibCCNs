@@ -1,0 +1,25 @@
+Data name: citeseer
+Log: citeseer/citeseer.log
+Cites: citeseer/citeseer.cites
+Content: citeseer/citeseer.content
+Vertex: citeseer/citeseer.vertex
+Edge: citeseer/citeseer.edge
+Feature: citeseer/citeseer.feature
+Class: citeseer/citeseer.class
+Meta: citeseer/citeseer.meta
+Train: citeseer/citeseer.train
+Val: citeseer/citeseer.val
+Test: citeseer/citeseer.test
+Read the citation from file citeseer/citeseer.cites
+Number of papers: 3327
+Number of citations: 4732
+Density: 1.4223
+Write to file citeseer/citeseer.vertex
+Write to file citeseer/citeseer.edge
+Read content from file citeseer/citeseer.content
+Write feature to file citeseer/citeseer.feature
+Write feature to file citeseer/citeseer.class
+Write meta data to file citeseer/citeseer.meta
+Save training set to file citeseer/citeseer.train
+Save validation set to file citeseer/citeseer.val
+Save testing set to file citeseer/citeseer.test

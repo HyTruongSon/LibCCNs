@@ -1,0 +1,4 @@
+Covariant Compositional Networks Library is an easy-to-use and efficient implementation of Covariant Compositional Networks (CCNs) with TensorFlow and PyTorch's APIs based on a shared common C++ core. The whole package can be found at: 
+https://github.com/HyTruongSon/LibCCNs
+The original release of CCNs implementation was based on GraphFlow Deep Learning Framework at: 
+https://github.com/HyTruongSon/GraphFlow

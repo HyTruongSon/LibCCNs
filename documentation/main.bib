@@ -1,0 +1,749 @@
+@string{aistats = {Proceedings of International Workshop on Artificial Intelligence and Statistics (AISTATS)}}
+
+@string{colt = {Proceedings of the Annual Conference on Computational Learning Theory (COLT)}}
+
+@string{icml = {Proceedings of the International Conference on Machine Learning (ICML)}}
+
+@string{jmlr = {Journal of Machine Learning Research (JMLR)}}
+
+@string{nips = {Advances in Neural Information Processing Systems (NIPS)}}
+
+@string{iclr = {International Conference on Learning Representations (ICLR)}}
+
+@string{soda = {ACM-SIAM Symposium on Discrete Algorithms (SODA)}}
+
+@string{neco = {Neural Computation}}
+
+@article{Chmiela2018,
+    Abstract = {Molecular dynamics (MD) simulations employing classical force fields constitute the cornerstone of contemporary atomistic modeling in chemistry, biology, and materials science. However, the predictive power of these simulations is only as good as the underlying interatomic potential. Classical potentials often fail to faithfully capture key quantum effects in molecules and materials. Here we enable the direct construction of flexible molecular force fields from high-level ab initio calculations by incorporating spatial and temporal physical symmetries into a gradient-domain machine learning (sGDML) model in an automatic data-driven way. The developed sGDML approach faithfully reproduces global force fields at quantum-chemical CCSD(T) level of accuracy and allows converged molecular dynamics simulations with fully quantized electrons and nuclei. We present MD simulations, for flexible molecules with up to a few dozen atoms and provide insights into the dynamical behavior of these molecules. Our approach provides the key missing ingredient for achieving spectroscopic accuracy in molecular simulations.},
+    Author = {Chmiela, Stefan and Sauceda, Huziel E. and Muller, Klaus-Robert and Tkatchenko, Alexandre},
+    Da = {2018/09/24},
+    Date-Added = {2019-10-26 23:12:45 -0700},
+    Date-Modified = {2019-10-26 23:12:45 -0700},
+    Doi = {10.1038/s41467-018-06169-2},
+    Id = {Chmiela2018},
+    Isbn = {2041-1723},
+    Journal = {Nature Communications},
+    Number = {1},
+    Pages = {3887},
+    Title = {Towards exact molecular dynamics simulations with machine-learned force fields},
+    Ty = {JOUR},
+    Url = {https://doi.org/10.1038/s41467-018-06169-2},
+    Volume = {9},
+    Year = {2018},
+    Bdsk-Url-1 = {https://doi.org/10.1038/s41467-018-06169-2}}
+
+@article{doi:10.1063/1.3682557,
+  author = {Morawietz,Tobias  and Sharma,Vikas  and Behler,Jörg },
+  title = {A neural network potential-energy surface for the water dimer based on environment-dependent atomic energies and charges},
+  journal = {The Journal of Chemical Physics},
+  volume = {136},
+  number = {6},
+  pages = {064103},
+  year = {2012},
+  doi = {10.1063/1.3682557},
+  URL = {https://doi.org/10.1063/1.3682557},
+  eprint = {https://doi.org/10.1063/1.3682557}
+}
+
+@article{PhysRevB.95.214302,
+  title = {Accurate interatomic force fields via machine learning with covariant kernels},
+  author = {Glielmo, Aldo and Sollich, Peter and De Vita, Alessandro},
+  journal = {Phys. Rev. B},
+  volume = {95},
+  issue = {21},
+  pages = {214302},
+  numpages = {10},
+  year = {2017},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevB.95.214302},
+  url = {https://link.aps.org/doi/10.1103/PhysRevB.95.214302}
+}
+
+@Article{C7SC04934J,
+author ="Yao, Kun and Herr, John E. and Toth, David W. and Mckintyre, Ryker and Parkhill, John",
+title  ="The TensorMol-0.1 model chemistry: a neural network augmented with long-range physics",
+journal  ="Chem. Sci.",
+year  ="2018",
+volume  ="9",
+issue  ="8",
+pages  ="2261-2269",
+publisher  ="The Royal Society of Chemistry",
+doi  ="10.1039/C7SC04934J",
+url  ="http://dx.doi.org/10.1039/C7SC04934J",
+abstract  ="Traditional force fields cannot model chemical reactivity{,} and suffer from low generality without re-fitting. Neural network potentials promise to address these problems{,} offering energies and forces with near ab initio accuracy at low cost. However a data-driven approach is naturally inefficient for long-range interatomic forces that have simple physical formulas. In this manuscript we construct a hybrid model chemistry consisting of a nearsighted neural network potential with screened long-range electrostatic and van der Waals physics. This trained potential{,} simply dubbed “TensorMol-0.1”{,} is offered in an open-source Python package capable of many of the simulation types commonly used to study chemistry: geometry optimizations{,} harmonic spectra{,} open or periodic molecular dynamics{,} Monte Carlo{,} and nudged elastic band calculations. We describe the robustness and speed of the package{,} demonstrating its millihartree accuracy and scalability to tens-of-thousands of atoms on ordinary laptops. We demonstrate the performance of the model by reproducing vibrational spectra{,} and simulating the molecular dynamics of a protein. Our comparisons with electronic structure theory and experimental data demonstrate that neural network molecular dynamics is poised to become an important tool for molecular simulation{,} lowering the resource barrier to simulating chemistry."}
+
+@Article{C7SC02267K,
+author ="Gastegger, Michael and Behler, Jörg and Marquetand, Philipp",
+title  ="Machine learning molecular dynamics for the simulation of infrared spectra",
+journal  ="Chem. Sci.",
+year  ="2017",
+volume  ="8",
+issue  ="10",
+pages  ="6924-6935",
+publisher  ="The Royal Society of Chemistry",
+doi  ="10.1039/C7SC02267K",
+url  ="http://dx.doi.org/10.1039/C7SC02267K",
+abstract  ="Machine learning has emerged as an invaluable tool in many research areas. In the present work{,} we harness this power to predict highly accurate molecular infrared spectra with unprecedented computational efficiency. To account for vibrational anharmonic and dynamical effects – typically neglected by conventional quantum chemistry approaches – we base our machine learning strategy on ab initio molecular dynamics simulations. While these simulations are usually extremely time consuming even for small molecules{,} we overcome these limitations by leveraging the power of a variety of machine learning techniques{,} not only accelerating simulations by several orders of magnitude{,} but also greatly extending the size of systems that can be treated. To this end{,} we develop a molecular dipole moment model based on environment dependent neural network charges and combine it with the neural network potential approach of Behler and Parrinello. Contrary to the prevalent big data philosophy{,} we are able to obtain very accurate machine learning models for the prediction of infrared spectra based on only a few hundreds of electronic structure reference points. This is made possible through the use of molecular forces during neural network potential training and the introduction of a fully automated sampling scheme. We demonstrate the power of our machine learning approach by applying it to model the infrared spectra of a methanol molecule{,} n-alkanes containing up to 200 atoms and the protonated alanine tripeptide{,} which at the same time represents the first application of machine learning techniques to simulate the dynamics of a peptide. In all of these case studies we find an excellent agreement between the infrared spectra predicted via machine learning models and the respective theoretical and experimental spectra."}
+
+@article{ramakrishnan2014quantum,
+  title={Quantum chemistry structures and properties of 134 kilo molecules},
+  author={Ramakrishnan, Raghunathan and Dral, Pavlo O and Rupp, Matthias and von Lilienfeld, O Anatole},
+  journal={Scientific Data},
+  volume={1},
+  year={2014},
+  publisher={Nature Publishing Group}
+}
+
+@article{CompNetsArxiv18,
+  author    = {Risi Kondor and Hy Truong Son and Horace Pan and Brandon M. Anderson and Shubhendu Trivedi},
+  title     = {Covariant Compositional Networks For Learning Graphs},
+  journal   = {CoRR},
+  volume    = {abs/1801.02144},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1801.02144},
+  archivePrefix = {arXiv},
+  eprint    = {1801.02144},
+  timestamp = {Wed, 03 Apr 2019 17:18:36 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1801-02144},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{doi:10.1063/1.5024797,
+author = {Hy,Truong Son  and Trivedi,Shubhendu  and Pan,Horace  and Anderson,Brandon M.  and Kondor,Risi },
+title = {Predicting molecular properties with covariant compositional networks},
+journal = {The Journal of Chemical Physics},
+volume = {148},
+number = {24},
+pages = {241745},
+year = {2018},
+doi = {10.1063/1.5024797},
+URL = {https://doi.org/10.1063/1.5024797},
+eprint = {https://doi.org/10.1063/1.5024797}
+}
+
+@article{LeCun1998,
+	Author = {Y. LeCun and Y. Bengio and P. Haffner},
+	Journal = {Proceedings of the IEEE},
+	Pages = {2278-2324},
+	Title = {Gradient-based learning applied to document recognition},
+	Year = {1998}
+}
+@inproceedings{Duvenaud2015,
+	Author = {D. K. Duvenaud and D. Maclaurin and J. Iparraguirre and R. Bombarell and T. Hirzel and A. Aspuru-Guzik and R. P. Adams},
+	Booktitle = {Advances in neural information processing systems},
+	Pages = {2224--2232},
+	Title = {Convolutional networks on graphs for learning molecular fingerprints},
+	Year = {2015}
+}
+@article{Kearns2016,
+	Author = {S. Kearns and K. McCloskey and M. Brendl and V. Pande and P. Riley},
+	Journal = {Journal of Computer-Aided Molecular Design},
+	Pages = {595--608},
+	Title = {Molecular graph convolutions: moving beyond fingerprints},
+	Volume = {30},
+	Year = {2016}
+}
+@inproceedings{Niepert2016,
+	Author = {M. Niepert and M. Ahmed and K. Kutzkov},
+	Booktitle = {Proceedings of the International Conference on Machine Learning},
+	Title = {Learning convolutional neural networks for graphs},
+	Year = {2016}
+}
+@article{Behler2007fe,
+author = {Behler, J{\"o}rg and Parrinello, Michele},
+title = {{Generalized neural-network representation of high-dimensional potential-energy surfaces}},
+journal = {Phys Rev Lett},
+year = {2007},
+volume = {98},
+number = {14},
+pages = {146401},
+affiliation = {Swiss Fed Inst Technol, Dept Chem {\&} Appl Biosci, CH-6900 Lugano, Switzerland},
+language = {English},
+read = {Yes},
+rating = {0},
+date-added = {2010-10-28T10:24:06GMT},
+date-modified = {2016-04-04T22:22:15GMT},
+}
+
+@article{Bartok2010wd,
+author = {Bart{\'o}k, Albert P and Payne, Michael C and Kondor, Risi and Cs{\'a}nyi, G{\'a}bor},
+title = {{Gaussian Approximation Potentials: the accuracy of quantum mechanics, without the electrons}},
+journal = {Phys Rev Lett},
+year = {2010},
+volume = {104},
+number = {13},
+pages = {136403},
+affiliation = {Cavendish Laboratory, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, United Kingdom.},
+pmid = {20481899},
+language = {English},
+rating = {0},
+}
+
+@article{Behler2015gv,
+author = {Behler, J{\"o}rg},
+title = {{Constructing high-dimensional neural network potentials: A tutorial review}},
+journal = {Int J Quantum Chem},
+year = {2015},
+volume = {115},
+number = {16},
+pages = {1032--1050},
+month = mar,
+language = {English},
+rating = {0},
+date-added = {2015-07-14T10:42:57GMT},
+date-modified = {2016-04-04T22:22:01GMT},
+}
+
+@article{Chmiela2016a,
+archivePrefix = {arXiv},
+arxivId = {1611.04678},
+author = {Chmiela, Stefan and Tkatchenko, Alexandre and Sauceda, Huziel E. and Poltavsky, Igor and Sch{\"{u}}tt, Kristof T. and M{\"{u}}ller, Klaus-Robert},
+eprint = {1611.04678},
+issn = {2375-2548},
+number = {May},
+pages = {1--6},
+pmid = {28508076},
+title = {{Machine Learning of Accurate Energy-Conserving Molecular Force Fields}},
+year = {2016}
+}
+
+@article{Zhang2017,
+  title = {Deep Potential Molecular Dynamics: A Scalable Model with the Accuracy of Quantum Mechanics},
+  author = {Zhang, Linfeng and Han, Jiequn and Wang, Han and Car, Roberto and E, Weinan},
+  journal = {Phys. Rev. Lett.},
+  volume = {120},
+  issue = {14},
+  pages = {143001},
+  numpages = {6},
+  year = {2018},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.120.143001},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.120.143001}
+}
+
+@article{Schutt2017,
+title={Quantum-chemical insights from deep tensor neural networks},
+volume={8}, ISSN={2041-1723},
+journal={Nature Communications},
+author={Sch{\"u}tt, Kristof T. and Arbabzadah, Farhad and Chmiela, Stefan and M{\:}uller, Klaus R. and Tkatchenko, Alexandre},
+year={2017}, month={Jan}, pages={13890}
+}
+
+@article{Hirn2017,
+title={Wavelet Scattering Regression of Quantum Chemical Energies},
+volume={15}, ISSN={1540-3459},
+number={2}, journal={Multiscale Modeling \& Simulation},
+author={Hirn, M. and Mallat, S. and Poilvert, N.},
+year={2017}, month={Jan}, pages={827-863}
+}
+
+@article{HohenbergKohn,
+	Author = {P. Hohenberg and W. Kohn},
+	Journal = {Phys. Rev.},
+	Title = {Inhomogeneous Electron Gas},
+	Volume = 136,
+	Year = 1964,
+    Pages = {864--871},
+}
+
+@article{CGenFF2010,
+title={{CHARMM} General Force Field ({CGenFF}): A force field for drug-like molecules compatible with the
+{CHARMM} all-atom additive biological force fields},
+volume={31},
+ISSN={0192-8651},
+number={4},
+journal={Journal of computational chemistry},
+author={Vanommeslaeghe, K. and Hatcher, E. and Acharya, C. and Kundu, S. and Zhong, S. and Shim, J. and Darian, E. and Guvench, O. and Lopes, P. and Vorobyov, I. and et al.},
+year={2010}, month={Mar}, pages={671-690}
+}
+
+@article{CHARMM2009,
+title={{CHARMM}: the biomolecular simulation program}, volume={30}, ISSN={1096-987X},
+number={10}, journal={Journal of Computational Chemistry},
+author={Brooks, B. R. and Brooks, C. L. and Mackerell, A. D. and Nilsson, L. and Petrella, R. J. and Roux, B. and Won, Y. and Archontis, G. and Bartels, C. and Boresch, S. and et al.},
+year={2009}, month={Jul}, pages={1545-1614}
+}
+
+@article{CHARMM1983,
+title={{CHARMM}: A program for macromolecular energy, minimization, and dynamics calculations},
+volume={4}, ISSN={1096-987X},
+number={2}, journal={Journal of Computational Chemistry},
+author={Brooks, Bernard R. and Bruccoleri, Robert E. and Olafson, Barry D. and States, David J. and Swaminathan, S. and Karplus, Martin},
+year={1983}, month={Jun}, pages={187-217}
+}
+
+@techreport{Mallat2012,
+archivePrefix = {arXiv},
+arxivId = {arXiv:1101.2286v3},
+author = {Mallat, S},
+eprint = {arXiv:1101.2286v3},
+title = {{Group Invariant Scattering}},
+year = {2012}
+}
+
+@article{SphericalCNN2018,
+  author    = {Taco S. Cohen and
+               Mario Geiger and
+               Jonas K{\"{o}}hler and
+               Max Welling},
+  title     = {Spherical CNNs},
+  journal   = {CoRR},
+  volume    = {abs/1801.10130},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1801.10130},
+  archivePrefix = {arXiv},
+  eprint    = {1801.10130},
+  timestamp = {Mon, 13 Aug 2018 16:48:25 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1801-10130},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Cohen2017,
+  author    = {Taco S. Cohen and
+               Max Welling},
+  title     = {Steerable CNNs},
+  journal   = {CoRR},
+  volume    = {abs/1612.08498},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1612.08498},
+  archivePrefix = {arXiv},
+  eprint    = {1612.08498},
+  timestamp = {Mon, 13 Aug 2018 16:46:29 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/CohenW16a},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Cohen2016,
+  author    = {Taco S. Cohen and
+               Max Welling},
+  title     = {Group Equivariant Convolutional Networks},
+  journal   = {CoRR},
+  volume    = {abs/1602.07576},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1602.07576},
+  archivePrefix = {arXiv},
+  eprint    = {1602.07576},
+  timestamp = {Mon, 13 Aug 2018 16:47:18 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/CohenW16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Masci2015,
+  author    = {Jonathan Masci and
+               Davide Boscaini and
+               Michael M. Bronstein and
+               Pierre Vandergheynst},
+  title     = {Geodesic convolutional neural networks on Riemannian manifolds},
+  journal   = {CoRR},
+  volume    = {abs/1501.06297},
+  year      = {2015},
+  url       = {http://arxiv.org/abs/1501.06297},
+  archivePrefix = {arXiv},
+  eprint    = {1501.06297},
+  timestamp = {Mon, 13 Aug 2018 16:48:12 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/MasciBBV15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Thomas2018,
+  author    = {Nathaniel Thomas and
+               Tess Smidt and
+               Steven M. Kearnes and
+               Lusann Yang and
+               Li Li and
+               Kai Kohlhoff and
+               Patrick Riley},
+  title     = {Tensor Field Networks: Rotation- and Translation-Equivariant Neural
+               Networks for 3D Point Clouds},
+  journal   = {CoRR},
+  volume    = {abs/1802.08219},
+  year      = {2018},
+  archivePrefix = {arXiv},
+  eprint    = {1802.08219},
+  timestamp = {Mon, 13 Aug 2018 16:47:09 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1802-08219},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Monti2016,
+  author    = {Federico Monti and
+               Davide Boscaini and
+               Jonathan Masci and
+               Emanuele Rodol{\`{a}} and
+               Jan Svoboda and
+               Michael M. Bronstein},
+  title     = {Geometric deep learning on graphs and manifolds using mixture model
+               CNNs},
+  journal   = {CoRR},
+  volume    = {abs/1611.08402},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1611.08402},
+  archivePrefix = {arXiv},
+  eprint    = {1611.08402},
+  timestamp = {Mon, 13 Aug 2018 16:48:24 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/MontiBMRSB16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Li2016,
+author={Yujia Li and Daniel Tarlow and Marc Brockschmidt and Richard Zemel},
+booktitle={iclr},
+title={Gated Graph Sequence Neural Networks},
+year={2016}
+}
+
+@inproceedings{Defferrard2016,
+author={Michaël Defferrard and Xavier Bresson and Pierre Vandergheynst},
+booktitle={nips},
+title={Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering},
+year={2016}
+}
+
+@article{Riley2017,
+  author    = {Justin Gilmer and
+               Samuel S. Schoenholz and
+               Patrick F. Riley and
+               Oriol Vinyals and
+               George E. Dahl},
+  title     = {Neural Message Passing for Quantum Chemistry},
+  journal   = {CoRR},
+  volume    = {abs/1704.01212},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1704.01212},
+  archivePrefix = {arXiv},
+  eprint    = {1704.01212},
+  timestamp = {Mon, 13 Aug 2018 16:48:42 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/GilmerSRVD17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{EquivarianceArxiv18,
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1802.03690},
+	author = {R. Kondor and S. Trivedi},
+	eprint = {arXiv:1802.03690},
+	year={2018},
+	title = {On the Generalization of Equivariance and Convolution in Neural Networks to the Action of Compact Groups}
+}
+
+@article{Bruna2013,
+	Author = {Joan Bruna and Stephane Mallat},
+	Journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+	Month = {August},
+	Pages = {1872-1886},
+	Title = {Invariant scattering convolutional networks},
+	Volume = {35},
+	Year = {2013}
+}
+
+@article{Shapeev2015,
+author = {Shapeev, Alexander V},
+title = {{Moment Tensor Potentials: a class of systematically improvable interatomic potentials}},
+journal = {arXiv},
+year = {2015},
+eprint = {1512.06054v1},
+eprinttype = {arxiv},
+month = dec
+}
+
+@Book{Serre,
+	author ={Jean-Pierre Serre},
+	title = {Linear Representations of Finite Groups},
+	year = {1977},
+	publisher={Springer-Verlag},
+	series = {Graduate Texts in Mathamatics},
+	volume = {42}
+}
+
+@Article{ANI1,
+    author ="Smith, J. S. and Isayev, O. and Roitberg, A. E.",
+    title  ="ANI-1: an extensible neural network potential with DFT accuracy at force field computational cost",
+    journal  ="Chem. Sci.",
+    year  ="2017",
+    volume  ="8",
+    issue  ="4",
+    pages  ="3192-3203",
+    publisher  ="The Royal Society of Chemistry",
+    doi  ="10.1039/C6SC05720A",
+}
+    %url  ="http://dx.doi.org/10.1039/C6SC05720A",
+@article{Behler,
+    author = {Jörg Behler},
+    title = {Atom-centered symmetry functions for constructing high-dimensional neural network potentials},
+    journal = {J. Chem. Phys.},
+    volume = {134},
+    number = {7},
+    pages = {074106},
+    year = {2011},
+    doi = {10.1063/1.3553717},
+}
+    %URL = {https://doi.org/10.1063/1.3553717},
+
+@article{BehlerParinello,
+  title = {Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces},
+  author = {Behler, J\"org and Parrinello, Michele},
+  journal = {Phys. Rev. Lett.},
+  volume = {98},
+  issue = {14},
+  pages = {146401},
+  numpages = {4},
+  year = {2007},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.98.146401},
+}
+  %url = {https://link.aps.org/doi/10.1103/PhysRevLett.98.146401}
+
+@Article{Tensormol,
+    author ="Yao, Kun and Herr, John E. and Toth, David[space]W. and Mckintyre, Ryker and Parkhill, John",
+    title  ="The TensorMol-0.1 model chemistry: a neural network augmented with long-range physics",
+    journal  ="Chem. Sci.",
+    year  ="2018",
+    volume  ="9",
+    issue  ="8",
+    pages  ="2261-2269",
+    publisher  ="The Royal Society of Chemistry",
+    doi  ="10.1039/C7SC04934J",
+}
+    %url  ="http://dx.doi.org/10.1039/C7SC04934J"
+
+@article{BronsteinEtAl,
+author={M. M. Bronstein and J. Bruna and Y. LeCun and A. Szlam and P. Vandergheynst},
+journal={IEEE Signal Process. Mag.},
+title={Geometric Deep Learning: Going beyond Euclidean data},
+year={2017},
+volume={34},
+number={4},
+pages={18-42},
+keywords={computational geometry;neural nets;Euclidean data;deep neural models;geometric deep
+learning;Computational modeling;Computer architecture;Convolution;Convolutional codes;Euclidean
+distance;Machine learning;Social network services},
+doi={10.1109/MSP.2017.2693418},
+ISSN={1053-5888},
+month={July},
+}
+
+@article{MontavonEtAl,
+	Author = {G. Montavon and M. Rupp and V. Gobre and A. Vazquez-Mayagoitia and K. Hansen and A. Tkatchenko and K-R. M\"uller and O. A. von Lilienfeld},
+	Journal = {New J. Phys.},
+	Month = {09},
+	Title = {Machine learning of molecular electronic properties in chemical compound space},
+	Volume = 15,
+	Year = 2013}
+
+@article{HenaffLeCun2015,
+  author    = {Mikael Henaff and
+               Joan Bruna and
+               Yann LeCun},
+  title     = {Deep Convolutional Networks on Graph-Structured Data},
+  journal   = {CoRR},
+  volume    = {abs/1506.05163},
+  year      = {2015},
+  url       = {http://arxiv.org/abs/1506.05163},
+  archivePrefix = {arXiv},
+  eprint    = {1506.05163},
+  timestamp = {Mon, 13 Aug 2018 16:48:01 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/HenaffBL15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Gilmer2017,
+  title = 	 {Neural Message Passing for Quantum Chemistry},
+  author = 	 {J. Gilmer and S. S. Schoenholz and P. F. Riley and O. Vinyals and G. E. Dahl},
+  booktitle = 	 {Proc. ICML},
+  volume = 	 {70},
+  year = 	 {2017}
+}
+
+@article{EstevesSph,
+  author    = {Carlos Esteves and
+               Christine Allen{-}Blanchette and
+               Ameesh Makadia and
+               Kostas Daniilidis},
+  title     = {3D object classification and retrieval with Spherical CNNs},
+  journal   = {CoRR},
+  volume    = {abs/1711.06721},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1711.06721},
+  archivePrefix = {arXiv},
+  eprint    = {1711.06721},
+  timestamp = {Mon, 13 Aug 2018 16:48:40 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1711-06721},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{EquivarianceArxiv18,
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1802.03690},
+	author = {R. Kondor and S. Trivedi},
+	eprint = {arXiv:1802.03690},
+	year={2018},
+	title = {On the Generalization of Equivariance and Convolution in Neural Networks to the Action of Compact Groups}
+}
+
+@article{EquivarianceICML18,
+	author = {R. Kondor and S. Trivedi},
+	year={2018},
+	title = {On the Generalization of Equivariance and Convolution in Neural Networks to the Action of Compact Groups},
+	journal = {International Conference on Machine Learning (ICML)}
+}
+%url={https://arxiv.org/abs/1802.03690}
+
+@incollection{KLT2018,
+title = {Clebsch\textendash Gordan Nets: a Fully Fourier Space Spherical Convolutional Neural Network},
+author = {Kondor, Risi and Lin, Zhen and Trivedi, Shubhendu},
+booktitle = {Advances in Neural Information Processing Systems 31},
+editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},
+pages = {10117--10126},
+year = {2018},
+publisher = {Curran Associates, Inc.}
+}
+%url = {http://papers.nips.cc/paper/8215-clebschgordan-nets-a-fully-fourier-space-spherical-convolutional-neural-network.pdf}
+
+
+@article{BartokPRB2013,
+  title = {On representing chemical environments},
+  author = {Bart\'ok, Albert P. and Kondor, Risi and Cs\'anyi, G\'abor},
+  journal = {Phys. Rev. B},
+  volume = {87},
+  issue = {18},
+  pages = {184115},
+  numpages = {16},
+  year = {2013},
+  month = {May},
+  publisher = {American Physical Society}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevB.87.184115}
+
+@phdthesis{KakaralaPhD,
+author = {Kakarala, Ramakrishna},
+school = {Department of Mathematics, UC Irvine},
+title = {{Triple correlation on groups}},
+year = {1992}
+}
+
+@article{BrunaZaremba2014,
+	Author = {J. Bruna and W. Zaremba and A. Szlam and Y. LeCun},
+Booktitle={Proc. ICLR},
+	Title = {Spectral networks and locally connected networks on graphs},
+	Year = {2014},
+    Volume=3,
+}
+
+@article{Rupp2012,
+	Author = {M. Rupp and A. Tkatchenko and K. -R. M{\"u}ller and O. A. von Lilienfeld},
+	Issue = 5,
+	Journal = {Phys. Rev. Lett.},
+	Title = {Fast and Accurate Modeling of Molecular Atomization Energies with Machine	Learning},
+	Volume = 108,
+	Year = 2012}
+
+@article{Weiler,
+  author    = {Maurice Weiler and
+               Mario Geiger and
+               Max Welling and
+               Wouter Boomsma and
+               Taco Cohen},
+  title     = {3D Steerable CNNs: Learning Rotationally Equivariant Features in Volumetric
+               Data},
+  journal   = {CoRR},
+  volume    = {abs/1807.02547},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1807.02547},
+  archivePrefix = {arXiv},
+  eprint    = {1807.02547},
+  timestamp = {Mon, 13 Aug 2018 16:46:44 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1807-02547},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{CohenGauge,
+  author    = {Taco S. Cohen and
+               Maurice Weiler and
+               Berkay Kicanaoglu and
+               Max Welling},
+  title     = {Gauge Equivariant Convolutional Networks and the Icosahedral {CNN}},
+  journal   = {CoRR},
+  volume    = {abs/1902.04615},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1902.04615},
+  archivePrefix = {arXiv},
+  eprint    = {1902.04615},
+  timestamp = {Tue, 21 May 2019 18:03:36 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1902-04615},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Nbody2018arxiv,
+  author    = {Risi Kondor},
+  title     = {N-body Networks: a Covariant Hierarchical Neural Network Architecture
+               for Learning Atomic Potentials},
+  journal   = {CoRR},
+  volume    = {abs/1803.01588},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1803.01588},
+  archivePrefix = {arXiv},
+  eprint    = {1803.01588},
+  timestamp = {Mon, 13 Aug 2018 16:47:34 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1803-01588},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@article{Bendory,
+ author = {Bendory, Tamir and Boumal, Nicolas and Ma, Chao and Zhao, Zhizhen and Singer, Amit},
+ title = {Bispectrum Inversion With Application to Multireference Alignment},
+ journal = {Trans. Sig. Proc.},
+ issue_date = {February 2018},
+ volume = {66},
+ number = {4},
+ month = feb,
+ year = {2018},
+ issn = {1053-587X},
+ pages = {1037--1050},
+ numpages = {14},
+ doi = {10.1109/TSP.2017.2775591},
+ acmid = {3196590},
+ publisher = {IEEE Press},
+ address = {Piscataway, NJ, USA},
+}
+ %url = {https://doi.org/10.1109/TSP.2017.2775591},
+
+@article{SchNet,
+    title = {SchNet: A continuous-filter convolutional neural network for modeling quantum interactions},
+    author = {Sch\"{u}tt, Kristof and Kindermans, Pieter-Jan and Sauceda Felix, Huziel Enoc and Chmiela, Stefan and Tkatchenko, Alexandre and M\"{u}ller, Klaus-Robert},
+booktitle={Proc. NIPS},
+    year = {2017}
+}
+
+@book{stone1997theory,
+  title={The Theory of Intermolecular Forces},
+  author={Stone, A.J.},
+  isbn={9780198558835},
+  lccn={96008025},
+  series={International Series of Monographs on Chemistry},
+  year={1997},
+  publisher={Clarendon Press}
+}
+%  url={https://books.google.hu/books?id=nQvhXDVnmowC},
+
+@book{jackson_classical_1999,
+  added-at = {2009-07-03T16:37:22.000+0200},
+  address = {New York, {NY}},
+  author = {Jackson, John David},
+  biburl = {https://www.bibsonomy.org/bibtex/2baac05176a92886bbe1eae5ee72cf234/cernlibrary},
+  edition = {3rd ed.},
+  interhash = {05096e24942ceab2a2e9f0d35a45183a},
+  intrahash = {baac05176a92886bbe1eae5ee72cf234},
+  isbn = {9780471309321},
+  keywords = {Fields Maxwell SummerStudentReadList09 book collisions electromagnetic electrostatic equations magnetostatics particle physics radiation relativity special waves},
+  lccn = {538.3537.8},
+  publisher = {Wiley},
+  timestamp = {2009-07-24T15:58:21.000+0200},
+  title = {Classical electrodynamics},
+  url = {http://cdsweb.cern.ch/record/490457},
+  year = 1999
+}

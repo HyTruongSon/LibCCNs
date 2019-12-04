@@ -1,0 +1,140 @@
+Data name:
+MUTAG
+Data file:
+../../data/MUTAG/MUTAG.dat
+Meta file:
+../../data/MUTAG/MUTAG.meta
+Training file:
+../../data/MUTAG/MUTAG.train.0
+Testing file:
+../../data/MUTAG/MUTAG.test.0
+
+--- Training -------------------------------
+
+Epoch 0
+Training time = 0.9672689437866211
+Training loss = 5.346858831246694
+Testing time = 0.11528611183166504
+Testing accuracy = 63.1578947368421
+
+Epoch 1
+Training time = 1.071216344833374
+Training loss = 2.1678207417329154
+Testing time = 0.1109781265258789
+Testing accuracy = 63.1578947368421
+
+Epoch 2
+Training time = 1.039764404296875
+Training loss = 1.0076845029989878
+Testing time = 0.10571599006652832
+Testing accuracy = 63.1578947368421
+
+Epoch 3
+Training time = 1.0437016487121582
+Training loss = 0.8063072462876638
+Testing time = 0.0922083854675293
+Testing accuracy = 63.1578947368421
+
+Epoch 4
+Training time = 1.1224446296691895
+Training loss = 0.8337463001410167
+Testing time = 0.11637496948242188
+Testing accuracy = 63.1578947368421
+
+Epoch 5
+Training time = 1.1150779724121094
+Training loss = 0.805001578728358
+Testing time = 0.12456035614013672
+Testing accuracy = 63.1578947368421
+
+Epoch 6
+Training time = 1.0197932720184326
+Training loss = 0.7427881598472595
+Testing time = 0.09483623504638672
+Testing accuracy = 63.1578947368421
+
+Epoch 7
+Training time = 1.0475711822509766
+Training loss = 0.6691210289796193
+Testing time = 0.1357107162475586
+Testing accuracy = 63.1578947368421
+
+Epoch 8
+Training time = 1.073821783065796
+Training loss = 0.5992598195870718
+Testing time = 0.11595416069030762
+Testing accuracy = 63.1578947368421
+
+Epoch 9
+Training time = 1.0641541481018066
+Training loss = 0.5631942709287008
+Testing time = 0.11450648307800293
+Testing accuracy = 63.1578947368421
+
+Epoch 10
+Training time = 1.0600459575653076
+Training loss = 0.5550282339255015
+Testing time = 0.09943222999572754
+Testing accuracy = 63.1578947368421
+
+Epoch 11
+Training time = 1.0920510292053223
+Training loss = 0.5286725382010142
+Testing time = 0.1160898208618164
+Testing accuracy = 63.1578947368421
+
+Epoch 12
+Training time = 1.1711502075195312
+Training loss = 0.48944971760114037
+Testing time = 0.12073421478271484
+Testing accuracy = 63.1578947368421
+
+Epoch 13
+Training time = 1.088913917541504
+Training loss = 0.46032396058241526
+Testing time = 0.10987973213195801
+Testing accuracy = 63.1578947368421
+
+Epoch 14
+Training time = 1.1066679954528809
+Training loss = 0.46763807435830435
+Testing time = 0.12714815139770508
+Testing accuracy = 63.1578947368421
+
+Epoch 15
+Training time = 1.1012451648712158
+Training loss = 0.45714353720347084
+Testing time = 0.0856161117553711
+Testing accuracy = 63.1578947368421
+
+Epoch 16
+Training time = 1.437873363494873
+Training loss = 0.44702597657839455
+Testing time = 0.3678286075592041
+Testing accuracy = 65.78947368421052
+
+Epoch 17
+Training time = 1.1917729377746582
+Training loss = 0.4340232739845912
+Testing time = 0.11594510078430176
+Testing accuracy = 65.78947368421052
+
+Epoch 18
+Training time = 1.056471824645996
+Training loss = 0.4382627864678701
+Testing time = 0.12505698204040527
+Testing accuracy = 68.42105263157895
+
+Epoch 19
+Training time = 1.088444709777832
+Training loss = 0.44522788127263385
+Testing time = 0.11526656150817871
+Testing accuracy = 63.1578947368421
+
+Epoch 20
+Training time = 1.0476837158203125
+Training loss = 0.4587545444567998
+Testing time = 0.10605335235595703
+Testing accuracy = 71.05263157894737
+
+Epoch 21

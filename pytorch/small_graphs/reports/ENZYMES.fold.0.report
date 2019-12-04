@@ -1,0 +1,44 @@
+Data name:
+ENZYMES
+Data file:
+../../data/ENZYMES/ENZYMES.dat
+Meta file:
+../../data/ENZYMES/ENZYMES.meta
+Training file:
+../../data/ENZYMES/ENZYMES.train.0
+Testing file:
+../../data/ENZYMES/ENZYMES.test.0
+
+--- Training -------------------------------
+
+Epoch 0
+Training time = 4.621096849441528
+Training loss = 38.249831388394036
+Testing time = 0.6333062648773193
+Testing accuracy = 17.5
+
+Epoch 1
+Training time = 5.019535541534424
+Training loss = 9.972560341159502
+Testing time = 0.6980860233306885
+Testing accuracy = 15.833333333333334
+
+Epoch 2
+Training time = 4.913846015930176
+Training loss = 12.494010026256243
+Testing time = 0.6469063758850098
+Testing accuracy = 18.333333333333332
+
+Epoch 3
+Training time = 4.749294281005859
+Training loss = 7.533209005991618
+Testing time = 0.6304643154144287
+Testing accuracy = 18.333333333333332
+
+Epoch 4
+Training time = 4.742937326431274
+Training loss = 7.490306119124095
+Testing time = 0.6741297245025635
+Testing accuracy = 15.833333333333334
+
+Epoch 5

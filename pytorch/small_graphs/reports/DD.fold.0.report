@@ -1,0 +1,20 @@
+Data name:
+DD
+Data file:
+../../data/DD/DD.dat
+Meta file:
+../../data/DD/DD.meta
+Training file:
+../../data/DD/DD.train.0
+Testing file:
+../../data/DD/DD.test.0
+
+--- Training -------------------------------
+
+Epoch 0
+Training time = 73.01275515556335
+Training loss = 134.35514444050037
+Testing time = 11.750702142715454
+Testing accuracy = 59.74576271186441
+
+Epoch 1

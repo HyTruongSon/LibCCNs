@@ -1,0 +1,234 @@
+%\documentclass{article}
+%\usepackage[utf8]{inputenc}
+
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[rightcaption]{sidecap}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{imakeidx}
+
+\makeindex
+
+\title{Covariant Compositional Networks Library Manual}
+\author{Truong Son Hy}
+\date{\today}
+
+\begin{document}
+\maketitle{}
+
+\tableofcontents
+
+\clearpage
+
+\section{Overview}
+
+Covariant Compositional Networks Library is an easy-to-use and efficient implementation of Covariant Compositional Networks (CCNs) with TensorFlow and PyTorch's APIs based on a shared common C++ core. Algorithms of CCNs are published in \cite{CompNetsArxiv18} and \cite{doi:10.1063/1.5024797}. The whole package can be found at:
+\begin{center}
+\url{https://github.com/HyTruongSon/LibCCNs}
+\end{center}
+The original release of CCNs implementation was based on GraphFlow Deep Learning Framework at:
+\begin{center}
+\url{https://github.com/HyTruongSon/GraphFlow}
+\end{center}
+However, the GraphFlow-based implementation has its own limitation of scaling up to learning on large-scale networks (e.g. citation graphs, or knowledge graphs), because we store each vertex's representation in a standalone tensor, thus there are a huge number of tensors during training and that also slows down the computation. Instead we concatenate all the representations in a single big tensor and do all the contractions at once. In the case of learning molecular properties, we have many different molecular graphs, and we need dynamic batching, the strategy would be to concatenate all the molecular graphs of a batch into a single graph (each connected component is a molecular graph) and concatenate all their vertex representations into a single big tensor. In practice, the single big tensor is stored as two-dimensional array in which the second index is for the channels.
+
+\clearpage
+
+\section{C++ core}
+
+Both TensorFlow side and PyTorch side use the same C++ core for actual contraction computation. It is located in \texttt{cpp/} directory.
+
+\begin{center}
+\begin{tabular}{| p{0.2\textwidth} | p{0.8\textwidth} |}
+\hline
+File & Role \\
+\hline
+\texttt{ccn1d\_cpu.h} & 
+\begin{itemize}
+\item Actual C++ implementation of 5 contractions of CCN 1D: forward and backward.
+\item Actual C++ implementation of tensor shrinking operation: forward and backward.
+\item Actual C++ implementation of tensor normalization: foward and backward.
+\item Helper functions for initialization of receptive fields.
+\end{itemize} \\
+\hline
+\texttt{common.h} & Tensor indexing helper functions. \\
+\hline
+\end{tabular}
+\end{center}
+
+\clearpage
+
+\section{TensorFlow side}
+
+TensorFlow implementation of CCNs library using the C++ core (in sub-directory \texttt{ccn\_lib/}), CCNs models, and training programs in Python for both learning on large-scale citation graphs (in sub-directory \texttt{large\_graph/}) and learning molecular properties (in sub-directory \texttt{small\_graphs/}) are included in folder \texttt{tensorflow/}.
+
+\begin{center}
+\begin{tabular}{| p{0.2\textwidth} | p{0.4\textwidth} | p{0.4\textwidth} |}
+\hline
+Directory & File & Role \\
+\hline
+\texttt{ccn\_lib/}
+&
+\texttt{ccn1d\_grad.py}
+& 
+Customized gradient computation of user-defined TensorFlow operators defined in \texttt{ccn1d\_lib.cc}
+\\
+\hline
+\texttt{ccn\_lib/}
+&
+\texttt{ccn1d\_lib.cc}
+& 
+User-defined TensorFlow operators in C++ using the C++ core
+\\
+\hline
+\texttt{ccn\_lib/}
+&
+\texttt{compile.sh}
+& 
+Script to compile the library
+\\
+\hline
+\texttt{ccn\_lib/}
+&
+All other \texttt{*.py}
+& 
+Gradient definition in Python
+\\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{| p{0.2\textwidth} | p{0.4\textwidth} | p{0.4\textwidth} |}
+\hline
+Directory & File & Role \\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{ccn1d\_training\_program.py}
+& 
+Training program in Python
+\\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{ccn1d\_training\_program.sh}
+& 
+Training script
+\\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{CCN1D.py}
+& 
+CCN 1D model for large citation graph
+\\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{Dataset.py}
+& 
+Dataset data structure of citation graph in Python
+\\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{Edge.py}
+& 
+Edge of citation graph definition
+\\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{Vertex.py}
+& 
+Vertex of citation graph definition
+\\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{| p{0.2\textwidth} | p{0.4\textwidth} | p{0.4\textwidth} |}
+\hline
+Directory & File & Role \\
+\hline
+\texttt{small\_graphs/}
+&
+\texttt{Atom.py}
+& 
+Atom of molecular graph definition
+\\
+\hline
+\texttt{small\_graphs/}
+&
+\texttt{ccn1d\_training\_program.py}
+& 
+Training program in Python
+\\
+\hline
+\texttt{small\_graphs/}
+&
+\texttt{ccn1d\_training\_program.sh}
+& 
+Training script
+\\
+\hline
+\texttt{small\_graphs/}
+&
+\texttt{CCN1D.py}
+& 
+CCN 1D model for molecular graphs
+\\
+\hline
+\texttt{small\_graphs/}
+&
+\texttt{Dataset.py}
+& 
+Dataset data structure of molecular graph in Python
+\\
+\hline
+\texttt{small\_graphs/}
+&
+\texttt{Graph.py}
+& 
+Graph as a concatenation of multiple molecular graphs
+\\
+\hline
+\texttt{small\_graphs/}
+&
+\texttt{Molecule.py}
+& 
+A single molecular graph
+\\
+\hline
+\end{tabular}
+\end{center}
+
+\clearpage
+
+\section{PyTorch side}
+
+\clearpage
+
+\section{Node classification in large-scale networks}
+
+\clearpage
+
+\section{Learning molecular properties}
+
+\clearpage
+
+\bibliographystyle{apalike}
+{\small
+\bibliography{main}
+}
+
+\clearpage
+
+\listoffigures
+
+\end{document}

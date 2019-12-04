@@ -1,0 +1,25 @@
+Data name: cora
+Log: cora/cora.log
+Cites: cora/cora.cites
+Content: cora/cora.content
+Vertex: cora/cora.vertex
+Edge: cora/cora.edge
+Feature: cora/cora.feature
+Class: cora/cora.class
+Meta: cora/cora.meta
+Train: cora/cora.train
+Val: cora/cora.val
+Test: cora/cora.test
+Read the citation from file cora/cora.cites
+Number of papers: 2708
+Number of citations: 5429
+Density: 2.0048
+Write to file cora/cora.vertex
+Write to file cora/cora.edge
+Read content from file cora/cora.content
+Write feature to file cora/cora.feature
+Write feature to file cora/cora.class
+Write meta data to file cora/cora.meta
+Save training set to file cora/cora.train
+Save validation set to file cora/cora.val
+Save testing set to file cora/cora.test

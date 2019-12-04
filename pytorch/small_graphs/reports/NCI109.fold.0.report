@@ -1,0 +1,26 @@
+Data name:
+NCI109
+Data file:
+../../data/NCI109/NCI109.dat
+Meta file:
+../../data/NCI109/NCI109.meta
+Training file:
+../../data/NCI109/NCI109.train.0
+Testing file:
+../../data/NCI109/NCI109.test.0
+
+--- Training -------------------------------
+
+Epoch 0
+Training time = 27.45109486579895
+Training loss = 1.8732932842480092
+Testing time = 2.786188840866089
+Testing accuracy = 51.45278450363196
+
+Epoch 1
+Training time = 29.33554458618164
+Training loss = 1.1713715276801875
+Testing time = 2.716306686401367
+Testing accuracy = 51.3317191283293
+
+Epoch 2

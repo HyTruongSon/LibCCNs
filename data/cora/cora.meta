@@ -1,0 +1,22 @@
+Number of vertices (papers with features):
+2708
+Number of papers:
+2708
+Number of papers without any features (excluded):
+0
+Number of edges:
+5429
+Vocabulary size:
+1433
+Number of classes:
+7
+Classes:
+Case_Based
+Genetic_Algorithms
+Neural_Networks
+Probabilistic_Methods
+Reinforcement_Learning
+Rule_Learning
+Theory
+Density:
+2.0048

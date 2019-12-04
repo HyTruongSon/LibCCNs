@@ -1,0 +1,116 @@
+Data name:
+PTC
+Data file:
+../../data/PTC/PTC.dat
+Meta file:
+../../data/PTC/PTC.meta
+Training file:
+../../data/PTC/PTC.train.0
+Testing file:
+../../data/PTC/PTC.test.0
+
+--- Training -------------------------------
+
+Epoch 0
+Training time = 0.6030945777893066
+Training loss = 0.6920604439718383
+Testing time = 0.10729742050170898
+Testing accuracy = 47.82608812269957
+
+Epoch 1
+Training time = 0.5694537162780762
+Training loss = 0.6931736149958202
+Testing time = 0.08855843544006348
+Testing accuracy = 47.82608812269957
+
+Epoch 2
+Training time = 0.5625970363616943
+Training loss = 0.693165911095483
+Testing time = 0.09057092666625977
+Testing accuracy = 47.82608812269957
+
+Epoch 3
+Training time = 0.5770566463470459
+Training loss = 0.693162100655692
+Testing time = 0.10324263572692871
+Testing accuracy = 47.82608812269957
+
+Epoch 4
+Training time = 0.5822067260742188
+Training loss = 0.6931582646710532
+Testing time = 0.09780550003051758
+Testing accuracy = 47.82608812269957
+
+Epoch 5
+Training time = 0.5991275310516357
+Training loss = 0.6931540625435966
+Testing time = 0.0971536636352539
+Testing accuracy = 47.82608812269957
+
+Epoch 6
+Training time = 0.6692855358123779
+Training loss = 0.6931491579328265
+Testing time = 0.10137510299682617
+Testing accuracy = 47.82608812269957
+
+Epoch 7
+Training time = 0.6214451789855957
+Training loss = 0.6931428483554295
+Testing time = 0.10023999214172363
+Testing accuracy = 46.376812846764274
+
+Epoch 8
+Training time = 0.6115622520446777
+Training loss = 0.6931335095848355
+Testing time = 0.10369205474853516
+Testing accuracy = 46.376812846764274
+
+Epoch 9
+Training time = 0.6275491714477539
+Training loss = 0.6931170246430806
+Testing time = 0.10492062568664551
+Testing accuracy = 46.376812846764274
+
+Epoch 10
+Training time = 0.6379365921020508
+Training loss = 0.6930811767067228
+Testing time = 0.10670351982116699
+Testing accuracy = 46.376812846764274
+
+Epoch 11
+Training time = 0.6762955188751221
+Training loss = 0.6929810749632972
+Testing time = 0.11083841323852539
+Testing accuracy = 43.478261647017106
+
+Epoch 12
+Training time = 0.6666414737701416
+Training loss = 0.6927864274808339
+Testing time = 0.11870765686035156
+Testing accuracy = 49.275363225867785
+
+Epoch 13
+Training time = 0.6594884395599365
+Training loss = 0.6938709680523191
+Testing time = 0.11515545845031738
+Testing accuracy = 47.82608812269957
+
+Epoch 14
+Training time = 0.6656184196472168
+Training loss = 0.6931653044053486
+Testing time = 0.12241435050964355
+Testing accuracy = 47.82608812269957
+
+Epoch 15
+Training time = 0.6870696544647217
+Training loss = 0.693162447639874
+Testing time = 0.12144923210144043
+Testing accuracy = 47.82608812269957
+
+Epoch 16
+Training time = 0.6860709190368652
+Training loss = 0.6931603338037219
+Testing time = 0.12077212333679199
+Testing accuracy = 47.82608812269957
+
+Epoch 17

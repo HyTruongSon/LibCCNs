@@ -1,0 +1,25 @@
+Data name: WebKB
+Log: WebKB/WebKB.log
+Cites: WebKB/WebKB.cites
+Content: WebKB/WebKB.content
+Vertex: WebKB/WebKB.vertex
+Edge: WebKB/WebKB.edge
+Feature: WebKB/WebKB.feature
+Class: WebKB/WebKB.class
+Meta: WebKB/WebKB.meta
+Train: WebKB/WebKB.train
+Val: WebKB/WebKB.val
+Test: WebKB/WebKB.test
+Read the citation from file WebKB/WebKB.cites
+Number of papers: 877
+Number of citations: 1608
+Density: 1.83352
+Write to file WebKB/WebKB.vertex
+Write to file WebKB/WebKB.edge
+Read content from file WebKB/WebKB.content
+Write feature to file WebKB/WebKB.feature
+Write feature to file WebKB/WebKB.class
+Write meta data to file WebKB/WebKB.meta
+Save training set to file WebKB/WebKB.train
+Save validation set to file WebKB/WebKB.val
+Save testing set to file WebKB/WebKB.test

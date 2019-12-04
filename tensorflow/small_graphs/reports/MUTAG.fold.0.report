@@ -1,0 +1,6156 @@
+Data name:
+MUTAG
+Data file:
+../../data/MUTAG/MUTAG.dat
+Meta file:
+../../data/MUTAG/MUTAG.meta
+Training file:
+../../data/MUTAG/MUTAG.train.0
+Testing file:
+../../data/MUTAG/MUTAG.test.0
+
+--- Training -------------------------------
+
+Epoch 0
+Training time = 0.3458089828491211
+Training loss = 0.6175105770428976
+Testing time = 0.06090569496154785
+Testing accuracy = 63.1578947368421
+
+Epoch 1
+Training time = 0.24242329597473145
+Training loss = 0.6089484572410584
+Testing time = 0.05110526084899902
+Testing accuracy = 63.1578947368421
+
+Epoch 2
+Training time = 0.23953580856323242
+Training loss = 0.6102909088134766
+Testing time = 0.06629824638366699
+Testing accuracy = 63.1578947368421
+
+Epoch 3
+Training time = 0.25278496742248535
+Training loss = 0.5967108368873596
+Testing time = 0.049616336822509766
+Testing accuracy = 63.1578947368421
+
+Epoch 4
+Training time = 0.2444322109222412
+Training loss = 0.610480805238088
+Testing time = 0.05132889747619629
+Testing accuracy = 63.1578947368421
+
+Epoch 5
+Training time = 0.25017833709716797
+Training loss = 0.6002954204877218
+Testing time = 0.05056500434875488
+Testing accuracy = 63.1578947368421
+
+Epoch 6
+Training time = 0.2545592784881592
+Training loss = 0.6051344037055969
+Testing time = 0.04994678497314453
+Testing accuracy = 63.1578947368421
+
+Epoch 7
+Training time = 0.24491500854492188
+Training loss = 0.610847016175588
+Testing time = 0.05322146415710449
+Testing accuracy = 63.1578947368421
+
+Epoch 8
+Training time = 0.25417447090148926
+Training loss = 0.5932301958401998
+Testing time = 0.04998636245727539
+Testing accuracy = 63.1578947368421
+
+Epoch 9
+Training time = 0.25872325897216797
+Training loss = 0.5966451128323873
+Testing time = 0.044614553451538086
+Testing accuracy = 63.1578947368421
+
+Epoch 10
+Training time = 0.2624692916870117
+Training loss = 0.5956493059794108
+Testing time = 0.04660463333129883
+Testing accuracy = 63.1578947368421
+
+Epoch 11
+Training time = 0.265561580657959
+Training loss = 0.5956418832143148
+Testing time = 0.06115317344665527
+Testing accuracy = 63.1578947368421
+
+Epoch 12
+Training time = 0.26940202713012695
+Training loss = 0.5948854267597199
+Testing time = 0.049630165100097656
+Testing accuracy = 63.1578947368421
+
+Epoch 13
+Training time = 0.27557826042175293
+Training loss = 0.594692862033844
+Testing time = 0.05454540252685547
+Testing accuracy = 63.1578947368421
+
+Epoch 14
+Training time = 0.265286922454834
+Training loss = 0.5944903314113616
+Testing time = 0.0620112419128418
+Testing accuracy = 63.1578947368421
+
+Epoch 15
+Training time = 0.28168201446533203
+Training loss = 0.5972041289011637
+Testing time = 0.056139230728149414
+Testing accuracy = 63.1578947368421
+
+Epoch 16
+Training time = 0.29170846939086914
+Training loss = 0.5948042412598927
+Testing time = 0.05930161476135254
+Testing accuracy = 63.1578947368421
+
+Epoch 17
+Training time = 0.29227519035339355
+Training loss = 0.6023257335027059
+Testing time = 0.060256242752075195
+Testing accuracy = 63.1578947368421
+
+Epoch 18
+Training time = 0.28609585762023926
+Training loss = 0.5800565342108409
+Testing time = 0.06600832939147949
+Testing accuracy = 63.1578947368421
+
+Epoch 19
+Training time = 0.2954840660095215
+Training loss = 0.5887194275856018
+Testing time = 0.06615304946899414
+Testing accuracy = 63.1578947368421
+
+Epoch 20
+Training time = 0.2881343364715576
+Training loss = 0.5835325857003529
+Testing time = 0.05636024475097656
+Testing accuracy = 63.1578947368421
+
+Epoch 21
+Training time = 0.29068565368652344
+Training loss = 0.5818321545918782
+Testing time = 0.06333732604980469
+Testing accuracy = 63.1578947368421
+
+Epoch 22
+Training time = 0.29928088188171387
+Training loss = 0.5800701479117075
+Testing time = 0.06590843200683594
+Testing accuracy = 63.1578947368421
+
+Epoch 23
+Training time = 0.2884061336517334
+Training loss = 0.5794361611207326
+Testing time = 0.062169551849365234
+Testing accuracy = 63.1578947368421
+
+Epoch 24
+Training time = 0.29872870445251465
+Training loss = 0.5781625191370646
+Testing time = 0.061435699462890625
+Testing accuracy = 63.1578947368421
+
+Epoch 25
+Training time = 0.314777135848999
+Training loss = 0.575919912258784
+Testing time = 0.06400847434997559
+Testing accuracy = 63.1578947368421
+
+Epoch 26
+Training time = 0.30995798110961914
+Training loss = 0.5781298657258351
+Testing time = 0.0619509220123291
+Testing accuracy = 63.1578947368421
+
+Epoch 27
+Training time = 0.3155500888824463
+Training loss = 0.5766078472137451
+Testing time = 0.07065582275390625
+Testing accuracy = 63.1578947368421
+
+Epoch 28
+Training time = 0.3104135990142822
+Training loss = 0.5810818592707316
+Testing time = 0.058826446533203125
+Testing accuracy = 63.1578947368421
+
+Epoch 29
+Training time = 0.31800317764282227
+Training loss = 0.5868267933527629
+Testing time = 0.0692296028137207
+Testing accuracy = 63.1578947368421
+
+Epoch 30
+Training time = 0.3180060386657715
+Training loss = 0.5774460236231486
+Testing time = 0.06540966033935547
+Testing accuracy = 63.1578947368421
+
+Epoch 31
+Training time = 0.3140871524810791
+Training loss = 0.5671967009703318
+Testing time = 0.06978678703308105
+Testing accuracy = 63.1578947368421
+
+Epoch 32
+Training time = 0.31682729721069336
+Training loss = 0.5701809962590535
+Testing time = 0.06775498390197754
+Testing accuracy = 63.1578947368421
+
+Epoch 33
+Training time = 0.3221602439880371
+Training loss = 0.569346410036087
+Testing time = 0.07259750366210938
+Testing accuracy = 63.1578947368421
+
+Epoch 34
+Training time = 0.33309149742126465
+Training loss = 0.5726462841033936
+Testing time = 0.06585478782653809
+Testing accuracy = 63.1578947368421
+
+Epoch 35
+Training time = 0.32085371017456055
+Training loss = 0.5770389258861541
+Testing time = 0.07308173179626465
+Testing accuracy = 63.1578947368421
+
+Epoch 36
+Training time = 0.32835865020751953
+Training loss = 0.5756389121214549
+Testing time = 0.07659459114074707
+Testing accuracy = 63.1578947368421
+
+Epoch 37
+Training time = 0.32533931732177734
+Training loss = 0.5689273734887441
+Testing time = 0.07144808769226074
+Testing accuracy = 63.1578947368421
+
+Epoch 38
+Training time = 0.34078240394592285
+Training loss = 0.572443832953771
+Testing time = 0.06806182861328125
+Testing accuracy = 63.1578947368421
+
+Epoch 39
+Training time = 0.33396172523498535
+Training loss = 0.5735653539498647
+Testing time = 0.07149600982666016
+Testing accuracy = 63.1578947368421
+
+Epoch 40
+Training time = 0.3363363742828369
+Training loss = 0.5668182830015819
+Testing time = 0.07036280632019043
+Testing accuracy = 63.1578947368421
+
+Epoch 41
+Training time = 0.344860315322876
+Training loss = 0.558889365196228
+Testing time = 0.07101178169250488
+Testing accuracy = 63.1578947368421
+
+Epoch 42
+Training time = 0.3423326015472412
+Training loss = 0.565528279542923
+Testing time = 0.07226753234863281
+Testing accuracy = 63.1578947368421
+
+Epoch 43
+Training time = 0.3592360019683838
+Training loss = 0.5672994295756022
+Testing time = 0.07619285583496094
+Testing accuracy = 63.1578947368421
+
+Epoch 44
+Training time = 0.3573267459869385
+Training loss = 0.5650826553503673
+Testing time = 0.0752251148223877
+Testing accuracy = 63.1578947368421
+
+Epoch 45
+Training time = 0.35709619522094727
+Training loss = 0.5610311488310497
+Testing time = 0.0772712230682373
+Testing accuracy = 63.1578947368421
+
+Epoch 46
+Training time = 0.3580203056335449
+Training loss = 0.5638559977213542
+Testing time = 0.12005877494812012
+Testing accuracy = 63.1578947368421
+
+Epoch 47
+Training time = 0.3706400394439697
+Training loss = 0.5548514862855275
+Testing time = 0.0778512954711914
+Testing accuracy = 63.1578947368421
+
+Epoch 48
+Training time = 0.3560214042663574
+Training loss = 0.561998583873113
+Testing time = 0.0711207389831543
+Testing accuracy = 63.1578947368421
+
+Epoch 49
+Training time = 0.3511171340942383
+Training loss = 0.5538844029108684
+Testing time = 0.07781219482421875
+Testing accuracy = 63.1578947368421
+
+Epoch 50
+Training time = 0.5360641479492188
+Training loss = 0.5596608400344849
+Testing time = 0.08264660835266113
+Testing accuracy = 63.1578947368421
+
+Epoch 51
+Training time = 0.372422456741333
+Training loss = 0.5502914567788442
+Testing time = 0.08141899108886719
+Testing accuracy = 63.1578947368421
+
+Epoch 52
+Training time = 0.38069677352905273
+Training loss = 0.5574339032173157
+Testing time = 0.08355593681335449
+Testing accuracy = 63.1578947368421
+
+Epoch 53
+Training time = 0.38530826568603516
+Training loss = 0.5469008982181549
+Testing time = 0.08471298217773438
+Testing accuracy = 65.78947431162784
+
+Epoch 54
+Training time = 0.37964820861816406
+Training loss = 0.5549241801102957
+Testing time = 0.07920241355895996
+Testing accuracy = 65.78947431162784
+
+Epoch 55
+Training time = 0.5223681926727295
+Training loss = 0.5444221595923106
+Testing time = 0.09789848327636719
+Testing accuracy = 65.78947431162784
+
+Epoch 56
+Training time = 0.3988003730773926
+Training loss = 0.5523946146170299
+Testing time = 0.08083081245422363
+Testing accuracy = 65.78947431162784
+
+Epoch 57
+Training time = 0.5170786380767822
+Training loss = 0.5421312332153321
+Testing time = 0.08302116394042969
+Testing accuracy = 68.42105231787029
+
+Epoch 58
+Training time = 0.5210440158843994
+Training loss = 0.5498960793018342
+Testing time = 0.08476519584655762
+Testing accuracy = 68.42105231787029
+
+Epoch 59
+Training time = 0.585106611251831
+Training loss = 0.5397893448670705
+Testing time = 0.1454932689666748
+Testing accuracy = 68.42105231787029
+
+Epoch 60
+Training time = 0.4981369972229004
+Training loss = 0.5473129669825236
+Testing time = 0.1052556037902832
+Testing accuracy = 71.05263189265602
+
+Epoch 61
+Training time = 0.6219680309295654
+Training loss = 0.5375743051369984
+Testing time = 0.1207268238067627
+Testing accuracy = 71.05263189265602
+
+Epoch 62
+Training time = 0.7330322265625
+Training loss = 0.5446242431799571
+Testing time = 0.1332688331604004
+Testing accuracy = 71.05263189265602
+
+Epoch 63
+Training time = 0.683621883392334
+Training loss = 0.5355849961439768
+Testing time = 0.16561436653137207
+Testing accuracy = 71.05263189265602
+
+Epoch 64
+Training time = 0.9234235286712646
+Training loss = 0.5418718039989472
+Testing time = 0.11690640449523926
+Testing accuracy = 71.05263189265602
+
+Epoch 65
+Training time = 0.48868870735168457
+Training loss = 0.5337662974993388
+Testing time = 0.13611793518066406
+Testing accuracy = 71.05263189265602
+
+Epoch 66
+Training time = 1.0245661735534668
+Training loss = 0.5390825072924296
+Testing time = 0.25792884826660156
+Testing accuracy = 71.05263189265602
+
+Epoch 67
+Training time = 1.433694839477539
+Training loss = 0.5320390681425731
+Testing time = 0.21728920936584473
+Testing accuracy = 71.05263189265602
+
+Epoch 68
+Training time = 0.6533811092376709
+Training loss = 0.536277707417806
+Testing time = 0.11557412147521973
+Testing accuracy = 71.05263189265602
+
+Epoch 69
+Training time = 0.5588538646697998
+Training loss = 0.5303534805774689
+Testing time = 0.12486648559570312
+Testing accuracy = 71.05263189265602
+
+Epoch 70
+Training time = 0.650841474533081
+Training loss = 0.5335091372330983
+Testing time = 0.10309934616088867
+Testing accuracy = 71.05263189265602
+
+Epoch 71
+Training time = 0.4726889133453369
+Training loss = 0.5286906758944193
+Testing time = 0.10350179672241211
+Testing accuracy = 71.05263189265602
+
+Epoch 72
+Training time = 0.45043087005615234
+Training loss = 0.5308603445688883
+Testing time = 0.09613037109375
+Testing accuracy = 71.05263189265602
+
+Epoch 73
+Training time = 0.5041427612304688
+Training loss = 0.5270666340986888
+Testing time = 0.12544536590576172
+Testing accuracy = 71.05263189265602
+
+Epoch 74
+Training time = 0.715695858001709
+Training loss = 0.5284170071283977
+Testing time = 0.09615731239318848
+Testing accuracy = 71.05263189265602
+
+Epoch 75
+Training time = 0.6217799186706543
+Training loss = 0.5255216141541799
+Testing time = 0.1405026912689209
+Testing accuracy = 71.05263189265602
+
+Epoch 76
+Training time = 0.5085771083831787
+Training loss = 0.5262388169765473
+Testing time = 0.1005256175994873
+Testing accuracy = 71.05263189265602
+
+Epoch 77
+Training time = 0.4945566654205322
+Training loss = 0.5240895668665568
+Testing time = 0.11802530288696289
+Testing accuracy = 71.05263189265602
+
+Epoch 78
+Training time = 0.48338961601257324
+Training loss = 0.5243447601795197
+Testing time = 0.10067558288574219
+Testing accuracy = 71.05263189265602
+
+Epoch 79
+Training time = 0.6186680793762207
+Training loss = 0.5227747480074565
+Testing time = 0.12476706504821777
+Testing accuracy = 71.05263189265602
+
+Epoch 80
+Training time = 0.45989274978637695
+Training loss = 0.5227097868919373
+Testing time = 0.09897518157958984
+Testing accuracy = 71.05263189265602
+
+Epoch 81
+Training time = 0.5998396873474121
+Training loss = 0.5215535283088684
+Testing time = 0.10413599014282227
+Testing accuracy = 71.05263189265602
+
+Epoch 82
+Training time = 0.4509894847869873
+Training loss = 0.5212787350018819
+Testing time = 0.09487271308898926
+Testing accuracy = 71.05263126523872
+
+Epoch 83
+Training time = 0.45589780807495117
+Training loss = 0.5203936934471131
+Testing time = 0.09516525268554688
+Testing accuracy = 71.05263126523872
+
+Epoch 84
+Training time = 0.45167040824890137
+Training loss = 0.5199912289778391
+Testing time = 0.09752368927001953
+Testing accuracy = 71.05263126523872
+
+Epoch 85
+Training time = 0.4494507312774658
+Training loss = 0.5192718883355458
+Testing time = 0.10863375663757324
+Testing accuracy = 71.05263126523872
+
+Epoch 86
+Training time = 0.49085140228271484
+Training loss = 0.5188000977039338
+Testing time = 0.09949350357055664
+Testing accuracy = 71.05263126523872
+
+Epoch 87
+Training time = 0.5954432487487793
+Training loss = 0.5181774457295736
+Testing time = 0.10775995254516602
+Testing accuracy = 71.05263126523872
+
+Epoch 88
+Training time = 0.633018970489502
+Training loss = 0.5176749487717947
+Testing time = 0.13975834846496582
+Testing accuracy = 71.05263126523872
+
+Epoch 89
+Training time = 0.613971471786499
+Training loss = 0.5171083410580953
+Testing time = 0.11110877990722656
+Testing accuracy = 71.05263126523872
+
+Epoch 90
+Training time = 0.6760671138763428
+Training loss = 0.5165980418523153
+Testing time = 0.10938811302185059
+Testing accuracy = 71.05263126523872
+
+Epoch 91
+Training time = 0.4860057830810547
+Training loss = 0.5160653948783874
+Testing time = 0.10947823524475098
+Testing accuracy = 71.05263126523872
+
+Epoch 92
+Training time = 0.481539249420166
+Training loss = 0.5155595958232879
+Testing time = 0.1100456714630127
+Testing accuracy = 71.05263126523872
+
+Epoch 93
+Training time = 0.7031247615814209
+Training loss = 0.5150496244430542
+Testing time = 0.11154532432556152
+Testing accuracy = 71.05263126523872
+
+Epoch 94
+Training time = 0.49416208267211914
+Training loss = 0.5145538250605265
+Testing time = 0.11172914505004883
+Testing accuracy = 71.05263126523872
+
+Epoch 95
+Training time = 0.4796605110168457
+Training loss = 0.5140610277652741
+Testing time = 0.1161344051361084
+Testing accuracy = 71.05263126523872
+
+Epoch 96
+Training time = 0.48970985412597656
+Training loss = 0.5135772506395976
+Testing time = 0.10989999771118164
+Testing accuracy = 71.05263126523872
+
+Epoch 97
+Training time = 0.5109572410583496
+Training loss = 0.5130988359451294
+Testing time = 0.11918115615844727
+Testing accuracy = 71.05263126523872
+
+Epoch 98
+Training time = 0.4938697814941406
+Training loss = 0.512627492348353
+Testing time = 0.11500358581542969
+Testing accuracy = 71.05263126523872
+
+Epoch 99
+Training time = 0.49820780754089355
+Training loss = 0.512162055571874
+Testing time = 0.11396121978759766
+Testing accuracy = 71.05263126523872
+
+Epoch 100
+Training time = 0.4997591972351074
+Training loss = 0.5117027580738067
+Testing time = 0.11407327651977539
+Testing accuracy = 71.05263126523872
+
+Epoch 101
+Training time = 0.5223293304443359
+Training loss = 0.5112493515014649
+Testing time = 0.15144658088684082
+Testing accuracy = 71.05263126523872
+
+Epoch 102
+Training time = 0.6571364402770996
+Training loss = 0.5108016669750214
+Testing time = 0.1102757453918457
+Testing accuracy = 71.05263126523872
+
+Epoch 103
+Training time = 0.5100033283233643
+Training loss = 0.5103595236937205
+Testing time = 0.11526751518249512
+Testing accuracy = 73.68421084002445
+
+Epoch 104
+Training time = 0.5895788669586182
+Training loss = 0.509922840197881
+Testing time = 0.19355559349060059
+Testing accuracy = 73.68421084002445
+
+Epoch 105
+Training time = 0.5428738594055176
+Training loss = 0.5094913999239604
+Testing time = 0.18395590782165527
+Testing accuracy = 73.68421084002445
+
+Epoch 106
+Training time = 0.6187992095947266
+Training loss = 0.5090651949246724
+Testing time = 0.1899583339691162
+Testing accuracy = 73.68421084002445
+
+Epoch 107
+Training time = 0.7948482036590576
+Training loss = 0.5086439152558645
+Testing time = 0.2586100101470947
+Testing accuracy = 76.3157888462669
+
+Epoch 108
+Training time = 0.6010391712188721
+Training loss = 0.5082276185353597
+Testing time = 0.12586188316345215
+Testing accuracy = 76.3157888462669
+
+Epoch 109
+Training time = 0.5323948860168457
+Training loss = 0.5078160365422567
+Testing time = 0.11791729927062988
+Testing accuracy = 76.3157888462669
+
+Epoch 110
+Training time = 0.539325475692749
+Training loss = 0.5074091931184133
+Testing time = 0.11834907531738281
+Testing accuracy = 76.3157888462669
+
+Epoch 111
+Training time = 0.5652832984924316
+Training loss = 0.5070068975289662
+Testing time = 0.12163090705871582
+Testing accuracy = 76.3157888462669
+
+Epoch 112
+Training time = 0.5385487079620361
+Training loss = 0.5066089868545532
+Testing time = 0.12898802757263184
+Testing accuracy = 76.3157888462669
+
+Epoch 113
+Training time = 0.5282566547393799
+Training loss = 0.5062154789765676
+Testing time = 0.12328505516052246
+Testing accuracy = 76.3157888462669
+
+Epoch 114
+Training time = 0.5459094047546387
+Training loss = 0.5058262050151825
+Testing time = 0.12665700912475586
+Testing accuracy = 76.3157888462669
+
+Epoch 115
+Training time = 0.5369517803192139
+Training loss = 0.5054411252339681
+Testing time = 0.12216734886169434
+Testing accuracy = 76.31578790514092
+
+Epoch 116
+Training time = 0.5562255382537842
+Training loss = 0.5050600508848826
+Testing time = 0.1255333423614502
+Testing accuracy = 76.31578790514092
+
+Epoch 117
+Training time = 0.5442817211151123
+Training loss = 0.504682985941569
+Testing time = 0.18875932693481445
+Testing accuracy = 76.31578790514092
+
+Epoch 118
+Training time = 0.5306756496429443
+Training loss = 0.5043098111947377
+Testing time = 0.12345266342163086
+Testing accuracy = 76.31578790514092
+
+Epoch 119
+Training time = 0.5508637428283691
+Training loss = 0.5039404352506002
+Testing time = 0.12435078620910645
+Testing accuracy = 76.31578790514092
+
+Epoch 120
+Training time = 0.5518813133239746
+Training loss = 0.5035747766494751
+Testing time = 0.12735438346862793
+Testing accuracy = 76.31578790514092
+
+Epoch 121
+Training time = 0.5532846450805664
+Training loss = 0.5032128075758616
+Testing time = 0.1340160369873047
+Testing accuracy = 76.31578790514092
+
+Epoch 122
+Training time = 0.5721495151519775
+Training loss = 0.5028543869654337
+Testing time = 0.129011869430542
+Testing accuracy = 76.31578790514092
+
+Epoch 123
+Training time = 0.6114206314086914
+Training loss = 0.5024994552135468
+Testing time = 0.1779329776763916
+Testing accuracy = 76.31578790514092
+
+Epoch 124
+Training time = 0.756899356842041
+Training loss = 0.5021479805310567
+Testing time = 0.1464519500732422
+Testing accuracy = 76.31578790514092
+
+Epoch 125
+Training time = 0.5957028865814209
+Training loss = 0.5017999053001404
+Testing time = 0.14764618873596191
+Testing accuracy = 76.31578790514092
+
+Epoch 126
+Training time = 0.597090482711792
+Training loss = 0.5014550944169363
+Testing time = 0.17269158363342285
+Testing accuracy = 76.31578790514092
+
+Epoch 127
+Training time = 0.7506844997406006
+Training loss = 0.5011135478814442
+Testing time = 0.15990781784057617
+Testing accuracy = 78.94736747992665
+
+Epoch 128
+Training time = 0.5706667900085449
+Training loss = 0.5007751325766245
+Testing time = 0.12854242324829102
+Testing accuracy = 78.94736747992665
+
+Epoch 129
+Training time = 0.5722510814666748
+Training loss = 0.500439856449763
+Testing time = 0.13504481315612793
+Testing accuracy = 78.94736747992665
+
+Epoch 130
+Training time = 0.5764908790588379
+Training loss = 0.5001076976458232
+Testing time = 0.13047289848327637
+Testing accuracy = 78.94736747992665
+
+Epoch 131
+Training time = 0.5786454677581787
+Training loss = 0.49977850119272865
+Testing time = 0.13129234313964844
+Testing accuracy = 78.94736747992665
+
+Epoch 132
+Training time = 0.5785350799560547
+Training loss = 0.49945229093233745
+Testing time = 0.13213348388671875
+Testing accuracy = 78.94736747992665
+
+Epoch 133
+Training time = 0.5817317962646484
+Training loss = 0.49912894566853844
+Testing time = 0.1351001262664795
+Testing accuracy = 78.94736747992665
+
+Epoch 134
+Training time = 0.5894341468811035
+Training loss = 0.49880844553311665
+Testing time = 0.14229536056518555
+Testing accuracy = 73.6842105263158
+
+Epoch 135
+Training time = 0.5981335639953613
+Training loss = 0.49849084615707395
+Testing time = 0.13277745246887207
+Testing accuracy = 73.6842105263158
+
+Epoch 136
+Training time = 0.5886821746826172
+Training loss = 0.4981758634249369
+Testing time = 0.13678979873657227
+Testing accuracy = 76.3157894736842
+
+Epoch 137
+Training time = 0.5900042057037354
+Training loss = 0.4978637317816416
+Testing time = 0.1361069679260254
+Testing accuracy = 76.3157894736842
+
+Epoch 138
+Training time = 0.5946402549743652
+Training loss = 0.4975541591644287
+Testing time = 0.13489985466003418
+Testing accuracy = 76.3157894736842
+
+Epoch 139
+Training time = 0.5942389965057373
+Training loss = 0.49724728663762413
+Testing time = 0.13671445846557617
+Testing accuracy = 76.3157894736842
+
+Epoch 140
+Training time = 0.59440016746521
+Training loss = 0.4969429175059001
+Testing time = 0.1398308277130127
+Testing accuracy = 76.3157894736842
+
+Epoch 141
+Training time = 0.5980212688446045
+Training loss = 0.49664114316304525
+Testing time = 0.13857531547546387
+Testing accuracy = 76.3157894736842
+
+Epoch 142
+Training time = 0.6020276546478271
+Training loss = 0.4963418106238047
+Testing time = 0.13771772384643555
+Testing accuracy = 76.3157894736842
+
+Epoch 143
+Training time = 0.605701208114624
+Training loss = 0.49604501724243166
+Testing time = 0.13807988166809082
+Testing accuracy = 76.3157894736842
+
+Epoch 144
+Training time = 0.6018102169036865
+Training loss = 0.49575061003367105
+Testing time = 0.14275336265563965
+Testing accuracy = 76.3157894736842
+
+Epoch 145
+Training time = 0.6111679077148438
+Training loss = 0.4954586068789164
+Testing time = 0.14184188842773438
+Testing accuracy = 76.3157894736842
+
+Epoch 146
+Training time = 0.613480806350708
+Training loss = 0.49516885677973427
+Testing time = 0.13993453979492188
+Testing accuracy = 76.3157894736842
+
+Epoch 147
+Training time = 0.6883268356323242
+Training loss = 0.494881530602773
+Testing time = 0.14772748947143555
+Testing accuracy = 76.3157894736842
+
+Epoch 148
+Training time = 0.6220545768737793
+Training loss = 0.4945964614550273
+Testing time = 0.16096282005310059
+Testing accuracy = 76.3157894736842
+
+Epoch 149
+Training time = 0.6146190166473389
+Training loss = 0.494313645362854
+Testing time = 0.14945149421691895
+Testing accuracy = 76.3157894736842
+
+Epoch 150
+Training time = 0.6166777610778809
+Training loss = 0.49403299887975055
+Testing time = 0.14974474906921387
+Testing accuracy = 76.3157894736842
+
+Epoch 151
+Training time = 0.6222021579742432
+Training loss = 0.4937545379002889
+Testing time = 0.16891789436340332
+Testing accuracy = 76.3157894736842
+
+Epoch 152
+Training time = 0.8290460109710693
+Training loss = 0.49347824056943257
+Testing time = 0.26262450218200684
+Testing accuracy = 76.3157894736842
+
+Epoch 153
+Training time = 1.0075156688690186
+Training loss = 0.49320414861043294
+Testing time = 0.22876214981079102
+Testing accuracy = 76.3157894736842
+
+Epoch 154
+Training time = 0.8148329257965088
+Training loss = 0.49293205539385476
+Testing time = 0.16485285758972168
+Testing accuracy = 76.3157894736842
+
+Epoch 155
+Training time = 0.6858785152435303
+Training loss = 0.4926620403925578
+Testing time = 0.1630570888519287
+Testing accuracy = 76.3157894736842
+
+Epoch 156
+Training time = 0.7974817752838135
+Training loss = 0.49239404996236164
+Testing time = 0.21985483169555664
+Testing accuracy = 76.3157894736842
+
+Epoch 157
+Training time = 0.6637945175170898
+Training loss = 0.4921281039714813
+Testing time = 0.14980578422546387
+Testing accuracy = 76.3157894736842
+
+Epoch 158
+Training time = 0.6429648399353027
+Training loss = 0.491864134867986
+Testing time = 0.1612076759338379
+Testing accuracy = 76.3157894736842
+
+Epoch 159
+Training time = 0.6417193412780762
+Training loss = 0.4916021426518758
+Testing time = 0.16301560401916504
+Testing accuracy = 76.3157894736842
+
+Epoch 160
+Training time = 0.6490538120269775
+Training loss = 0.4913420438766479
+Testing time = 0.16234803199768066
+Testing accuracy = 76.3157894736842
+
+Epoch 161
+Training time = 0.6467375755310059
+Training loss = 0.49108386238416035
+Testing time = 0.16359806060791016
+Testing accuracy = 76.3157894736842
+
+Epoch 162
+Training time = 0.6505789756774902
+Training loss = 0.49082757433255514
+Testing time = 0.16133904457092285
+Testing accuracy = 78.94736842105263
+
+Epoch 163
+Training time = 0.6572980880737305
+Training loss = 0.4905730942885081
+Testing time = 0.162628173828125
+Testing accuracy = 81.57894736842105
+
+Epoch 164
+Training time = 0.65264892578125
+Training loss = 0.4903205076853434
+Testing time = 0.16337037086486816
+Testing accuracy = 81.57894736842105
+
+Epoch 165
+Training time = 0.653148889541626
+Training loss = 0.49006969928741456
+Testing time = 0.1630845069885254
+Testing accuracy = 81.57894736842105
+
+Epoch 166
+Training time = 0.6624846458435059
+Training loss = 0.48982069293657937
+Testing time = 0.1632070541381836
+Testing accuracy = 81.57894736842105
+
+Epoch 167
+Training time = 0.6621553897857666
+Training loss = 0.4895734369754791
+Testing time = 0.16224002838134766
+Testing accuracy = 81.57894736842105
+
+Epoch 168
+Training time = 0.6691484451293945
+Training loss = 0.4893279790878296
+Testing time = 0.1625370979309082
+Testing accuracy = 84.2105253746635
+
+Epoch 169
+Training time = 0.6757104396820068
+Training loss = 0.4890841543674469
+Testing time = 0.1626265048980713
+Testing accuracy = 84.2105253746635
+
+Epoch 170
+Training time = 0.6725270748138428
+Training loss = 0.4888420462608337
+Testing time = 0.1639249324798584
+Testing accuracy = 84.2105253746635
+
+Epoch 171
+Training time = 0.6771354675292969
+Training loss = 0.4886017223199209
+Testing time = 0.16257548332214355
+Testing accuracy = 84.2105253746635
+
+Epoch 172
+Training time = 0.6821529865264893
+Training loss = 0.48836297790209454
+Testing time = 0.16999244689941406
+Testing accuracy = 84.2105253746635
+
+Epoch 173
+Training time = 0.7316141128540039
+Training loss = 0.48812591632207236
+Testing time = 0.1762981414794922
+Testing accuracy = 84.2105253746635
+
+Epoch 174
+Training time = 0.9007987976074219
+Training loss = 0.48789042433102925
+Testing time = 0.22572588920593262
+Testing accuracy = 84.2105253746635
+
+Epoch 175
+Training time = 0.8380570411682129
+Training loss = 0.48765653173128765
+Testing time = 0.17786860466003418
+Testing accuracy = 84.2105253746635
+
+Epoch 176
+Training time = 0.7375533580780029
+Training loss = 0.48742425044377646
+Testing time = 0.1712183952331543
+Testing accuracy = 84.2105253746635
+
+Epoch 177
+Training time = 0.8826143741607666
+Training loss = 0.4871935745080312
+Testing time = 0.17190861701965332
+Testing accuracy = 84.2105253746635
+
+Epoch 178
+Training time = 1.2741870880126953
+Training loss = 0.4869644264380137
+Testing time = 0.17696714401245117
+Testing accuracy = 84.2105253746635
+
+Epoch 179
+Training time = 0.7609176635742188
+Training loss = 0.48673681418100995
+Testing time = 0.19387030601501465
+Testing accuracy = 84.2105253746635
+
+Epoch 180
+Training time = 0.9244437217712402
+Training loss = 0.4865106701850891
+Testing time = 0.23886775970458984
+Testing accuracy = 84.2105253746635
+
+Epoch 181
+Training time = 0.7075371742248535
+Training loss = 0.4862860898176829
+Testing time = 0.17086052894592285
+Testing accuracy = 84.2105253746635
+
+Epoch 182
+Training time = 0.989656925201416
+Training loss = 0.48606295386950177
+Testing time = 0.24802780151367188
+Testing accuracy = 84.2105253746635
+
+Epoch 183
+Training time = 1.1418030261993408
+Training loss = 0.48584123055140177
+Testing time = 0.1965785026550293
+Testing accuracy = 84.2105253746635
+
+Epoch 184
+Training time = 0.7633354663848877
+Training loss = 0.48562102715174355
+Testing time = 0.25211262702941895
+Testing accuracy = 84.2105253746635
+
+Epoch 185
+Training time = 1.1829957962036133
+Training loss = 0.4854022204875946
+Testing time = 0.25733280181884766
+Testing accuracy = 84.2105253746635
+
+Epoch 186
+Training time = 0.8794002532958984
+Training loss = 0.4851847926775614
+Testing time = 0.28372812271118164
+Testing accuracy = 84.2105253746635
+
+Epoch 187
+Training time = 0.8836607933044434
+Training loss = 0.4849688172340393
+Testing time = 0.19080448150634766
+Testing accuracy = 84.2105253746635
+
+Epoch 188
+Training time = 0.7647280693054199
+Training loss = 0.48475422263145446
+Testing time = 0.19587063789367676
+Testing accuracy = 84.2105253746635
+
+Epoch 189
+Training time = 0.8908987045288086
+Training loss = 0.4845410128434499
+Testing time = 0.17705655097961426
+Testing accuracy = 84.2105253746635
+
+Epoch 190
+Training time = 0.9195821285247803
+Training loss = 0.4843291103839874
+Testing time = 0.32149243354797363
+Testing accuracy = 84.2105253746635
+
+Epoch 191
+Training time = 0.9610781669616699
+Training loss = 0.4841185450553894
+Testing time = 0.1916821002960205
+Testing accuracy = 84.2105253746635
+
+Epoch 192
+Training time = 0.8607821464538574
+Training loss = 0.48390931288401284
+Testing time = 0.326904296875
+Testing accuracy = 84.2105253746635
+
+Epoch 193
+Training time = 1.2647206783294678
+Training loss = 0.48370142579078673
+Testing time = 0.18756747245788574
+Testing accuracy = 84.2105253746635
+
+Epoch 194
+Training time = 0.8400070667266846
+Training loss = 0.48349477847417194
+Testing time = 0.27492618560791016
+Testing accuracy = 84.2105253746635
+
+Epoch 195
+Training time = 1.0775055885314941
+Training loss = 0.48328944643338523
+Testing time = 0.2974720001220703
+Testing accuracy = 84.2105253746635
+
+Epoch 196
+Training time = 1.2484331130981445
+Training loss = 0.4830854058265686
+Testing time = 0.3196604251861572
+Testing accuracy = 84.2105253746635
+
+Epoch 197
+Training time = 1.1267263889312744
+Training loss = 0.4828825334707896
+Testing time = 0.19054937362670898
+Testing accuracy = 84.2105253746635
+
+Epoch 198
+Training time = 0.7880339622497559
+Training loss = 0.48268097241719565
+Testing time = 0.19638800621032715
+Testing accuracy = 84.2105253746635
+
+Epoch 199
+Training time = 0.9792792797088623
+Training loss = 0.48248064120610556
+Testing time = 0.19133329391479492
+Testing accuracy = 84.2105253746635
+
+Epoch 200
+Training time = 1.1516423225402832
+Training loss = 0.4822815100351969
+Testing time = 0.2104954719543457
+Testing accuracy = 84.2105253746635
+
+Epoch 201
+Training time = 1.1846520900726318
+Training loss = 0.48208353519439695
+Testing time = 0.22052454948425293
+Testing accuracy = 84.2105253746635
+
+Epoch 202
+Training time = 0.8285517692565918
+Training loss = 0.4818867882092794
+Testing time = 0.20479846000671387
+Testing accuracy = 84.2105253746635
+
+Epoch 203
+Training time = 0.8756544589996338
+Training loss = 0.48169124325116475
+Testing time = 0.2818448543548584
+Testing accuracy = 84.2105253746635
+
+Epoch 204
+Training time = 0.7824010848999023
+Training loss = 0.48149683276812233
+Testing time = 0.1940901279449463
+Testing accuracy = 84.2105253746635
+
+Epoch 205
+Training time = 0.8493998050689697
+Training loss = 0.4813035070896149
+Testing time = 0.30658411979675293
+Testing accuracy = 84.2105253746635
+
+Epoch 206
+Training time = 1.1447010040283203
+Training loss = 0.48111140926678975
+Testing time = 0.35796546936035156
+Testing accuracy = 84.2105253746635
+
+Epoch 207
+Training time = 0.9123971462249756
+Training loss = 0.4809203863143921
+Testing time = 0.29445934295654297
+Testing accuracy = 84.2105253746635
+
+Epoch 208
+Training time = 0.8847453594207764
+Training loss = 0.4807304859161377
+Testing time = 0.1912376880645752
+Testing accuracy = 84.2105253746635
+
+Epoch 209
+Training time = 0.7870340347290039
+Training loss = 0.4805416564146678
+Testing time = 0.1918470859527588
+Testing accuracy = 84.2105253746635
+
+Epoch 210
+Training time = 0.7856118679046631
+Training loss = 0.48035398324330647
+Testing time = 0.19397878646850586
+Testing accuracy = 84.2105253746635
+
+Epoch 211
+Training time = 0.8129611015319824
+Training loss = 0.48016733129819233
+Testing time = 0.19210529327392578
+Testing accuracy = 84.2105253746635
+
+Epoch 212
+Training time = 0.8365707397460938
+Training loss = 0.4799817641576131
+Testing time = 0.19396257400512695
+Testing accuracy = 84.2105253746635
+
+Epoch 213
+Training time = 0.7886443138122559
+Training loss = 0.4797972778479258
+Testing time = 0.1944718360900879
+Testing accuracy = 84.2105253746635
+
+Epoch 214
+Training time = 0.7909023761749268
+Training loss = 0.4796137770016988
+Testing time = 0.261383056640625
+Testing accuracy = 84.2105253746635
+
+Epoch 215
+Training time = 0.7923517227172852
+Training loss = 0.4794313351313273
+Testing time = 0.20336008071899414
+Testing accuracy = 84.2105253746635
+
+Epoch 216
+Training time = 0.9434149265289307
+Training loss = 0.47924996813138326
+Testing time = 0.2683601379394531
+Testing accuracy = 84.2105253746635
+
+Epoch 217
+Training time = 0.904468297958374
+Training loss = 0.47906949917475383
+Testing time = 0.20059561729431152
+Testing accuracy = 84.2105253746635
+
+Epoch 218
+Training time = 0.8372809886932373
+Training loss = 0.4788901468118032
+Testing time = 0.21114087104797363
+Testing accuracy = 84.2105253746635
+
+Epoch 219
+Training time = 0.9553616046905518
+Training loss = 0.47871174017588297
+Testing time = 0.28835415840148926
+Testing accuracy = 84.2105253746635
+
+Epoch 220
+Training time = 0.9926130771636963
+Training loss = 0.4785342494646708
+Testing time = 0.2920713424682617
+Testing accuracy = 84.2105253746635
+
+Epoch 221
+Training time = 1.215775966644287
+Training loss = 0.4783577481905619
+Testing time = 0.20337152481079102
+Testing accuracy = 84.2105253746635
+
+Epoch 222
+Training time = 1.1844584941864014
+Training loss = 0.47818222840627034
+Testing time = 0.34152674674987793
+Testing accuracy = 84.2105253746635
+
+Epoch 223
+Training time = 1.6778991222381592
+Training loss = 0.4780076821645101
+Testing time = 0.4130551815032959
+Testing accuracy = 84.2105253746635
+
+Epoch 224
+Training time = 1.739389419555664
+Training loss = 0.4778339882691701
+Testing time = 0.36174488067626953
+Testing accuracy = 84.2105253746635
+
+Epoch 225
+Training time = 1.503443717956543
+Training loss = 0.477661269903183
+Testing time = 0.34126758575439453
+Testing accuracy = 84.2105253746635
+
+Epoch 226
+Training time = 1.6499218940734863
+Training loss = 0.4774894714355469
+Testing time = 0.34609174728393555
+Testing accuracy = 84.2105253746635
+
+Epoch 227
+Training time = 1.452700138092041
+Training loss = 0.47731857498486835
+Testing time = 0.30277538299560547
+Testing accuracy = 84.2105253746635
+
+Epoch 228
+Training time = 1.3812885284423828
+Training loss = 0.4771486123402913
+Testing time = 0.26925182342529297
+Testing accuracy = 84.2105253746635
+
+Epoch 229
+Training time = 1.1143198013305664
+Training loss = 0.47697944442431134
+Testing time = 0.24430584907531738
+Testing accuracy = 84.2105253746635
+
+Epoch 230
+Training time = 1.135519027709961
+Training loss = 0.4768112003803253
+Testing time = 0.27477097511291504
+Testing accuracy = 84.2105253746635
+
+Epoch 231
+Training time = 1.456435203552246
+Training loss = 0.4766438126564026
+Testing time = 0.3280482292175293
+Testing accuracy = 84.2105253746635
+
+Epoch 232
+Training time = 1.391753911972046
+Training loss = 0.4764773229757945
+Testing time = 0.3084564208984375
+Testing accuracy = 84.2105253746635
+
+Epoch 233
+Training time = 1.461108684539795
+Training loss = 0.4763116180896759
+Testing time = 0.21985888481140137
+Testing accuracy = 84.2105253746635
+
+Epoch 234
+Training time = 0.8790159225463867
+Training loss = 0.47614675561587017
+Testing time = 0.22153353691101074
+Testing accuracy = 84.2105253746635
+
+Epoch 235
+Training time = 0.8686871528625488
+Training loss = 0.4759827494621277
+Testing time = 0.21433115005493164
+Testing accuracy = 84.2105253746635
+
+Epoch 236
+Training time = 0.8813612461090088
+Training loss = 0.47581957777341205
+Testing time = 0.21456027030944824
+Testing accuracy = 81.57894642729508
+
+Epoch 237
+Training time = 0.9397480487823486
+Training loss = 0.475657190879186
+Testing time = 0.21756505966186523
+Testing accuracy = 81.57894642729508
+
+Epoch 238
+Training time = 0.9292702674865723
+Training loss = 0.47549556295077006
+Testing time = 0.21416687965393066
+Testing accuracy = 81.57894642729508
+
+Epoch 239
+Training time = 0.8858773708343506
+Training loss = 0.4753347456455231
+Testing time = 0.22147536277770996
+Testing accuracy = 81.57894642729508
+
+Epoch 240
+Training time = 0.8835654258728027
+Training loss = 0.4751747687657674
+Testing time = 0.22158384323120117
+Testing accuracy = 81.57894642729508
+
+Epoch 241
+Training time = 0.8819785118103027
+Training loss = 0.4750155508518219
+Testing time = 0.21883630752563477
+Testing accuracy = 81.57894642729508
+
+Epoch 242
+Training time = 0.8781230449676514
+Training loss = 0.47485703229904175
+Testing time = 0.2149348258972168
+Testing accuracy = 81.57894642729508
+
+Epoch 243
+Training time = 0.8754479885101318
+Training loss = 0.4746992508570353
+Testing time = 0.2155742645263672
+Testing accuracy = 81.57894642729508
+
+Epoch 244
+Training time = 0.877147912979126
+Training loss = 0.4745422979195913
+Testing time = 0.21637654304504395
+Testing accuracy = 81.57894642729508
+
+Epoch 245
+Training time = 0.8805625438690186
+Training loss = 0.4743860284487406
+Testing time = 0.22150778770446777
+Testing accuracy = 81.57894642729508
+
+Epoch 246
+Training time = 0.8891408443450928
+Training loss = 0.47423051595687865
+Testing time = 0.23561406135559082
+Testing accuracy = 81.57894642729508
+
+Epoch 247
+Training time = 1.093526840209961
+Training loss = 0.47407575249671935
+Testing time = 0.3259282112121582
+Testing accuracy = 81.57894642729508
+
+Epoch 248
+Training time = 1.231736660003662
+Training loss = 0.4739216526349386
+Testing time = 0.31673479080200195
+Testing accuracy = 81.57894642729508
+
+Epoch 249
+Training time = 1.3242204189300537
+Training loss = 0.4737682223320007
+Testing time = 0.36099839210510254
+Testing accuracy = 81.57894642729508
+
+Epoch 250
+Training time = 1.0093748569488525
+Training loss = 0.473615558942159
+Testing time = 0.22394132614135742
+Testing accuracy = 81.57894642729508
+
+Epoch 251
+Training time = 1.6890909671783447
+Training loss = 0.47346352140108744
+Testing time = 0.5207862854003906
+Testing accuracy = 81.57894642729508
+
+Epoch 252
+Training time = 1.8592758178710938
+Training loss = 0.47331221103668214
+Testing time = 0.25043272972106934
+Testing accuracy = 81.57894642729508
+
+Epoch 253
+Training time = 1.251772403717041
+Training loss = 0.4731615364551544
+Testing time = 0.25060081481933594
+Testing accuracy = 81.57894642729508
+
+Epoch 254
+Training time = 0.9980247020721436
+Training loss = 0.4730114976565043
+Testing time = 0.2933669090270996
+Testing accuracy = 81.57894642729508
+
+Epoch 255
+Training time = 1.165614128112793
+Training loss = 0.4728621701399485
+Testing time = 0.23558568954467773
+Testing accuracy = 81.57894642729508
+
+Epoch 256
+Training time = 0.9280314445495605
+Training loss = 0.47271339694658915
+Testing time = 0.26023316383361816
+Testing accuracy = 81.57894642729508
+
+Epoch 257
+Training time = 0.9651529788970947
+Training loss = 0.472565366824468
+Testing time = 0.22917604446411133
+Testing accuracy = 81.57894642729508
+
+Epoch 258
+Training time = 0.936314582824707
+Training loss = 0.4724179228146871
+Testing time = 0.2258281707763672
+Testing accuracy = 81.57894642729508
+
+Epoch 259
+Training time = 0.976595401763916
+Training loss = 0.47227110266685485
+Testing time = 0.2301785945892334
+Testing accuracy = 81.57894642729508
+
+Epoch 260
+Training time = 0.9256682395935059
+Training loss = 0.47212491035461424
+Testing time = 0.2268216609954834
+Testing accuracy = 81.57894642729508
+
+Epoch 261
+Training time = 0.9253935813903809
+Training loss = 0.4719792644182841
+Testing time = 0.23326325416564941
+Testing accuracy = 81.57894642729508
+
+Epoch 262
+Training time = 0.9376077651977539
+Training loss = 0.47183422644933065
+Testing time = 0.22806692123413086
+Testing accuracy = 81.57894642729508
+
+Epoch 263
+Training time = 0.9358887672424316
+Training loss = 0.47168980836868285
+Testing time = 0.23366093635559082
+Testing accuracy = 81.57894642729508
+
+Epoch 264
+Training time = 0.934168815612793
+Training loss = 0.47154599030812583
+Testing time = 0.23585128784179688
+Testing accuracy = 81.57894642729508
+
+Epoch 265
+Training time = 0.9447202682495117
+Training loss = 0.4714026947816213
+Testing time = 0.23461270332336426
+Testing accuracy = 81.57894642729508
+
+Epoch 266
+Training time = 0.9413261413574219
+Training loss = 0.47125998536745706
+Testing time = 0.23435235023498535
+Testing accuracy = 81.57894642729508
+
+Epoch 267
+Training time = 0.9455022811889648
+Training loss = 0.47111783425013226
+Testing time = 0.2371213436126709
+Testing accuracy = 81.57894642729508
+
+Epoch 268
+Training time = 0.9481303691864014
+Training loss = 0.4709762275218964
+Testing time = 0.2342987060546875
+Testing accuracy = 81.57894642729508
+
+Epoch 269
+Training time = 0.9983680248260498
+Training loss = 0.47083515326182046
+Testing time = 0.23589253425598145
+Testing accuracy = 81.57894642729508
+
+Epoch 270
+Training time = 1.0024223327636719
+Training loss = 0.47069459160168964
+Testing time = 0.2837252616882324
+Testing accuracy = 81.57894642729508
+
+Epoch 271
+Training time = 1.3684766292572021
+Training loss = 0.4705546220143636
+Testing time = 0.3425724506378174
+Testing accuracy = 81.57894642729508
+
+Epoch 272
+Training time = 1.6049456596374512
+Training loss = 0.47041514118512473
+Testing time = 0.3528263568878174
+Testing accuracy = 81.57894642729508
+
+Epoch 273
+Training time = 1.547581434249878
+Training loss = 0.4702761650085449
+Testing time = 0.37148261070251465
+Testing accuracy = 81.57894642729508
+
+Epoch 274
+Training time = 1.3744213581085205
+Training loss = 0.47013771732648213
+Testing time = 0.2876424789428711
+Testing accuracy = 81.57894642729508
+
+Epoch 275
+Training time = 1.230100154876709
+Training loss = 0.4699997425079346
+Testing time = 0.31115293502807617
+Testing accuracy = 81.57894642729508
+
+Epoch 276
+Training time = 1.2523977756500244
+Training loss = 0.4698622465133667
+Testing time = 0.3099195957183838
+Testing accuracy = 81.57894642729508
+
+Epoch 277
+Training time = 1.2300002574920654
+Training loss = 0.46972524722417197
+Testing time = 0.3020157814025879
+Testing accuracy = 81.57894642729508
+
+Epoch 278
+Training time = 1.2369029521942139
+Training loss = 0.46958872079849245
+Testing time = 0.2888338565826416
+Testing accuracy = 81.57894642729508
+
+Epoch 279
+Training time = 1.2548518180847168
+Training loss = 0.4694526672363281
+Testing time = 0.2778949737548828
+Testing accuracy = 81.57894642729508
+
+Epoch 280
+Training time = 1.1795954704284668
+Training loss = 0.46931711037953694
+Testing time = 0.32091450691223145
+Testing accuracy = 81.57894642729508
+
+Epoch 281
+Training time = 1.251868486404419
+Training loss = 0.46918192903200784
+Testing time = 0.3036539554595947
+Testing accuracy = 81.57894642729508
+
+Epoch 282
+Training time = 1.2970843315124512
+Training loss = 0.4690472106138865
+Testing time = 0.3184189796447754
+Testing accuracy = 81.57894642729508
+
+Epoch 283
+Training time = 1.2570538520812988
+Training loss = 0.4689130286375682
+Testing time = 0.3128015995025635
+Testing accuracy = 81.57894642729508
+
+Epoch 284
+Training time = 1.2794480323791504
+Training loss = 0.46877917448679607
+Testing time = 0.313021183013916
+Testing accuracy = 81.57894642729508
+
+Epoch 285
+Training time = 1.336033821105957
+Training loss = 0.46864577134450275
+Testing time = 0.3147013187408447
+Testing accuracy = 81.57894642729508
+
+Epoch 286
+Training time = 1.2441816329956055
+Training loss = 0.46851280132929485
+Testing time = 0.31285524368286133
+Testing accuracy = 81.57894642729508
+
+Epoch 287
+Training time = 1.233942985534668
+Training loss = 0.46838025053342186
+Testing time = 0.3444631099700928
+Testing accuracy = 81.57894642729508
+
+Epoch 288
+Training time = 1.2531383037567139
+Training loss = 0.46824808915456134
+Testing time = 0.32726454734802246
+Testing accuracy = 81.57894642729508
+
+Epoch 289
+Training time = 1.2732934951782227
+Training loss = 0.4681163251399994
+Testing time = 0.32196044921875
+Testing accuracy = 81.57894642729508
+
+Epoch 290
+Training time = 1.2496230602264404
+Training loss = 0.4679849604765574
+Testing time = 0.31922411918640137
+Testing accuracy = 81.57894642729508
+
+Epoch 291
+Training time = 1.246584415435791
+Training loss = 0.46785404880841575
+Testing time = 0.30191779136657715
+Testing accuracy = 81.57894642729508
+
+Epoch 292
+Training time = 1.2422239780426025
+Training loss = 0.46772340337435403
+Testing time = 0.3267812728881836
+Testing accuracy = 81.57894642729508
+
+Epoch 293
+Training time = 1.3151440620422363
+Training loss = 0.4675932228565216
+Testing time = 0.31413888931274414
+Testing accuracy = 81.57894642729508
+
+Epoch 294
+Training time = 1.3359897136688232
+Training loss = 0.46746329466501874
+Testing time = 0.307344913482666
+Testing accuracy = 81.57894642729508
+
+Epoch 295
+Training time = 1.2703046798706055
+Training loss = 0.4673338254292806
+Testing time = 0.3058476448059082
+Testing accuracy = 81.57894642729508
+
+Epoch 296
+Training time = 1.2620601654052734
+Training loss = 0.4672046442826589
+Testing time = 0.33266210556030273
+Testing accuracy = 81.57894642729508
+
+Epoch 297
+Training time = 1.517064094543457
+Training loss = 0.46707584460576373
+Testing time = 0.5234439373016357
+Testing accuracy = 81.57894642729508
+
+Epoch 298
+Training time = 1.4679555892944336
+Training loss = 0.4669474403063456
+Testing time = 0.26830554008483887
+Testing accuracy = 81.57894642729508
+
+Epoch 299
+Training time = 1.2447714805603027
+Training loss = 0.46681923071543374
+Testing time = 0.35725879669189453
+Testing accuracy = 81.57894642729508
+
+Epoch 300
+Training time = 1.1877384185791016
+Training loss = 0.466691521803538
+Testing time = 0.3159449100494385
+Testing accuracy = 81.57894642729508
+
+Epoch 301
+Training time = 1.147547721862793
+Training loss = 0.4665639857451121
+Testing time = 0.3142728805541992
+Testing accuracy = 81.57894642729508
+
+Epoch 302
+Training time = 1.6075661182403564
+Training loss = 0.46643683513005574
+Testing time = 0.27511024475097656
+Testing accuracy = 81.57894642729508
+
+Epoch 303
+Training time = 1.324035406112671
+Training loss = 0.4663099984327952
+Testing time = 0.45296216011047363
+Testing accuracy = 81.57894642729508
+
+Epoch 304
+Training time = 2.69411563873291
+Training loss = 0.46618345578511555
+Testing time = 0.531458854675293
+Testing accuracy = 81.57894642729508
+
+Epoch 305
+Training time = 1.8895082473754883
+Training loss = 0.4660572270552317
+Testing time = 0.38144469261169434
+Testing accuracy = 81.57894642729508
+
+Epoch 306
+Training time = 1.4566538333892822
+Training loss = 0.46593124071756997
+Testing time = 0.4735069274902344
+Testing accuracy = 81.57894642729508
+
+Epoch 307
+Training time = 1.7306339740753174
+Training loss = 0.46580557425816854
+Testing time = 0.3147568702697754
+Testing accuracy = 81.57894642729508
+
+Epoch 308
+Training time = 1.624297857284546
+Training loss = 0.4656801780064901
+Testing time = 0.3748006820678711
+Testing accuracy = 81.57894642729508
+
+Epoch 309
+Training time = 1.265735387802124
+Training loss = 0.4655550916989644
+Testing time = 0.2711963653564453
+Testing accuracy = 81.57894642729508
+
+Epoch 310
+Training time = 1.2874417304992676
+Training loss = 0.4654301921526591
+Testing time = 0.3851945400238037
+Testing accuracy = 81.57894642729508
+
+Epoch 311
+Training time = 1.2187221050262451
+Training loss = 0.46530567010243734
+Testing time = 0.27677106857299805
+Testing accuracy = 81.57894642729508
+
+Epoch 312
+Training time = 1.1653151512145996
+Training loss = 0.4651813606421153
+Testing time = 0.36243510246276855
+Testing accuracy = 81.57894642729508
+
+Epoch 313
+Training time = 1.1328673362731934
+Training loss = 0.4650573194026947
+Testing time = 0.2784383296966553
+Testing accuracy = 81.57894642729508
+
+Epoch 314
+Training time = 1.1772396564483643
+Training loss = 0.4649334887663523
+Testing time = 0.3823845386505127
+Testing accuracy = 81.57894642729508
+
+Epoch 315
+Training time = 1.218346118927002
+Training loss = 0.46480995416641235
+Testing time = 0.2967071533203125
+Testing accuracy = 81.57894642729508
+
+Epoch 316
+Training time = 1.1692562103271484
+Training loss = 0.4646865685780843
+Testing time = 0.2840712070465088
+Testing accuracy = 81.57894642729508
+
+Epoch 317
+Training time = 1.1191952228546143
+Training loss = 0.4645634929339091
+Testing time = 0.2828855514526367
+Testing accuracy = 81.57894642729508
+
+Epoch 318
+Training time = 1.1100714206695557
+Training loss = 0.46444065968195597
+Testing time = 0.2771732807159424
+Testing accuracy = 81.57894642729508
+
+Epoch 319
+Training time = 1.1552197933197021
+Training loss = 0.46431801915168763
+Testing time = 0.34345340728759766
+Testing accuracy = 81.57894642729508
+
+Epoch 320
+Training time = 1.174391746520996
+Training loss = 0.46419557531674704
+Testing time = 0.3171041011810303
+Testing accuracy = 81.57894642729508
+
+Epoch 321
+Training time = 1.212541103363037
+Training loss = 0.464073383808136
+Testing time = 0.2754631042480469
+Testing accuracy = 81.57894642729508
+
+Epoch 322
+Training time = 1.1360852718353271
+Training loss = 0.46395138700803124
+Testing time = 0.2859461307525635
+Testing accuracy = 81.57894642729508
+
+Epoch 323
+Training time = 1.2041425704956055
+Training loss = 0.4638295829296112
+Testing time = 0.27895355224609375
+Testing accuracy = 81.57894642729508
+
+Epoch 324
+Training time = 1.4089319705963135
+Training loss = 0.46370802919069926
+Testing time = 0.3201420307159424
+Testing accuracy = 81.57894642729508
+
+Epoch 325
+Training time = 1.159749984741211
+Training loss = 0.46358667413393656
+Testing time = 0.2857325077056885
+Testing accuracy = 81.57894642729508
+
+Epoch 326
+Training time = 1.2849206924438477
+Training loss = 0.4634655137856801
+Testing time = 0.28931498527526855
+Testing accuracy = 81.57894642729508
+
+Epoch 327
+Training time = 1.225355863571167
+Training loss = 0.46334449052810667
+Testing time = 0.2814760208129883
+Testing accuracy = 81.57894642729508
+
+Epoch 328
+Training time = 1.142261028289795
+Training loss = 0.4632236937681834
+Testing time = 0.3363320827484131
+Testing accuracy = 81.57894642729508
+
+Epoch 329
+Training time = 1.3979058265686035
+Training loss = 0.4631030758221944
+Testing time = 0.2964954376220703
+Testing accuracy = 81.57894642729508
+
+Epoch 330
+Training time = 1.2923994064331055
+Training loss = 0.46298274397850037
+Testing time = 0.2949962615966797
+Testing accuracy = 81.57894642729508
+
+Epoch 331
+Training time = 1.5791387557983398
+Training loss = 0.4628623982270559
+Testing time = 0.42801499366760254
+Testing accuracy = 81.57894642729508
+
+Epoch 332
+Training time = 1.6930415630340576
+Training loss = 0.4627423663934072
+Testing time = 0.5761532783508301
+Testing accuracy = 81.57894642729508
+
+Epoch 333
+Training time = 2.1508545875549316
+Training loss = 0.4626224438349406
+Testing time = 0.38597559928894043
+Testing accuracy = 81.57894642729508
+
+Epoch 334
+Training time = 1.41505765914917
+Training loss = 0.46250269611676537
+Testing time = 0.2987198829650879
+Testing accuracy = 81.57894642729508
+
+Epoch 335
+Training time = 1.1820590496063232
+Training loss = 0.4623831550280253
+Testing time = 0.3067493438720703
+Testing accuracy = 81.57894642729508
+
+Epoch 336
+Training time = 1.200958251953125
+Training loss = 0.46226380864779154
+Testing time = 0.29283714294433594
+Testing accuracy = 81.57894642729508
+
+Epoch 337
+Training time = 1.178079605102539
+Training loss = 0.4621445675690969
+Testing time = 0.29428815841674805
+Testing accuracy = 81.57894642729508
+
+Epoch 338
+Training time = 1.4791841506958008
+Training loss = 0.462025515238444
+Testing time = 0.34499192237854004
+Testing accuracy = 81.57894642729508
+
+Epoch 339
+Training time = 1.5178141593933105
+Training loss = 0.46190662185351056
+Testing time = 0.3132457733154297
+Testing accuracy = 81.57894642729508
+
+Epoch 340
+Training time = 1.161996603012085
+Training loss = 0.46178784569104514
+Testing time = 0.34572529792785645
+Testing accuracy = 81.57894642729508
+
+Epoch 341
+Training time = 1.4517536163330078
+Training loss = 0.4616693019866943
+Testing time = 0.3063371181488037
+Testing accuracy = 81.57894642729508
+
+Epoch 342
+Training time = 1.2683711051940918
+Training loss = 0.4615508755048116
+Testing time = 0.3096470832824707
+Testing accuracy = 81.57894642729508
+
+Epoch 343
+Training time = 1.188767671585083
+Training loss = 0.4614326059818268
+Testing time = 0.29613780975341797
+Testing accuracy = 81.57894642729508
+
+Epoch 344
+Training time = 1.2104785442352295
+Training loss = 0.46131453712781273
+Testing time = 0.3278491497039795
+Testing accuracy = 81.57894642729508
+
+Epoch 345
+Training time = 1.2054946422576904
+Training loss = 0.4611965735753377
+Testing time = 0.308640718460083
+Testing accuracy = 81.57894642729508
+
+Epoch 346
+Training time = 1.2859477996826172
+Training loss = 0.46107869744300845
+Testing time = 0.3517625331878662
+Testing accuracy = 81.57894642729508
+
+Epoch 347
+Training time = 1.272836685180664
+Training loss = 0.4609610716501872
+Testing time = 0.38617587089538574
+Testing accuracy = 81.57894642729508
+
+Epoch 348
+Training time = 1.280461311340332
+Training loss = 0.4608435809612274
+Testing time = 0.30527710914611816
+Testing accuracy = 81.57894642729508
+
+Epoch 349
+Training time = 1.2234430313110352
+Training loss = 0.46072620153427124
+Testing time = 0.3123009204864502
+Testing accuracy = 81.57894642729508
+
+Epoch 350
+Training time = 1.209094524383545
+Training loss = 0.46060901284217837
+Testing time = 0.3029799461364746
+Testing accuracy = 81.57894642729508
+
+Epoch 351
+Training time = 1.211620569229126
+Training loss = 0.4604919970035553
+Testing time = 0.312319278717041
+Testing accuracy = 81.57894642729508
+
+Epoch 352
+Training time = 1.2126827239990234
+Training loss = 0.46037517388661703
+Testing time = 0.31023693084716797
+Testing accuracy = 81.57894642729508
+
+Epoch 353
+Training time = 1.2133245468139648
+Training loss = 0.46025837063789365
+Testing time = 0.32057666778564453
+Testing accuracy = 81.57894642729508
+
+Epoch 354
+Training time = 1.2127728462219238
+Training loss = 0.460141787926356
+Testing time = 0.31339335441589355
+Testing accuracy = 81.57894642729508
+
+Epoch 355
+Training time = 1.2347185611724854
+Training loss = 0.4600253780682882
+Testing time = 0.31714296340942383
+Testing accuracy = 81.57894642729508
+
+Epoch 356
+Training time = 1.469407081604004
+Training loss = 0.4599091192086538
+Testing time = 0.3251030445098877
+Testing accuracy = 81.57894642729508
+
+Epoch 357
+Training time = 1.6356914043426514
+Training loss = 0.4597930431365967
+Testing time = 0.44586896896362305
+Testing accuracy = 81.57894642729508
+
+Epoch 358
+Training time = 1.2768149375915527
+Training loss = 0.45967711011568707
+Testing time = 0.31267523765563965
+Testing accuracy = 81.57894642729508
+
+Epoch 359
+Training time = 1.2418880462646484
+Training loss = 0.45956130425135294
+Testing time = 0.3451235294342041
+Testing accuracy = 81.57894642729508
+
+Epoch 360
+Training time = 1.72096848487854
+Training loss = 0.45944579044977824
+Testing time = 0.31995248794555664
+Testing accuracy = 81.57894642729508
+
+Epoch 361
+Training time = 1.234647274017334
+Training loss = 0.45933035810788475
+Testing time = 0.3118016719818115
+Testing accuracy = 81.57894642729508
+
+Epoch 362
+Training time = 1.2646825313568115
+Training loss = 0.45921505490938824
+Testing time = 0.3163106441497803
+Testing accuracy = 81.57894642729508
+
+Epoch 363
+Training time = 1.2543489933013916
+Training loss = 0.45909998218218484
+Testing time = 0.3215749263763428
+Testing accuracy = 81.57894642729508
+
+Epoch 364
+Training time = 1.2378485202789307
+Training loss = 0.4589850823084513
+Testing time = 0.31165480613708496
+Testing accuracy = 81.57894642729508
+
+Epoch 365
+Training time = 1.2323832511901855
+Training loss = 0.4588703175385793
+Testing time = 0.3190474510192871
+Testing accuracy = 81.57894642729508
+
+Epoch 366
+Training time = 1.2326316833496094
+Training loss = 0.45875584284464516
+Testing time = 0.3250856399536133
+Testing accuracy = 81.57894642729508
+
+Epoch 367
+Training time = 1.3302569389343262
+Training loss = 0.45864151318868
+Testing time = 0.327939510345459
+Testing accuracy = 81.57894642729508
+
+Epoch 368
+Training time = 1.3084416389465332
+Training loss = 0.4585273027420044
+Testing time = 0.31312108039855957
+Testing accuracy = 81.57894642729508
+
+Epoch 369
+Training time = 1.3972177505493164
+Training loss = 0.4584133485953013
+Testing time = 0.37363243103027344
+Testing accuracy = 81.57894642729508
+
+Epoch 370
+Training time = 1.6633846759796143
+Training loss = 0.45829955736796063
+Testing time = 0.3329651355743408
+Testing accuracy = 81.57894642729508
+
+Epoch 371
+Training time = 1.7139458656311035
+Training loss = 0.45818599263827003
+Testing time = 0.32070231437683105
+Testing accuracy = 81.57894642729508
+
+Epoch 372
+Training time = 1.2679412364959717
+Training loss = 0.45807267824808756
+Testing time = 0.3171522617340088
+Testing accuracy = 81.57894642729508
+
+Epoch 373
+Training time = 1.2423388957977295
+Training loss = 0.45795947511990864
+Testing time = 0.318587064743042
+Testing accuracy = 81.57894642729508
+
+Epoch 374
+Training time = 1.281663417816162
+Training loss = 0.45784658392270405
+Testing time = 0.3948512077331543
+Testing accuracy = 81.57894642729508
+
+Epoch 375
+Training time = 1.281043291091919
+Training loss = 0.45773380796114604
+Testing time = 0.3252999782562256
+Testing accuracy = 81.57894642729508
+
+Epoch 376
+Training time = 1.2841951847076416
+Training loss = 0.4576213339964549
+Testing time = 0.32056331634521484
+Testing accuracy = 81.57894642729508
+
+Epoch 377
+Training time = 1.4846408367156982
+Training loss = 0.4575091004371643
+Testing time = 0.3695335388183594
+Testing accuracy = 81.57894642729508
+
+Epoch 378
+Training time = 1.3353421688079834
+Training loss = 0.45739698807398477
+Testing time = 0.3968930244445801
+Testing accuracy = 81.57894642729508
+
+Epoch 379
+Training time = 1.6462676525115967
+Training loss = 0.4572852651278178
+Testing time = 0.44454383850097656
+Testing accuracy = 81.57894642729508
+
+Epoch 380
+Training time = 1.900005578994751
+Training loss = 0.4571737031141917
+Testing time = 0.496382474899292
+Testing accuracy = 81.57894642729508
+
+Epoch 381
+Training time = 2.0586841106414795
+Training loss = 0.4570624053478241
+Testing time = 0.4876399040222168
+Testing accuracy = 81.57894642729508
+
+Epoch 382
+Training time = 2.692002773284912
+Training loss = 0.4569513400395711
+Testing time = 0.5569250583648682
+Testing accuracy = 81.57894642729508
+
+Epoch 383
+Training time = 2.4914042949676514
+Training loss = 0.4568405389785767
+Testing time = 0.5414526462554932
+Testing accuracy = 81.57894642729508
+
+Epoch 384
+Training time = 2.198930501937866
+Training loss = 0.456730063756307
+Testing time = 0.43158555030822754
+Testing accuracy = 81.57894642729508
+
+Epoch 385
+Training time = 1.5485472679138184
+Training loss = 0.45661980311075845
+Testing time = 0.3812289237976074
+Testing accuracy = 81.57894642729508
+
+Epoch 386
+Training time = 2.1632044315338135
+Training loss = 0.4565097669760386
+Testing time = 0.5736308097839355
+Testing accuracy = 81.57894642729508
+
+Epoch 387
+Training time = 2.254749298095703
+Training loss = 0.45640012820561726
+Testing time = 0.6296236515045166
+Testing accuracy = 81.57894642729508
+
+Epoch 388
+Training time = 2.1391406059265137
+Training loss = 0.45629071195920307
+Testing time = 0.5097675323486328
+Testing accuracy = 81.57894642729508
+
+Epoch 389
+Training time = 1.7672579288482666
+Training loss = 0.4561815857887268
+Testing time = 0.4153141975402832
+Testing accuracy = 81.57894642729508
+
+Epoch 390
+Training time = 2.0053226947784424
+Training loss = 0.45607276757558185
+Testing time = 0.3854038715362549
+Testing accuracy = 81.57894642729508
+
+Epoch 391
+Training time = 1.5265491008758545
+Training loss = 0.4559642016887665
+Testing time = 0.3397331237792969
+Testing accuracy = 81.57894642729508
+
+Epoch 392
+Training time = 1.475151777267456
+Training loss = 0.4558559815088908
+Testing time = 0.35605311393737793
+Testing accuracy = 81.57894642729508
+
+Epoch 393
+Training time = 1.9353106021881104
+Training loss = 0.45574806729952494
+Testing time = 0.39119935035705566
+Testing accuracy = 81.57894642729508
+
+Epoch 394
+Training time = 1.4762308597564697
+Training loss = 0.4556404451529185
+Testing time = 0.34323906898498535
+Testing accuracy = 81.57894642729508
+
+Epoch 395
+Training time = 1.3703348636627197
+Training loss = 0.4555332064628601
+Testing time = 0.3309197425842285
+Testing accuracy = 81.57894642729508
+
+Epoch 396
+Training time = 1.3252451419830322
+Training loss = 0.455426291624705
+Testing time = 0.3318016529083252
+Testing accuracy = 81.57894642729508
+
+Epoch 397
+Training time = 1.3579890727996826
+Training loss = 0.45531965494155885
+Testing time = 0.36168408393859863
+Testing accuracy = 81.57894642729508
+
+Epoch 398
+Training time = 1.4408152103424072
+Training loss = 0.4552133560180664
+Testing time = 0.33503055572509766
+Testing accuracy = 81.57894642729508
+
+Epoch 399
+Training time = 1.4149537086486816
+Training loss = 0.4551073948542277
+Testing time = 0.3908672332763672
+Testing accuracy = 81.57894642729508
+
+Epoch 400
+Training time = 1.438035249710083
+Training loss = 0.45500187476476034
+Testing time = 0.3623518943786621
+Testing accuracy = 81.57894642729508
+
+Epoch 401
+Training time = 1.7017641067504883
+Training loss = 0.4548965871334076
+Testing time = 0.3455159664154053
+Testing accuracy = 81.57894642729508
+
+Epoch 402
+Training time = 1.345322847366333
+Training loss = 0.45479171673456825
+Testing time = 0.3679521083831787
+Testing accuracy = 81.57894642729508
+
+Epoch 403
+Training time = 1.4848358631134033
+Training loss = 0.4546871999899546
+Testing time = 0.36269330978393555
+Testing accuracy = 81.57894642729508
+
+Epoch 404
+Training time = 1.4359326362609863
+Training loss = 0.4545830508073171
+Testing time = 0.33774566650390625
+Testing accuracy = 81.57894642729508
+
+Epoch 405
+Training time = 1.3449556827545166
+Training loss = 0.45447929501533507
+Testing time = 0.33714747428894043
+Testing accuracy = 81.57894642729508
+
+Epoch 406
+Training time = 1.345702886581421
+Training loss = 0.45437581141789757
+Testing time = 0.3865690231323242
+Testing accuracy = 81.57894642729508
+
+Epoch 407
+Training time = 1.913454294204712
+Training loss = 0.45427281260490415
+Testing time = 0.5189836025238037
+Testing accuracy = 81.57894642729508
+
+Epoch 408
+Training time = 1.4523115158081055
+Training loss = 0.45417017936706544
+Testing time = 0.4084808826446533
+Testing accuracy = 81.57894642729508
+
+Epoch 409
+Training time = 1.8960390090942383
+Training loss = 0.4540678958098094
+Testing time = 0.45373988151550293
+Testing accuracy = 81.57894642729508
+
+Epoch 410
+Training time = 2.3025903701782227
+Training loss = 0.45396599769592283
+Testing time = 0.43775177001953125
+Testing accuracy = 81.57894642729508
+
+Epoch 411
+Training time = 1.545858383178711
+Training loss = 0.45386458436648053
+Testing time = 0.43746113777160645
+Testing accuracy = 81.57894642729508
+
+Epoch 412
+Training time = 1.5326929092407227
+Training loss = 0.45376349687576295
+Testing time = 0.4789903163909912
+Testing accuracy = 81.57894642729508
+
+Epoch 413
+Training time = 1.576784372329712
+Training loss = 0.4536627809206645
+Testing time = 0.40406298637390137
+Testing accuracy = 81.57894642729508
+
+Epoch 414
+Training time = 1.4054429531097412
+Training loss = 0.4535625517368317
+Testing time = 0.3730454444885254
+Testing accuracy = 81.57894642729508
+
+Epoch 415
+Training time = 1.7460284233093262
+Training loss = 0.4534626881281535
+Testing time = 0.40436387062072754
+Testing accuracy = 81.57894642729508
+
+Epoch 416
+Training time = 1.6874852180480957
+Training loss = 0.4533632139364878
+Testing time = 0.4580707550048828
+Testing accuracy = 81.57894642729508
+
+Epoch 417
+Training time = 1.5939452648162842
+Training loss = 0.4532641311486562
+Testing time = 0.5318028926849365
+Testing accuracy = 81.57894642729508
+
+Epoch 418
+Training time = 2.1666078567504883
+Training loss = 0.45316551526387533
+Testing time = 0.4499959945678711
+Testing accuracy = 81.57894642729508
+
+Epoch 419
+Training time = 1.485339879989624
+Training loss = 0.4530673364798228
+Testing time = 0.3798043727874756
+Testing accuracy = 81.57894642729508
+
+Epoch 420
+Training time = 1.5221939086914062
+Training loss = 0.4529695312182109
+Testing time = 0.381117582321167
+Testing accuracy = 81.57894642729508
+
+Epoch 421
+Training time = 1.474308967590332
+Training loss = 0.4528722047805786
+Testing time = 0.3621351718902588
+Testing accuracy = 81.57894642729508
+
+Epoch 422
+Training time = 1.6382479667663574
+Training loss = 0.4527752598126729
+Testing time = 0.45754575729370117
+Testing accuracy = 81.57894642729508
+
+Epoch 423
+Training time = 1.5055341720581055
+Training loss = 0.45267873207728065
+Testing time = 0.37839674949645996
+Testing accuracy = 81.57894642729508
+
+Epoch 424
+Training time = 1.486250638961792
+Training loss = 0.45258264342943827
+Testing time = 0.35261988639831543
+Testing accuracy = 81.57894642729508
+
+Epoch 425
+Training time = 1.642641305923462
+Training loss = 0.4524870256582896
+Testing time = 0.5728664398193359
+Testing accuracy = 81.57894642729508
+
+Epoch 426
+Training time = 1.4959747791290283
+Training loss = 0.4523917198181152
+Testing time = 0.386934757232666
+Testing accuracy = 81.57894642729508
+
+Epoch 427
+Training time = 1.9790141582489014
+Training loss = 0.4522969861825307
+Testing time = 0.36309814453125
+Testing accuracy = 81.57894642729508
+
+Epoch 428
+Training time = 1.4217369556427002
+Training loss = 0.45220269163449606
+Testing time = 0.36042213439941406
+Testing accuracy = 81.57894642729508
+
+Epoch 429
+Training time = 1.5369675159454346
+Training loss = 0.4521087110042572
+Testing time = 0.3935065269470215
+Testing accuracy = 81.57894642729508
+
+Epoch 430
+Training time = 1.5312449932098389
+Training loss = 0.45201523502667745
+Testing time = 0.3580458164215088
+Testing accuracy = 81.57894642729508
+
+Epoch 431
+Training time = 1.5423574447631836
+Training loss = 0.4519221981366475
+Testing time = 0.37778568267822266
+Testing accuracy = 81.57894642729508
+
+Epoch 432
+Training time = 1.4610953330993652
+Training loss = 0.45182955463727315
+Testing time = 0.3806281089782715
+Testing accuracy = 81.57894642729508
+
+Epoch 433
+Training time = 1.5094325542449951
+Training loss = 0.4517374614874522
+Testing time = 0.363314151763916
+Testing accuracy = 81.57894642729508
+
+Epoch 434
+Training time = 1.417504072189331
+Training loss = 0.45164567629496255
+Testing time = 0.4186365604400635
+Testing accuracy = 81.57894642729508
+
+Epoch 435
+Training time = 1.5799133777618408
+Training loss = 0.45155441562334697
+Testing time = 0.4600992202758789
+Testing accuracy = 81.57894642729508
+
+Epoch 436
+Training time = 1.9227268695831299
+Training loss = 0.45146359205245973
+Testing time = 0.37281107902526855
+Testing accuracy = 81.57894642729508
+
+Epoch 437
+Training time = 1.6369948387145996
+Training loss = 0.4513731877009074
+Testing time = 0.47880029678344727
+Testing accuracy = 81.57894642729508
+
+Epoch 438
+Training time = 2.9555981159210205
+Training loss = 0.451283210515976
+Testing time = 0.676192045211792
+Testing accuracy = 81.57894642729508
+
+Epoch 439
+Training time = 2.8146960735321045
+Training loss = 0.45119367639223734
+Testing time = 0.6703066825866699
+Testing accuracy = 81.57894642729508
+
+Epoch 440
+Training time = 2.7473630905151367
+Training loss = 0.4511046091715495
+Testing time = 0.8205137252807617
+Testing accuracy = 81.57894642729508
+
+Epoch 441
+Training time = 3.7779486179351807
+Training loss = 0.45101588567097983
+Testing time = 0.7601120471954346
+Testing accuracy = 81.57894642729508
+
+Epoch 442
+Training time = 2.4065425395965576
+Training loss = 0.4509277145067851
+Testing time = 0.3971567153930664
+Testing accuracy = 81.57894642729508
+
+Epoch 443
+Training time = 1.826582431793213
+Training loss = 0.45083989898363747
+Testing time = 0.4867069721221924
+Testing accuracy = 81.57894642729508
+
+Epoch 444
+Training time = 1.867285966873169
+Training loss = 0.4507526258627574
+Testing time = 0.37296533584594727
+Testing accuracy = 81.57894642729508
+
+Epoch 445
+Training time = 1.8402481079101562
+Training loss = 0.45066569447517396
+Testing time = 0.539487361907959
+Testing accuracy = 81.57894642729508
+
+Epoch 446
+Training time = 1.8612840175628662
+Training loss = 0.45057916243871055
+Testing time = 0.47322654724121094
+Testing accuracy = 81.57894642729508
+
+Epoch 447
+Training time = 1.772979497909546
+Training loss = 0.4504931032657623
+Testing time = 0.41559386253356934
+Testing accuracy = 81.57894642729508
+
+Epoch 448
+Training time = 1.6599044799804688
+Training loss = 0.45040754874547323
+Testing time = 0.3883655071258545
+Testing accuracy = 81.57894642729508
+
+Epoch 449
+Training time = 1.481839895248413
+Training loss = 0.45032235781351726
+Testing time = 0.3798248767852783
+Testing accuracy = 81.57894642729508
+
+Epoch 450
+Training time = 1.6171271800994873
+Training loss = 0.4502375682195028
+Testing time = 0.450852632522583
+Testing accuracy = 81.57894642729508
+
+Epoch 451
+Training time = 1.4971399307250977
+Training loss = 0.4501532256603241
+Testing time = 0.3850860595703125
+Testing accuracy = 81.57894642729508
+
+Epoch 452
+Training time = 1.6160914897918701
+Training loss = 0.45006934404373167
+Testing time = 0.41248059272766113
+Testing accuracy = 81.57894642729508
+
+Epoch 453
+Training time = 1.821446418762207
+Training loss = 0.44998586773872373
+Testing time = 0.4459075927734375
+Testing accuracy = 81.57894642729508
+
+Epoch 454
+Training time = 1.5309436321258545
+Training loss = 0.4499028464158376
+Testing time = 0.3881714344024658
+Testing accuracy = 81.57894642729508
+
+Epoch 455
+Training time = 1.5053260326385498
+Training loss = 0.4498200794061025
+Testing time = 0.38575077056884766
+Testing accuracy = 81.57894642729508
+
+Epoch 456
+Training time = 1.510368824005127
+Training loss = 0.44973790844281514
+Testing time = 0.3835639953613281
+Testing accuracy = 81.57894642729508
+
+Epoch 457
+Training time = 1.5085997581481934
+Training loss = 0.44965609510739646
+Testing time = 0.38237547874450684
+Testing accuracy = 81.57894642729508
+
+Epoch 458
+Training time = 1.5046851634979248
+Training loss = 0.4495747188727061
+Testing time = 0.38356685638427734
+Testing accuracy = 81.57894642729508
+
+Epoch 459
+Training time = 1.5119554996490479
+Training loss = 0.4494937002658844
+Testing time = 0.3866307735443115
+Testing accuracy = 81.57894642729508
+
+Epoch 460
+Training time = 1.793405532836914
+Training loss = 0.44941317836443584
+Testing time = 0.4714386463165283
+Testing accuracy = 81.57894642729508
+
+Epoch 461
+Training time = 1.5469989776611328
+Training loss = 0.4493329485257467
+Testing time = 0.3945615291595459
+Testing accuracy = 81.57894642729508
+
+Epoch 462
+Training time = 1.5020530223846436
+Training loss = 0.4492531677087148
+Testing time = 0.3824594020843506
+Testing accuracy = 81.57894642729508
+
+Epoch 463
+Training time = 1.8574910163879395
+Training loss = 0.44917380015055336
+Testing time = 0.40624523162841797
+Testing accuracy = 81.57894642729508
+
+Epoch 464
+Training time = 1.5276098251342773
+Training loss = 0.4490948736667633
+Testing time = 0.38752198219299316
+Testing accuracy = 81.57894642729508
+
+Epoch 465
+Training time = 1.4991199970245361
+Training loss = 0.449016273021698
+Testing time = 0.38819003105163574
+Testing accuracy = 81.57894642729508
+
+Epoch 466
+Training time = 1.5088880062103271
+Training loss = 0.44893813927968346
+Testing time = 0.3800475597381592
+Testing accuracy = 81.57894642729508
+
+Epoch 467
+Training time = 1.570699691772461
+Training loss = 0.44886030356089274
+Testing time = 0.46775388717651367
+Testing accuracy = 81.57894642729508
+
+Epoch 468
+Training time = 1.715325117111206
+Training loss = 0.4487828950087229
+Testing time = 0.45676612854003906
+Testing accuracy = 81.57894642729508
+
+Epoch 469
+Training time = 1.5102019309997559
+Training loss = 0.44870590766270957
+Testing time = 0.3912205696105957
+Testing accuracy = 81.57894642729508
+
+Epoch 470
+Training time = 1.5040559768676758
+Training loss = 0.4486292898654938
+Testing time = 0.382709264755249
+Testing accuracy = 81.57894642729508
+
+Epoch 471
+Training time = 1.6161932945251465
+Training loss = 0.4485530495643616
+Testing time = 0.39085865020751953
+Testing accuracy = 81.57894642729508
+
+Epoch 472
+Training time = 1.5300400257110596
+Training loss = 0.4484771231810252
+Testing time = 0.3983743190765381
+Testing accuracy = 81.57894642729508
+
+Epoch 473
+Training time = 1.723787546157837
+Training loss = 0.44840168754259746
+Testing time = 0.5505805015563965
+Testing accuracy = 81.57894642729508
+
+Epoch 474
+Training time = 2.291287660598755
+Training loss = 0.448326563835144
+Testing time = 0.6694648265838623
+Testing accuracy = 81.57894642729508
+
+Epoch 475
+Training time = 2.4796664714813232
+Training loss = 0.4482518235842387
+Testing time = 0.6129698753356934
+Testing accuracy = 81.57894642729508
+
+Epoch 476
+Training time = 1.9595413208007812
+Training loss = 0.44817744692166644
+Testing time = 0.4724709987640381
+Testing accuracy = 81.57894642729508
+
+Epoch 477
+Training time = 2.4180541038513184
+Training loss = 0.4481033901373545
+Testing time = 0.5555434226989746
+Testing accuracy = 81.57894642729508
+
+Epoch 478
+Training time = 2.554894208908081
+Training loss = 0.4480297942956289
+Testing time = 0.4859352111816406
+Testing accuracy = 81.57894642729508
+
+Epoch 479
+Training time = 2.018895149230957
+Training loss = 0.44795648256937665
+Testing time = 0.7022304534912109
+Testing accuracy = 81.57894642729508
+
+Epoch 480
+Training time = 2.453558921813965
+Training loss = 0.44788355032602944
+Testing time = 0.5297586917877197
+Testing accuracy = 81.57894642729508
+
+Epoch 481
+Training time = 1.7307839393615723
+Training loss = 0.44781097769737244
+Testing time = 0.5264894962310791
+Testing accuracy = 81.57894642729508
+
+Epoch 482
+Training time = 1.8831794261932373
+Training loss = 0.4477387209733327
+Testing time = 0.4237394332885742
+Testing accuracy = 81.57894642729508
+
+Epoch 483
+Training time = 1.7695465087890625
+Training loss = 0.4476668357849121
+Testing time = 0.4921102523803711
+Testing accuracy = 81.57894642729508
+
+Epoch 484
+Training time = 1.7640023231506348
+Training loss = 0.4475952963034312
+Testing time = 0.41935181617736816
+Testing accuracy = 81.57894642729508
+
+Epoch 485
+Training time = 2.3745012283325195
+Training loss = 0.4475240806738536
+Testing time = 0.7761330604553223
+Testing accuracy = 81.57894642729508
+
+Epoch 486
+Training time = 2.6149351596832275
+Training loss = 0.44745317101478577
+Testing time = 0.5775597095489502
+Testing accuracy = 81.57894642729508
+
+Epoch 487
+Training time = 2.275864601135254
+Training loss = 0.44738269646962486
+Testing time = 0.5725412368774414
+Testing accuracy = 81.57894642729508
+
+Epoch 488
+Training time = 2.299356698989868
+Training loss = 0.44731247226397197
+Testing time = 0.6339857578277588
+Testing accuracy = 81.57894642729508
+
+Epoch 489
+Training time = 2.375981569290161
+Training loss = 0.44724258184432986
+Testing time = 0.6821863651275635
+Testing accuracy = 81.57894642729508
+
+Epoch 490
+Training time = 2.4494500160217285
+Training loss = 0.44717313448588053
+Testing time = 0.5858216285705566
+Testing accuracy = 81.57894642729508
+
+Epoch 491
+Training time = 2.3050801753997803
+Training loss = 0.4471038579940796
+Testing time = 0.5155148506164551
+Testing accuracy = 81.57894642729508
+
+Epoch 492
+Training time = 2.27573561668396
+Training loss = 0.44703496297200523
+Testing time = 0.5648458003997803
+Testing accuracy = 81.57894642729508
+
+Epoch 493
+Training time = 2.271819829940796
+Training loss = 0.4469664772351583
+Testing time = 0.5845646858215332
+Testing accuracy = 81.57894642729508
+
+Epoch 494
+Training time = 2.2194831371307373
+Training loss = 0.4468981186548869
+Testing time = 0.567601203918457
+Testing accuracy = 81.57894642729508
+
+Epoch 495
+Training time = 2.2112815380096436
+Training loss = 0.44683019320170086
+Testing time = 0.5630331039428711
+Testing accuracy = 81.57894642729508
+
+Epoch 496
+Training time = 2.217923402786255
+Training loss = 0.4467626472314199
+Testing time = 0.6030838489532471
+Testing accuracy = 81.57894642729508
+
+Epoch 497
+Training time = 2.2947707176208496
+Training loss = 0.4466952939828237
+Testing time = 0.5590627193450928
+Testing accuracy = 81.57894642729508
+
+Epoch 498
+Training time = 2.280038595199585
+Training loss = 0.4466282486915588
+Testing time = 0.6072726249694824
+Testing accuracy = 81.57894642729508
+
+Epoch 499
+Training time = 2.268336534500122
+Training loss = 0.4465615749359131
+Testing time = 0.5918707847595215
+Testing accuracy = 81.57894642729508
+
+Epoch 500
+Training time = 2.2584452629089355
+Training loss = 0.4464951237042745
+Testing time = 0.5589778423309326
+Testing accuracy = 81.57894642729508
+
+Epoch 501
+Training time = 2.268730640411377
+Training loss = 0.4464290221532186
+Testing time = 0.5782878398895264
+Testing accuracy = 81.57894642729508
+
+Epoch 502
+Training time = 2.230677604675293
+Training loss = 0.4463631431261698
+Testing time = 0.675508975982666
+Testing accuracy = 81.57894642729508
+
+Epoch 503
+Training time = 2.600165843963623
+Training loss = 0.4462976296742757
+Testing time = 0.5401613712310791
+Testing accuracy = 81.57894642729508
+
+Epoch 504
+Training time = 2.315513849258423
+Training loss = 0.4462323884169261
+Testing time = 0.5795691013336182
+Testing accuracy = 81.57894642729508
+
+Epoch 505
+Training time = 2.2374048233032227
+Training loss = 0.4461674213409424
+Testing time = 0.584273099899292
+Testing accuracy = 81.57894642729508
+
+Epoch 506
+Training time = 2.342621326446533
+Training loss = 0.44610276420911155
+Testing time = 0.5870294570922852
+Testing accuracy = 81.57894642729508
+
+Epoch 507
+Training time = 2.2808632850646973
+Training loss = 0.4460383375485738
+Testing time = 0.5976836681365967
+Testing accuracy = 81.57894642729508
+
+Epoch 508
+Training time = 2.2735989093780518
+Training loss = 0.44597429037094116
+Testing time = 0.5816934108734131
+Testing accuracy = 81.57894642729508
+
+Epoch 509
+Training time = 2.240210771560669
+Training loss = 0.44591041207313536
+Testing time = 0.5731909275054932
+Testing accuracy = 81.57894642729508
+
+Epoch 510
+Training time = 2.322293996810913
+Training loss = 0.44584686954816183
+Testing time = 0.5871670246124268
+Testing accuracy = 81.57894642729508
+
+Epoch 511
+Training time = 2.3546745777130127
+Training loss = 0.4457835654417674
+Testing time = 0.559664249420166
+Testing accuracy = 81.57894642729508
+
+Epoch 512
+Training time = 2.2554893493652344
+Training loss = 0.44572054545084633
+Testing time = 0.5734231472015381
+Testing accuracy = 81.57894642729508
+
+Epoch 513
+Training time = 2.231844663619995
+Training loss = 0.4456577559312185
+Testing time = 0.5981624126434326
+Testing accuracy = 81.57894642729508
+
+Epoch 514
+Training time = 2.3378188610076904
+Training loss = 0.445595250527064
+Testing time = 0.5990369319915771
+Testing accuracy = 81.57894642729508
+
+Epoch 515
+Training time = 2.3300931453704834
+Training loss = 0.4455330530802409
+Testing time = 0.5865616798400879
+Testing accuracy = 81.57894642729508
+
+Epoch 516
+Training time = 2.2472972869873047
+Training loss = 0.44547107021013893
+Testing time = 0.571087121963501
+Testing accuracy = 81.57894642729508
+
+Epoch 517
+Training time = 2.2960715293884277
+Training loss = 0.4454093297322591
+Testing time = 0.6155385971069336
+Testing accuracy = 81.57894642729508
+
+Epoch 518
+Training time = 2.453678607940674
+Training loss = 0.44534785946210226
+Testing time = 0.5739772319793701
+Testing accuracy = 81.57894642729508
+
+Epoch 519
+Training time = 2.313993215560913
+Training loss = 0.4452866097291311
+Testing time = 0.5772030353546143
+Testing accuracy = 81.57894642729508
+
+Epoch 520
+Training time = 3.407050132751465
+Training loss = 0.4452256997426351
+Testing time = 0.801246166229248
+Testing accuracy = 81.57894642729508
+
+Epoch 521
+Training time = 3.427441358566284
+Training loss = 0.4451649407545725
+Testing time = 0.6040604114532471
+Testing accuracy = 81.57894642729508
+
+Epoch 522
+Training time = 2.239802598953247
+Training loss = 0.4451044758160909
+Testing time = 0.5426836013793945
+Testing accuracy = 81.57894642729508
+
+Epoch 523
+Training time = 2.3751730918884277
+Training loss = 0.445044207572937
+Testing time = 0.5943739414215088
+Testing accuracy = 81.57894642729508
+
+Epoch 524
+Training time = 2.6709659099578857
+Training loss = 0.4449842691421509
+Testing time = 0.8606250286102295
+Testing accuracy = 81.57894642729508
+
+Epoch 525
+Training time = 3.430387496948242
+Training loss = 0.4449245134989421
+Testing time = 0.8283767700195312
+Testing accuracy = 81.57894642729508
+
+Epoch 526
+Training time = 3.0870964527130127
+Training loss = 0.4448649366696676
+Testing time = 0.8978586196899414
+Testing accuracy = 81.57894642729508
+
+Epoch 527
+Training time = 3.567038059234619
+Training loss = 0.4448056697845459
+Testing time = 0.5512397289276123
+Testing accuracy = 81.57894642729508
+
+Epoch 528
+Training time = 2.2491214275360107
+Training loss = 0.44474661151568096
+Testing time = 0.5566575527191162
+Testing accuracy = 81.57894642729508
+
+Epoch 529
+Training time = 2.3631815910339355
+Training loss = 0.4446877876917521
+Testing time = 0.5626506805419922
+Testing accuracy = 81.57894642729508
+
+Epoch 530
+Training time = 2.336622953414917
+Training loss = 0.4446291923522949
+Testing time = 0.5880815982818604
+Testing accuracy = 81.57894642729508
+
+Epoch 531
+Training time = 2.3998425006866455
+Training loss = 0.4445708473523458
+Testing time = 0.7562329769134521
+Testing accuracy = 81.57894642729508
+
+Epoch 532
+Training time = 2.490339756011963
+Training loss = 0.44451266129811606
+Testing time = 0.46796441078186035
+Testing accuracy = 81.57894642729508
+
+Epoch 533
+Training time = 2.1094887256622314
+Training loss = 0.4444547692934672
+Testing time = 0.45143795013427734
+Testing accuracy = 81.57894642729508
+
+Epoch 534
+Training time = 2.192701578140259
+Training loss = 0.4443970481554667
+Testing time = 0.4868009090423584
+Testing accuracy = 81.57894642729508
+
+Epoch 535
+Training time = 1.874847173690796
+Training loss = 0.4443395475546519
+Testing time = 0.5759625434875488
+Testing accuracy = 81.57894642729508
+
+Epoch 536
+Training time = 2.2375266551971436
+Training loss = 0.4442822873592377
+Testing time = 0.4414327144622803
+Testing accuracy = 81.57894642729508
+
+Epoch 537
+Training time = 1.8476567268371582
+Training loss = 0.44422523776690165
+Testing time = 0.4613840579986572
+Testing accuracy = 81.57894642729508
+
+Epoch 538
+Training time = 1.7489290237426758
+Training loss = 0.4441683669885
+Testing time = 0.4414067268371582
+Testing accuracy = 81.57894642729508
+
+Epoch 539
+Training time = 1.7145051956176758
+Training loss = 0.4441117405891418
+Testing time = 0.46393251419067383
+Testing accuracy = 81.57894642729508
+
+Epoch 540
+Training time = 1.8218600749969482
+Training loss = 0.44405534664789836
+Testing time = 0.47481393814086914
+Testing accuracy = 81.57894642729508
+
+Epoch 541
+Training time = 1.7484066486358643
+Training loss = 0.44399912158648175
+Testing time = 0.4376819133758545
+Testing accuracy = 81.57894642729508
+
+Epoch 542
+Training time = 2.0511980056762695
+Training loss = 0.4439430256684621
+Testing time = 0.48046255111694336
+Testing accuracy = 81.57894642729508
+
+Epoch 543
+Training time = 2.044893503189087
+Training loss = 0.44388723572095234
+Testing time = 0.6431798934936523
+Testing accuracy = 81.57894642729508
+
+Epoch 544
+Training time = 3.1005125045776367
+Training loss = 0.4438316563765208
+Testing time = 0.8472826480865479
+Testing accuracy = 81.57894642729508
+
+Epoch 545
+Training time = 4.6140148639678955
+Training loss = 0.44377626180648805
+Testing time = 0.9936871528625488
+Testing accuracy = 81.57894642729508
+
+Epoch 546
+Training time = 4.409162998199463
+Training loss = 0.4437210539976756
+Testing time = 0.9687826633453369
+Testing accuracy = 81.57894642729508
+
+Epoch 547
+Training time = 3.4020512104034424
+Training loss = 0.4436660289764404
+Testing time = 0.7271277904510498
+Testing accuracy = 81.57894642729508
+
+Epoch 548
+Training time = 3.6945998668670654
+Training loss = 0.44361126025517783
+Testing time = 0.8368191719055176
+Testing accuracy = 81.57894642729508
+
+Epoch 549
+Training time = 3.4020509719848633
+Training loss = 0.4435565849145254
+Testing time = 0.6865336894989014
+Testing accuracy = 81.57894642729508
+
+Epoch 550
+Training time = 3.601245164871216
+Training loss = 0.44350210428237913
+Testing time = 0.7943661212921143
+Testing accuracy = 81.57894642729508
+
+Epoch 551
+Training time = 3.3672657012939453
+Training loss = 0.4434479494889577
+Testing time = 0.9064295291900635
+Testing accuracy = 81.57894642729508
+
+Epoch 552
+Training time = 3.9451942443847656
+Training loss = 0.4433938443660736
+Testing time = 0.8756637573242188
+Testing accuracy = 81.57894642729508
+
+Epoch 553
+Training time = 3.815749168395996
+Training loss = 0.4433399518330892
+Testing time = 0.9000730514526367
+Testing accuracy = 81.57894642729508
+
+Epoch 554
+Training time = 3.9718093872070312
+Training loss = 0.4432862102985382
+Testing time = 0.854621171951294
+Testing accuracy = 81.57894642729508
+
+Epoch 555
+Training time = 3.619267463684082
+Training loss = 0.4432327429453532
+Testing time = 0.8922276496887207
+Testing accuracy = 81.57894642729508
+
+Epoch 556
+Training time = 3.8460030555725098
+Training loss = 0.4431795020898183
+Testing time = 0.8485424518585205
+Testing accuracy = 81.57894642729508
+
+Epoch 557
+Training time = 3.9591128826141357
+Training loss = 0.44312633673350016
+Testing time = 0.8831212520599365
+Testing accuracy = 81.57894642729508
+
+Epoch 558
+Training time = 3.680964469909668
+Training loss = 0.4430733899275462
+Testing time = 0.8112297058105469
+Testing accuracy = 81.57894642729508
+
+Epoch 559
+Training time = 3.7463572025299072
+Training loss = 0.4430205523967743
+Testing time = 0.8126440048217773
+Testing accuracy = 81.57894642729508
+
+Epoch 560
+Training time = 4.186487436294556
+Training loss = 0.4429679314295451
+Testing time = 0.8860480785369873
+Testing accuracy = 81.57894642729508
+
+Epoch 561
+Training time = 4.454188585281372
+Training loss = 0.4429154952367147
+Testing time = 0.8988263607025146
+Testing accuracy = 81.57894642729508
+
+Epoch 562
+Training time = 4.413136005401611
+Training loss = 0.4428632954756419
+Testing time = 0.9631729125976562
+Testing accuracy = 81.57894642729508
+
+Epoch 563
+Training time = 3.9328014850616455
+Training loss = 0.44281115333239235
+Testing time = 0.8303639888763428
+Testing accuracy = 81.57894642729508
+
+Epoch 564
+Training time = 3.8633809089660645
+Training loss = 0.44275927941004434
+Testing time = 0.8366687297821045
+Testing accuracy = 81.57894642729508
+
+Epoch 565
+Training time = 3.5388965606689453
+Training loss = 0.44270756642023723
+Testing time = 0.8519413471221924
+Testing accuracy = 81.57894642729508
+
+Epoch 566
+Training time = 3.744337320327759
+Training loss = 0.4426560421784719
+Testing time = 0.8515148162841797
+Testing accuracy = 81.57894642729508
+
+Epoch 567
+Training time = 3.7567362785339355
+Training loss = 0.4426046331723531
+Testing time = 0.8746678829193115
+Testing accuracy = 81.57894642729508
+
+Epoch 568
+Training time = 3.775390148162842
+Training loss = 0.4425533612569173
+Testing time = 0.8521239757537842
+Testing accuracy = 81.57894642729508
+
+Epoch 569
+Training time = 4.284221649169922
+Training loss = 0.4425023039182027
+Testing time = 1.0632665157318115
+Testing accuracy = 81.57894642729508
+
+Epoch 570
+Training time = 4.604148864746094
+Training loss = 0.44245137373606364
+Testing time = 1.02170991897583
+Testing accuracy = 81.57894642729508
+
+Epoch 571
+Training time = 3.95925235748291
+Training loss = 0.44240059653917946
+Testing time = 0.7865970134735107
+Testing accuracy = 81.57894642729508
+
+Epoch 572
+Training time = 2.6255295276641846
+Training loss = 0.442350043853124
+Testing time = 0.6281256675720215
+Testing accuracy = 81.57894642729508
+
+Epoch 573
+Training time = 2.5809171199798584
+Training loss = 0.44229961236317955
+Testing time = 0.667651891708374
+Testing accuracy = 81.57894642729508
+
+Epoch 574
+Training time = 2.577766180038452
+Training loss = 0.442249337832133
+Testing time = 0.6237761974334717
+Testing accuracy = 81.57894642729508
+
+Epoch 575
+Training time = 2.553739547729492
+Training loss = 0.4421992301940918
+Testing time = 0.6686725616455078
+Testing accuracy = 81.57894642729508
+
+Epoch 576
+Training time = 2.542187213897705
+Training loss = 0.4421493132909139
+Testing time = 0.6557033061981201
+Testing accuracy = 81.57894642729508
+
+Epoch 577
+Training time = 2.6364519596099854
+Training loss = 0.4420994778474172
+Testing time = 0.7120494842529297
+Testing accuracy = 81.57894642729508
+
+Epoch 578
+Training time = 2.640207052230835
+Training loss = 0.4420499086380005
+Testing time = 0.6579296588897705
+Testing accuracy = 81.57894642729508
+
+Epoch 579
+Training time = 2.555326461791992
+Training loss = 0.4420004189014435
+Testing time = 0.7363390922546387
+Testing accuracy = 81.57894642729508
+
+Epoch 580
+Training time = 2.6209912300109863
+Training loss = 0.4419510503609975
+Testing time = 0.6749591827392578
+Testing accuracy = 81.57894642729508
+
+Epoch 581
+Training time = 2.660076141357422
+Training loss = 0.4419018884499868
+Testing time = 0.6520164012908936
+Testing accuracy = 81.57894642729508
+
+Epoch 582
+Training time = 2.635664224624634
+Training loss = 0.4418528079986572
+Testing time = 0.6478447914123535
+Testing accuracy = 81.57894642729508
+
+Epoch 583
+Training time = 2.7612199783325195
+Training loss = 0.441803914308548
+Testing time = 0.9190199375152588
+Testing accuracy = 81.57894642729508
+
+Epoch 584
+Training time = 3.5930325984954834
+Training loss = 0.44175523122151694
+Testing time = 0.5931155681610107
+Testing accuracy = 81.57894642729508
+
+Epoch 585
+Training time = 2.4331984519958496
+Training loss = 0.4417066276073456
+Testing time = 0.6640567779541016
+Testing accuracy = 81.57894642729508
+
+Epoch 586
+Training time = 2.5749671459198
+Training loss = 0.441658212741216
+Testing time = 0.6823813915252686
+Testing accuracy = 81.57894642729508
+
+Epoch 587
+Training time = 2.577888011932373
+Training loss = 0.44160996079444886
+Testing time = 0.6834008693695068
+Testing accuracy = 81.57894642729508
+
+Epoch 588
+Training time = 2.598904848098755
+Training loss = 0.441561758518219
+Testing time = 0.6677777767181396
+Testing accuracy = 81.57894642729508
+
+Epoch 589
+Training time = 2.6774637699127197
+Training loss = 0.4415137986342112
+Testing time = 0.6981251239776611
+Testing accuracy = 81.57894642729508
+
+Epoch 590
+Training time = 2.5267159938812256
+Training loss = 0.44146591424942017
+Testing time = 0.6438248157501221
+Testing accuracy = 81.57894642729508
+
+Epoch 591
+Training time = 2.619760036468506
+Training loss = 0.4414181967576345
+Testing time = 0.743527889251709
+Testing accuracy = 81.57894642729508
+
+Epoch 592
+Training time = 2.6484992504119873
+Training loss = 0.4413706183433533
+Testing time = 0.6757259368896484
+Testing accuracy = 81.57894642729508
+
+Epoch 593
+Training time = 2.6375246047973633
+Training loss = 0.44132314920425414
+Testing time = 0.6786456108093262
+Testing accuracy = 81.57894642729508
+
+Epoch 594
+Training time = 2.6563453674316406
+Training loss = 0.44127588868141177
+Testing time = 0.6869542598724365
+Testing accuracy = 81.57894642729508
+
+Epoch 595
+Training time = 2.6782562732696533
+Training loss = 0.44122875730196637
+Testing time = 0.6603267192840576
+Testing accuracy = 81.57894642729508
+
+Epoch 596
+Training time = 2.5976309776306152
+Training loss = 0.44118171532948813
+Testing time = 0.6721744537353516
+Testing accuracy = 81.57894642729508
+
+Epoch 597
+Training time = 2.606393575668335
+Training loss = 0.44113490780194603
+Testing time = 0.6641397476196289
+Testing accuracy = 81.57894642729508
+
+Epoch 598
+Training time = 2.7378649711608887
+Training loss = 0.44108811815579735
+Testing time = 0.6746816635131836
+Testing accuracy = 81.57894642729508
+
+Epoch 599
+Training time = 2.632162570953369
+Training loss = 0.4410414417584737
+Testing time = 0.6485650539398193
+Testing accuracy = 81.57894642729508
+
+Epoch 600
+Training time = 2.5735361576080322
+Training loss = 0.4409950057665507
+Testing time = 0.654592752456665
+Testing accuracy = 81.57894642729508
+
+Epoch 601
+Training time = 2.71412992477417
+Training loss = 0.4409486492474874
+Testing time = 0.6886985301971436
+Testing accuracy = 81.57894642729508
+
+Epoch 602
+Training time = 2.64420223236084
+Training loss = 0.4409024616082509
+Testing time = 0.6562614440917969
+Testing accuracy = 81.57894642729508
+
+Epoch 603
+Training time = 2.5979771614074707
+Training loss = 0.44085641702016193
+Testing time = 0.6711509227752686
+Testing accuracy = 81.57894642729508
+
+Epoch 604
+Training time = 2.6627981662750244
+Training loss = 0.4408104101816813
+Testing time = 0.6861317157745361
+Testing accuracy = 81.57894642729508
+
+Epoch 605
+Training time = 2.7334790229797363
+Training loss = 0.44076460401217143
+Testing time = 0.6622533798217773
+Testing accuracy = 81.57894642729508
+
+Epoch 606
+Training time = 3.6220834255218506
+Training loss = 0.44071895877520245
+Testing time = 0.9093880653381348
+Testing accuracy = 81.57894642729508
+
+Epoch 607
+Training time = 3.9901509284973145
+Training loss = 0.4406733731428782
+Testing time = 0.8744080066680908
+Testing accuracy = 81.57894642729508
+
+Epoch 608
+Training time = 2.5939102172851562
+Training loss = 0.440627916653951
+Testing time = 0.7533605098724365
+Testing accuracy = 81.57894642729508
+
+Epoch 609
+Training time = 2.7853660583496094
+Training loss = 0.4405826449394226
+Testing time = 0.6926743984222412
+Testing accuracy = 81.57894642729508
+
+Epoch 610
+Training time = 3.408698320388794
+Training loss = 0.4405374725659688
+Testing time = 0.836533784866333
+Testing accuracy = 81.57894642729508
+
+Epoch 611
+Training time = 3.7705135345458984
+Training loss = 0.4404923737049103
+Testing time = 0.7479100227355957
+Testing accuracy = 81.57894642729508
+
+Epoch 612
+Training time = 3.85927677154541
+Training loss = 0.44044745763142906
+Testing time = 0.9350612163543701
+Testing accuracy = 81.57894642729508
+
+Epoch 613
+Training time = 3.877206325531006
+Training loss = 0.44040265679359436
+Testing time = 0.7824203968048096
+Testing accuracy = 81.57894642729508
+
+Epoch 614
+Training time = 3.253709554672241
+Training loss = 0.4403579751650492
+Testing time = 0.7499089241027832
+Testing accuracy = 81.57894642729508
+
+Epoch 615
+Training time = 2.907334804534912
+Training loss = 0.440313450495402
+Testing time = 0.6825079917907715
+Testing accuracy = 81.57894642729508
+
+Epoch 616
+Training time = 2.8075480461120605
+Training loss = 0.4402689774831136
+Testing time = 0.6818497180938721
+Testing accuracy = 81.57894642729508
+
+Epoch 617
+Training time = 2.93418288230896
+Training loss = 0.4402246713638306
+Testing time = 0.7885556221008301
+Testing accuracy = 81.57894642729508
+
+Epoch 618
+Training time = 2.875898599624634
+Training loss = 0.4401804804801941
+Testing time = 0.8720831871032715
+Testing accuracy = 81.57894642729508
+
+Epoch 619
+Training time = 3.7859737873077393
+Training loss = 0.4401363730430603
+Testing time = 0.8209531307220459
+Testing accuracy = 81.57894642729508
+
+Epoch 620
+Training time = 3.2004003524780273
+Training loss = 0.4400924305121104
+Testing time = 0.819129467010498
+Testing accuracy = 81.57894642729508
+
+Epoch 621
+Training time = 3.1515045166015625
+Training loss = 0.4400486290454865
+Testing time = 0.6187777519226074
+Testing accuracy = 81.57894642729508
+
+Epoch 622
+Training time = 2.767720937728882
+Training loss = 0.44000492095947263
+Testing time = 0.6634809970855713
+Testing accuracy = 81.57894642729508
+
+Epoch 623
+Training time = 2.8952889442443848
+Training loss = 0.43996131618817647
+Testing time = 0.6836838722229004
+Testing accuracy = 81.57894642729508
+
+Epoch 624
+Training time = 2.8035449981689453
+Training loss = 0.43991787830988566
+Testing time = 0.7056975364685059
+Testing accuracy = 81.57894642729508
+
+Epoch 625
+Training time = 2.986985921859741
+Training loss = 0.4398744642734528
+Testing time = 0.718489408493042
+Testing accuracy = 81.57894642729508
+
+Epoch 626
+Training time = 2.9159867763519287
+Training loss = 0.4398312429587046
+Testing time = 0.7775568962097168
+Testing accuracy = 81.57894642729508
+
+Epoch 627
+Training time = 2.8878965377807617
+Training loss = 0.43978805740674337
+Testing time = 0.7847676277160645
+Testing accuracy = 81.57894642729508
+
+Epoch 628
+Training time = 4.326941967010498
+Training loss = 0.4397450844446818
+Testing time = 1.006908893585205
+Testing accuracy = 81.57894642729508
+
+Epoch 629
+Training time = 3.929379940032959
+Training loss = 0.4397021969159444
+Testing time = 0.8474085330963135
+Testing accuracy = 81.57894642729508
+
+Epoch 630
+Training time = 3.2633230686187744
+Training loss = 0.43965935707092285
+Testing time = 0.68324875831604
+Testing accuracy = 81.57894642729508
+
+Epoch 631
+Training time = 2.931419610977173
+Training loss = 0.4396166503429413
+Testing time = 0.6897318363189697
+Testing accuracy = 81.57894642729508
+
+Epoch 632
+Training time = 2.6721372604370117
+Training loss = 0.4395742038885752
+Testing time = 0.7047033309936523
+Testing accuracy = 81.57894642729508
+
+Epoch 633
+Training time = 2.8282134532928467
+Training loss = 0.43953168590863545
+Testing time = 0.6822149753570557
+Testing accuracy = 81.57894642729508
+
+Epoch 634
+Training time = 2.7299845218658447
+Training loss = 0.43948933283487956
+Testing time = 0.7409319877624512
+Testing accuracy = 81.57894642729508
+
+Epoch 635
+Training time = 2.759209394454956
+Training loss = 0.43944716850916543
+Testing time = 0.7652099132537842
+Testing accuracy = 81.57894642729508
+
+Epoch 636
+Training time = 2.7953460216522217
+Training loss = 0.43940499623616536
+Testing time = 0.7322359085083008
+Testing accuracy = 81.57894642729508
+
+Epoch 637
+Training time = 2.8260092735290527
+Training loss = 0.4393629650274912
+Testing time = 0.7149510383605957
+Testing accuracy = 81.57894642729508
+
+Epoch 638
+Training time = 2.845177412033081
+Training loss = 0.4393211007118225
+Testing time = 0.7116374969482422
+Testing accuracy = 81.57894642729508
+
+Epoch 639
+Training time = 2.742283582687378
+Training loss = 0.4392793238162994
+Testing time = 0.7044696807861328
+Testing accuracy = 81.57894642729508
+
+Epoch 640
+Training time = 2.7071399688720703
+Training loss = 0.43923758069674174
+Testing time = 0.7678453922271729
+Testing accuracy = 81.57894642729508
+
+Epoch 641
+Training time = 2.7933897972106934
+Training loss = 0.43919599254926045
+Testing time = 0.7176110744476318
+Testing accuracy = 81.57894642729508
+
+Epoch 642
+Training time = 2.800588607788086
+Training loss = 0.439154581228892
+Testing time = 0.7091500759124756
+Testing accuracy = 81.57894642729508
+
+Epoch 643
+Training time = 2.7876620292663574
+Training loss = 0.439113195737203
+Testing time = 0.7456042766571045
+Testing accuracy = 81.57894642729508
+
+Epoch 644
+Training time = 2.77367901802063
+Training loss = 0.4390719493230184
+Testing time = 0.6978461742401123
+Testing accuracy = 81.57894642729508
+
+Epoch 645
+Training time = 2.7535994052886963
+Training loss = 0.439030784368515
+Testing time = 0.7015969753265381
+Testing accuracy = 81.57894642729508
+
+Epoch 646
+Training time = 2.8092992305755615
+Training loss = 0.43898977438608805
+Testing time = 0.7479169368743896
+Testing accuracy = 81.57894642729508
+
+Epoch 647
+Training time = 2.794757843017578
+Training loss = 0.4389488021532694
+Testing time = 0.6649799346923828
+Testing accuracy = 81.57894642729508
+
+Epoch 648
+Training time = 2.7771971225738525
+Training loss = 0.4389078676700592
+Testing time = 0.7123608589172363
+Testing accuracy = 81.57894642729508
+
+Epoch 649
+Training time = 2.798408269882202
+Training loss = 0.4388672312100728
+Testing time = 0.7036399841308594
+Testing accuracy = 81.57894642729508
+
+Epoch 650
+Training time = 2.894545555114746
+Training loss = 0.43882660468419393
+Testing time = 0.7060089111328125
+Testing accuracy = 81.57894642729508
+
+Epoch 651
+Training time = 2.8161351680755615
+Training loss = 0.43878602981567383
+Testing time = 0.7316253185272217
+Testing accuracy = 81.57894642729508
+
+Epoch 652
+Training time = 2.873460531234741
+Training loss = 0.4387455900510152
+Testing time = 0.7271420955657959
+Testing accuracy = 81.57894642729508
+
+Epoch 653
+Training time = 2.716456174850464
+Training loss = 0.4387052357196808
+Testing time = 0.7144176959991455
+Testing accuracy = 81.57894642729508
+
+Epoch 654
+Training time = 2.7987732887268066
+Training loss = 0.43866501649220785
+Testing time = 0.7183032035827637
+Testing accuracy = 81.57894642729508
+
+Epoch 655
+Training time = 2.8620452880859375
+Training loss = 0.43862492640813194
+Testing time = 0.6941630840301514
+Testing accuracy = 81.57894642729508
+
+Epoch 656
+Training time = 2.886023998260498
+Training loss = 0.43858484625816346
+Testing time = 0.756127119064331
+Testing accuracy = 81.57894642729508
+
+Epoch 657
+Training time = 2.8734514713287354
+Training loss = 0.4385449290275574
+Testing time = 0.727616548538208
+Testing accuracy = 81.57894642729508
+
+Epoch 658
+Training time = 2.8142917156219482
+Training loss = 0.438505095243454
+Testing time = 0.7331027984619141
+Testing accuracy = 81.57894642729508
+
+Epoch 659
+Training time = 2.848618268966675
+Training loss = 0.4384653667608897
+Testing time = 0.7514076232910156
+Testing accuracy = 81.57894642729508
+
+Epoch 660
+Training time = 2.8183064460754395
+Training loss = 0.43842573364575704
+Testing time = 0.6971900463104248
+Testing accuracy = 81.57894642729508
+
+Epoch 661
+Training time = 2.877194404602051
+Training loss = 0.43838621775309244
+Testing time = 0.7167694568634033
+Testing accuracy = 81.57894642729508
+
+Epoch 662
+Training time = 2.8163013458251953
+Training loss = 0.43834680517514546
+Testing time = 0.7204008102416992
+Testing accuracy = 81.57894642729508
+
+Epoch 663
+Training time = 2.845937967300415
+Training loss = 0.4383074382940928
+Testing time = 0.7630276679992676
+Testing accuracy = 81.57894642729508
+
+Epoch 664
+Training time = 2.8947863578796387
+Training loss = 0.4382681866486867
+Testing time = 0.7301831245422363
+Testing accuracy = 81.57894642729508
+
+Epoch 665
+Training time = 2.95491623878479
+Training loss = 0.4382290542125702
+Testing time = 0.7245016098022461
+Testing accuracy = 81.57894642729508
+
+Epoch 666
+Training time = 2.893861770629883
+Training loss = 0.4381899952888489
+Testing time = 0.7465837001800537
+Testing accuracy = 81.57894642729508
+
+Epoch 667
+Training time = 2.9356577396392822
+Training loss = 0.4381510118643443
+Testing time = 0.711503267288208
+Testing accuracy = 81.57894642729508
+
+Epoch 668
+Training time = 2.8978357315063477
+Training loss = 0.43811217149098713
+Testing time = 0.731534481048584
+Testing accuracy = 81.57894642729508
+
+Epoch 669
+Training time = 2.931952714920044
+Training loss = 0.438073327143987
+Testing time = 0.7405905723571777
+Testing accuracy = 81.57894642729508
+
+Epoch 670
+Training time = 2.8851490020751953
+Training loss = 0.43803468147913616
+Testing time = 0.6889855861663818
+Testing accuracy = 81.57894642729508
+
+Epoch 671
+Training time = 2.8547487258911133
+Training loss = 0.43799613118171693
+Testing time = 0.7125239372253418
+Testing accuracy = 81.57894642729508
+
+Epoch 672
+Training time = 3.0286107063293457
+Training loss = 0.4379575828711192
+Testing time = 0.7118301391601562
+Testing accuracy = 81.57894642729508
+
+Epoch 673
+Training time = 2.932159900665283
+Training loss = 0.43791921734809874
+Testing time = 0.7107775211334229
+Testing accuracy = 81.57894642729508
+
+Epoch 674
+Training time = 2.9043402671813965
+Training loss = 0.43788091937700907
+Testing time = 0.7086813449859619
+Testing accuracy = 81.57894642729508
+
+Epoch 675
+Training time = 2.9193484783172607
+Training loss = 0.4378426730632782
+Testing time = 0.7329437732696533
+Testing accuracy = 81.57894642729508
+
+Epoch 676
+Training time = 2.8674938678741455
+Training loss = 0.4378045618534088
+Testing time = 0.7317144870758057
+Testing accuracy = 81.57894642729508
+
+Epoch 677
+Training time = 2.9410159587860107
+Training loss = 0.43776649236679077
+Testing time = 0.7219128608703613
+Testing accuracy = 81.57894642729508
+
+Epoch 678
+Training time = 2.90129017829895
+Training loss = 0.4377285281817118
+Testing time = 0.7979834079742432
+Testing accuracy = 81.57894642729508
+
+Epoch 679
+Training time = 2.9621798992156982
+Training loss = 0.43769067724545796
+Testing time = 0.7478728294372559
+Testing accuracy = 81.57894642729508
+
+Epoch 680
+Training time = 2.9021217823028564
+Training loss = 0.4376529216766357
+Testing time = 0.7685935497283936
+Testing accuracy = 81.57894642729508
+
+Epoch 681
+Training time = 2.929206371307373
+Training loss = 0.43761528134346006
+Testing time = 0.7272791862487793
+Testing accuracy = 81.57894642729508
+
+Epoch 682
+Training time = 2.9493465423583984
+Training loss = 0.43757765690485634
+Testing time = 0.7440204620361328
+Testing accuracy = 81.57894642729508
+
+Epoch 683
+Training time = 3.333723306655884
+Training loss = 0.437540203332901
+Testing time = 1.006408929824829
+Testing accuracy = 81.57894642729508
+
+Epoch 684
+Training time = 4.2016589641571045
+Training loss = 0.4375027894973755
+Testing time = 0.988375186920166
+Testing accuracy = 81.57894642729508
+
+Epoch 685
+Training time = 4.052622079849243
+Training loss = 0.43746540347735086
+Testing time = 0.7285699844360352
+Testing accuracy = 81.57894642729508
+
+Epoch 686
+Training time = 2.8375823497772217
+Training loss = 0.4374281883239746
+Testing time = 0.7436978816986084
+Testing accuracy = 81.57894642729508
+
+Epoch 687
+Training time = 2.8871967792510986
+Training loss = 0.4373909592628479
+Testing time = 0.8370606899261475
+Testing accuracy = 81.57894642729508
+
+Epoch 688
+Training time = 4.356442928314209
+Training loss = 0.43735398252805074
+Testing time = 0.9847512245178223
+Testing accuracy = 81.57894642729508
+
+Epoch 689
+Training time = 3.973585367202759
+Training loss = 0.43731699585914613
+Testing time = 0.9576153755187988
+Testing accuracy = 81.57894642729508
+
+Epoch 690
+Training time = 4.323525667190552
+Training loss = 0.4372800588607788
+Testing time = 0.9677388668060303
+Testing accuracy = 81.57894642729508
+
+Epoch 691
+Training time = 4.567335844039917
+Training loss = 0.43724326491355897
+Testing time = 0.8806419372558594
+Testing accuracy = 81.57894642729508
+
+Epoch 692
+Training time = 3.2453789710998535
+Training loss = 0.43720653851826985
+Testing time = 0.8111002445220947
+Testing accuracy = 81.57894642729508
+
+Epoch 693
+Training time = 3.7365078926086426
+Training loss = 0.4371699015299479
+Testing time = 0.8459444046020508
+Testing accuracy = 81.57894642729508
+
+Epoch 694
+Training time = 3.5733585357666016
+Training loss = 0.4371334075927734
+Testing time = 0.7600893974304199
+Testing accuracy = 81.57894642729508
+
+Epoch 695
+Training time = 3.2379212379455566
+Training loss = 0.43709691166877745
+Testing time = 0.8286383152008057
+Testing accuracy = 81.57894642729508
+
+Epoch 696
+Training time = 3.6394424438476562
+Training loss = 0.43706053694089253
+Testing time = 1.0213451385498047
+Testing accuracy = 81.57894642729508
+
+Epoch 697
+Training time = 3.539590835571289
+Training loss = 0.4370241900285085
+Testing time = 0.8276593685150146
+Testing accuracy = 81.57894642729508
+
+Epoch 698
+Training time = 3.2854697704315186
+Training loss = 0.4369880239168803
+Testing time = 0.8227362632751465
+Testing accuracy = 81.57894642729508
+
+Epoch 699
+Training time = 4.308628797531128
+Training loss = 0.4369517902533213
+Testing time = 0.9530367851257324
+Testing accuracy = 81.57894642729508
+
+Epoch 700
+Training time = 5.07842755317688
+Training loss = 0.43691572348276775
+Testing time = 1.1389291286468506
+Testing accuracy = 81.57894642729508
+
+Epoch 701
+Training time = 4.114554166793823
+Training loss = 0.43687982360521954
+Testing time = 0.7660665512084961
+Testing accuracy = 81.57894642729508
+
+Epoch 702
+Training time = 3.465176582336426
+Training loss = 0.4368438541889191
+Testing time = 0.930955171585083
+Testing accuracy = 81.57894642729508
+
+Epoch 703
+Training time = 3.6025044918060303
+Training loss = 0.4368080874284109
+Testing time = 0.9054055213928223
+Testing accuracy = 81.57894642729508
+
+Epoch 704
+Training time = 3.913127899169922
+Training loss = 0.4367723266283671
+Testing time = 0.8366312980651855
+Testing accuracy = 81.57894642729508
+
+Epoch 705
+Training time = 3.2622103691101074
+Training loss = 0.43673671285311383
+Testing time = 0.8079369068145752
+Testing accuracy = 81.57894642729508
+
+Epoch 706
+Training time = 3.1045656204223633
+Training loss = 0.4367011586825053
+Testing time = 0.8542675971984863
+Testing accuracy = 81.57894642729508
+
+Epoch 707
+Training time = 3.4582583904266357
+Training loss = 0.4366656899452209
+Testing time = 0.8264689445495605
+Testing accuracy = 81.57894642729508
+
+Epoch 708
+Training time = 3.2762045860290527
+Training loss = 0.4366302212079366
+Testing time = 0.8251564502716064
+Testing accuracy = 81.57894642729508
+
+Epoch 709
+Training time = 3.211501359939575
+Training loss = 0.4365948935349782
+Testing time = 0.8025312423706055
+Testing accuracy = 81.57894642729508
+
+Epoch 710
+Training time = 3.313901424407959
+Training loss = 0.43655964533487956
+Testing time = 0.7589349746704102
+Testing accuracy = 81.57894642729508
+
+Epoch 711
+Training time = 3.31874942779541
+Training loss = 0.4365244587262472
+Testing time = 0.8004190921783447
+Testing accuracy = 81.57894642729508
+
+Epoch 712
+Training time = 3.15376615524292
+Training loss = 0.43648934960365293
+Testing time = 0.8083267211914062
+Testing accuracy = 81.57894642729508
+
+Epoch 713
+Training time = 3.4516355991363525
+Training loss = 0.43645434379577636
+Testing time = 0.8148331642150879
+Testing accuracy = 81.57894642729508
+
+Epoch 714
+Training time = 3.1901650428771973
+Training loss = 0.43641936977704365
+Testing time = 0.7882668972015381
+Testing accuracy = 81.57894642729508
+
+Epoch 715
+Training time = 3.396151542663574
+Training loss = 0.4363845467567444
+Testing time = 0.8149569034576416
+Testing accuracy = 81.57894642729508
+
+Epoch 716
+Training time = 3.1629061698913574
+Training loss = 0.43634978334108987
+Testing time = 0.8523571491241455
+Testing accuracy = 81.57894642729508
+
+Epoch 717
+Training time = 3.3575475215911865
+Training loss = 0.4363150695959727
+Testing time = 0.861846923828125
+Testing accuracy = 81.57894642729508
+
+Epoch 718
+Training time = 3.7248239517211914
+Training loss = 0.43628044724464415
+Testing time = 1.0206315517425537
+Testing accuracy = 81.57894642729508
+
+Epoch 719
+Training time = 3.2317795753479004
+Training loss = 0.4362458686033885
+Testing time = 0.81864333152771
+Testing accuracy = 81.57894642729508
+
+Epoch 720
+Training time = 3.230698823928833
+Training loss = 0.436211363474528
+Testing time = 0.7870378494262695
+Testing accuracy = 81.57894642729508
+
+Epoch 721
+Training time = 3.0767624378204346
+Training loss = 0.4361770172913869
+Testing time = 0.7760820388793945
+Testing accuracy = 81.57894642729508
+
+Epoch 722
+Training time = 3.1524147987365723
+Training loss = 0.4361425956090291
+Testing time = 0.8587980270385742
+Testing accuracy = 81.57894642729508
+
+Epoch 723
+Training time = 3.2797529697418213
+Training loss = 0.43610835671424864
+Testing time = 0.819969892501831
+Testing accuracy = 81.57894642729508
+
+Epoch 724
+Training time = 3.384188175201416
+Training loss = 0.43607423901557923
+Testing time = 0.8148436546325684
+Testing accuracy = 81.57894642729508
+
+Epoch 725
+Training time = 3.2946460247039795
+Training loss = 0.436040065685908
+Testing time = 0.8144559860229492
+Testing accuracy = 81.57894642729508
+
+Epoch 726
+Training time = 3.369389057159424
+Training loss = 0.4360060155391693
+Testing time = 0.8257360458374023
+Testing accuracy = 81.57894642729508
+
+Epoch 727
+Training time = 3.316990613937378
+Training loss = 0.43597211837768557
+Testing time = 0.8143463134765625
+Testing accuracy = 81.57894642729508
+
+Epoch 728
+Training time = 3.2779719829559326
+Training loss = 0.4359381854534149
+Testing time = 0.8267199993133545
+Testing accuracy = 81.57894642729508
+
+Epoch 729
+Training time = 3.338360548019409
+Training loss = 0.43590438763300576
+Testing time = 0.8562953472137451
+Testing accuracy = 81.57894642729508
+
+Epoch 730
+Training time = 3.283771514892578
+Training loss = 0.43587064146995547
+Testing time = 0.8177318572998047
+Testing accuracy = 81.57894642729508
+
+Epoch 731
+Training time = 3.366267204284668
+Training loss = 0.4358369429906209
+Testing time = 0.8405907154083252
+Testing accuracy = 81.57894642729508
+
+Epoch 732
+Training time = 3.3672854900360107
+Training loss = 0.4358033855756124
+Testing time = 0.8664934635162354
+Testing accuracy = 81.57894642729508
+
+Epoch 733
+Training time = 3.378448486328125
+Training loss = 0.435769792397817
+Testing time = 0.8673360347747803
+Testing accuracy = 81.57894642729508
+
+Epoch 734
+Training time = 3.349616527557373
+Training loss = 0.43573636213938394
+Testing time = 0.7892684936523438
+Testing accuracy = 81.57894642729508
+
+Epoch 735
+Training time = 3.421265125274658
+Training loss = 0.43570303519566855
+Testing time = 0.8843472003936768
+Testing accuracy = 81.57894642729508
+
+Epoch 736
+Training time = 3.418252468109131
+Training loss = 0.4356696685155233
+Testing time = 0.845787763595581
+Testing accuracy = 81.57894642729508
+
+Epoch 737
+Training time = 3.3953325748443604
+Training loss = 0.4356363832950592
+Testing time = 0.9191324710845947
+Testing accuracy = 81.57894642729508
+
+Epoch 738
+Training time = 4.2360570430755615
+Training loss = 0.43560325900713603
+Testing time = 1.069171667098999
+Testing accuracy = 81.57894642729508
+
+Epoch 739
+Training time = 4.4301018714904785
+Training loss = 0.4355701287587484
+Testing time = 0.7913656234741211
+Testing accuracy = 81.57894642729508
+
+Epoch 740
+Training time = 3.240995168685913
+Training loss = 0.4355371435483297
+Testing time = 0.812485933303833
+Testing accuracy = 81.57894642729508
+
+Epoch 741
+Training time = 3.140427589416504
+Training loss = 0.43550413648287456
+Testing time = 0.8219833374023438
+Testing accuracy = 81.57894642729508
+
+Epoch 742
+Training time = 3.273524761199951
+Training loss = 0.4354711910088857
+Testing time = 0.8174929618835449
+Testing accuracy = 81.57894642729508
+
+Epoch 743
+Training time = 3.1804311275482178
+Training loss = 0.43543842832247415
+Testing time = 0.8265702724456787
+Testing accuracy = 81.57894642729508
+
+Epoch 744
+Training time = 3.2188963890075684
+Training loss = 0.4354056616624196
+Testing time = 0.8256504535675049
+Testing accuracy = 81.57894642729508
+
+Epoch 745
+Training time = 3.1994001865386963
+Training loss = 0.4353729466597239
+Testing time = 0.858147144317627
+Testing accuracy = 81.57894642729508
+
+Epoch 746
+Training time = 3.3321104049682617
+Training loss = 0.4353403071562449
+Testing time = 0.8387439250946045
+Testing accuracy = 81.57894642729508
+
+Epoch 747
+Training time = 3.375967025756836
+Training loss = 0.43530776103337604
+Testing time = 0.8493657112121582
+Testing accuracy = 81.57894642729508
+
+Epoch 748
+Training time = 3.394113063812256
+Training loss = 0.4352752407391866
+Testing time = 0.8703665733337402
+Testing accuracy = 81.57894642729508
+
+Epoch 749
+Training time = 3.3322360515594482
+Training loss = 0.4352428714434306
+Testing time = 0.8424739837646484
+Testing accuracy = 81.57894642729508
+
+Epoch 750
+Training time = 3.3728818893432617
+Training loss = 0.43521045446395873
+Testing time = 0.8240609169006348
+Testing accuracy = 81.57894642729508
+
+Epoch 751
+Training time = 3.3969762325286865
+Training loss = 0.4351782123247782
+Testing time = 0.8594543933868408
+Testing accuracy = 81.57894642729508
+
+Epoch 752
+Training time = 3.362746477127075
+Training loss = 0.43514593243598937
+Testing time = 0.8505721092224121
+Testing accuracy = 81.57894642729508
+
+Epoch 753
+Training time = 3.458780288696289
+Training loss = 0.43511374990145363
+Testing time = 0.8430368900299072
+Testing accuracy = 81.57894642729508
+
+Epoch 754
+Training time = 3.3832242488861084
+Training loss = 0.4350816388924917
+Testing time = 0.868079423904419
+Testing accuracy = 81.57894642729508
+
+Epoch 755
+Training time = 3.2901198863983154
+Training loss = 0.4350496133168538
+Testing time = 0.869748592376709
+Testing accuracy = 81.57894642729508
+
+Epoch 756
+Training time = 3.629741907119751
+Training loss = 0.4350176652272542
+Testing time = 1.130448579788208
+Testing accuracy = 81.57894642729508
+
+Epoch 757
+Training time = 3.8694238662719727
+Training loss = 0.4349856952826182
+Testing time = 0.8975880146026611
+Testing accuracy = 81.57894642729508
+
+Epoch 758
+Training time = 2.8424160480499268
+Training loss = 0.43495396176973977
+Testing time = 0.6478829383850098
+Testing accuracy = 81.57894642729508
+
+Epoch 759
+Training time = 2.805417537689209
+Training loss = 0.43492209712664287
+Testing time = 0.7692313194274902
+Testing accuracy = 81.57894642729508
+
+Epoch 760
+Training time = 3.215730905532837
+Training loss = 0.4348903715610504
+Testing time = 0.7603437900543213
+Testing accuracy = 81.57894642729508
+
+Epoch 761
+Training time = 3.0097527503967285
+Training loss = 0.43485873341560366
+Testing time = 0.6657288074493408
+Testing accuracy = 81.57894642729508
+
+Epoch 762
+Training time = 2.786790370941162
+Training loss = 0.4348271250724792
+Testing time = 0.792224645614624
+Testing accuracy = 81.57894642729508
+
+Epoch 763
+Training time = 2.9914417266845703
+Training loss = 0.4347956617673238
+Testing time = 0.6416501998901367
+Testing accuracy = 81.57894642729508
+
+Epoch 764
+Training time = 2.939786672592163
+Training loss = 0.43476407130559286
+Testing time = 0.6983938217163086
+Testing accuracy = 81.57894642729508
+
+Epoch 765
+Training time = 3.0718724727630615
+Training loss = 0.4347326695919037
+Testing time = 0.9972145557403564
+Testing accuracy = 81.57894642729508
+
+Epoch 766
+Training time = 4.060827016830444
+Training loss = 0.4347013513247172
+Testing time = 0.9289696216583252
+Testing accuracy = 81.57894642729508
+
+Epoch 767
+Training time = 2.7580924034118652
+Training loss = 0.4346700112024943
+Testing time = 0.7328495979309082
+Testing accuracy = 81.57894642729508
+
+Epoch 768
+Training time = 2.7284138202667236
+Training loss = 0.43463882207870486
+Testing time = 0.7482948303222656
+Testing accuracy = 81.57894642729508
+
+Epoch 769
+Training time = 2.6987335681915283
+Training loss = 0.4346076051394145
+Testing time = 0.6992578506469727
+Testing accuracy = 81.57894642729508
+
+Epoch 770
+Training time = 2.7303483486175537
+Training loss = 0.434576553106308
+Testing time = 0.7167797088623047
+Testing accuracy = 81.57894642729508
+
+Epoch 771
+Training time = 2.730090856552124
+Training loss = 0.43454546133677163
+Testing time = 0.7056882381439209
+Testing accuracy = 81.57894642729508
+
+Epoch 772
+Training time = 2.7591848373413086
+Training loss = 0.4345145344734192
+Testing time = 0.7387521266937256
+Testing accuracy = 81.57894642729508
+
+Epoch 773
+Training time = 3.3742220401763916
+Training loss = 0.4344835976759593
+Testing time = 0.7168917655944824
+Testing accuracy = 81.57894642729508
+
+Epoch 774
+Training time = 2.800447702407837
+Training loss = 0.4344527006149292
+Testing time = 0.6937351226806641
+Testing accuracy = 81.57894642729508
+
+Epoch 775
+Training time = 2.6601920127868652
+Training loss = 0.43442189892133076
+Testing time = 0.6858673095703125
+Testing accuracy = 81.57894642729508
+
+Epoch 776
+Training time = 2.6693296432495117
+Training loss = 0.4343910793463389
+Testing time = 0.7066183090209961
+Testing accuracy = 81.57894642729508
+
+Epoch 777
+Training time = 2.726330518722534
+Training loss = 0.434360400835673
+Testing time = 0.6834936141967773
+Testing accuracy = 81.57894642729508
+
+Epoch 778
+Training time = 2.7360098361968994
+Training loss = 0.43432977398236594
+Testing time = 0.7245409488677979
+Testing accuracy = 81.57894642729508
+
+Epoch 779
+Training time = 3.166940212249756
+Training loss = 0.43429919679959617
+Testing time = 0.879530668258667
+Testing accuracy = 81.57894642729508
+
+Epoch 780
+Training time = 2.741478204727173
+Training loss = 0.4342686593532562
+Testing time = 0.8048007488250732
+Testing accuracy = 81.57894642729508
+
+Epoch 781
+Training time = 2.835763692855835
+Training loss = 0.4342380921045939
+Testing time = 0.7365434169769287
+Testing accuracy = 81.57894642729508
+
+Epoch 782
+Training time = 2.8799335956573486
+Training loss = 0.4342077354590098
+Testing time = 0.8325240612030029
+Testing accuracy = 81.57894642729508
+
+Epoch 783
+Training time = 2.7967941761016846
+Training loss = 0.43417738874753314
+Testing time = 0.7421324253082275
+Testing accuracy = 81.57894642729508
+
+Epoch 784
+Training time = 2.8099400997161865
+Training loss = 0.4341470658779144
+Testing time = 0.7080478668212891
+Testing accuracy = 81.57894642729508
+
+Epoch 785
+Training time = 2.8210487365722656
+Training loss = 0.434116796652476
+Testing time = 0.7426609992980957
+Testing accuracy = 81.57894642729508
+
+Epoch 786
+Training time = 3.0356051921844482
+Training loss = 0.4340866247812907
+Testing time = 0.9773752689361572
+Testing accuracy = 81.57894642729508
+
+Epoch 787
+Training time = 3.706458330154419
+Training loss = 0.43405641317367555
+Testing time = 0.88767409324646
+Testing accuracy = 81.57894642729508
+
+Epoch 788
+Training time = 3.901299476623535
+Training loss = 0.43402636448542276
+Testing time = 0.9694151878356934
+Testing accuracy = 81.57894642729508
+
+Epoch 789
+Training time = 3.7015533447265625
+Training loss = 0.4339962879816691
+Testing time = 0.8916475772857666
+Testing accuracy = 81.57894642729508
+
+Epoch 790
+Training time = 3.2360944747924805
+Training loss = 0.43396636843681335
+Testing time = 1.007458209991455
+Testing accuracy = 81.57894642729508
+
+Epoch 791
+Training time = 3.742682456970215
+Training loss = 0.43393645286560056
+Testing time = 0.7103807926177979
+Testing accuracy = 81.57894642729508
+
+Epoch 792
+Training time = 2.7500250339508057
+Training loss = 0.43390661279360454
+Testing time = 0.9109382629394531
+Testing accuracy = 81.57894642729508
+
+Epoch 793
+Training time = 3.2328784465789795
+Training loss = 0.43387675086657207
+Testing time = 0.725684404373169
+Testing accuracy = 81.57894642729508
+
+Epoch 794
+Training time = 3.0236310958862305
+Training loss = 0.43384697834650676
+Testing time = 0.8052940368652344
+Testing accuracy = 81.57894642729508
+
+Epoch 795
+Training time = 2.7318670749664307
+Training loss = 0.4338173230489095
+Testing time = 0.698249340057373
+Testing accuracy = 81.57894642729508
+
+Epoch 796
+Training time = 2.6718311309814453
+Training loss = 0.43378759622573854
+Testing time = 0.718590497970581
+Testing accuracy = 81.57894642729508
+
+Epoch 797
+Training time = 2.7186832427978516
+Training loss = 0.4337579707304637
+Testing time = 0.7277200222015381
+Testing accuracy = 81.57894642729508
+
+Epoch 798
+Training time = 2.6918625831604004
+Training loss = 0.43372846841812135
+Testing time = 0.7189981937408447
+Testing accuracy = 81.57894642729508
+
+Epoch 799
+Training time = 2.7075634002685547
+Training loss = 0.4336989482243856
+Testing time = 0.7356846332550049
+Testing accuracy = 81.57894642729508
+
+Epoch 800
+Training time = 2.9177141189575195
+Training loss = 0.4336694896221161
+Testing time = 0.7336695194244385
+Testing accuracy = 81.57894642729508
+
+Epoch 801
+Training time = 4.471104383468628
+Training loss = 0.43364012241363525
+Testing time = 0.7330973148345947
+Testing accuracy = 81.57894642729508
+
+Epoch 802
+Training time = 3.6954922676086426
+Training loss = 0.4336107532183329
+Testing time = 1.017906904220581
+Testing accuracy = 81.57894642729508
+
+Epoch 803
+Training time = 3.313835382461548
+Training loss = 0.4335814634958903
+Testing time = 0.7434568405151367
+Testing accuracy = 81.57894642729508
+
+Epoch 804
+Training time = 3.0971121788024902
+Training loss = 0.43355219562848407
+Testing time = 0.7816510200500488
+Testing accuracy = 81.57894642729508
+
+Epoch 805
+Training time = 3.536003351211548
+Training loss = 0.43352304100990297
+Testing time = 0.8182291984558105
+Testing accuracy = 81.57894642729508
+
+Epoch 806
+Training time = 3.1329185962677
+Training loss = 0.43349389036496483
+Testing time = 0.7572412490844727
+Testing accuracy = 81.57894642729508
+
+Epoch 807
+Training time = 2.988874912261963
+Training loss = 0.4334648052851359
+Testing time = 0.9780881404876709
+Testing accuracy = 81.57894642729508
+
+Epoch 808
+Training time = 4.001097679138184
+Training loss = 0.4334358255068461
+Testing time = 0.9141156673431396
+Testing accuracy = 81.57894642729508
+
+Epoch 809
+Training time = 2.806864023208618
+Training loss = 0.43340672850608825
+Testing time = 0.8689322471618652
+Testing accuracy = 81.57894642729508
+
+Epoch 810
+Training time = 3.7112815380096436
+Training loss = 0.43337787985801696
+Testing time = 0.9490647315979004
+Testing accuracy = 81.57894642729508
+
+Epoch 811
+Training time = 3.221386194229126
+Training loss = 0.4333489457766215
+Testing time = 0.7183256149291992
+Testing accuracy = 81.57894642729508
+
+Epoch 812
+Training time = 3.1538054943084717
+Training loss = 0.4333200852076213
+Testing time = 0.7474653720855713
+Testing accuracy = 81.57894642729508
+
+Epoch 813
+Training time = 2.8955399990081787
+Training loss = 0.43329134782155354
+Testing time = 0.7156434059143066
+Testing accuracy = 81.57894642729508
+
+Epoch 814
+Training time = 3.4028844833374023
+Training loss = 0.43326261242230735
+Testing time = 0.8889837265014648
+Testing accuracy = 81.57894642729508
+
+Epoch 815
+Training time = 4.263110399246216
+Training loss = 0.4332338372866313
+Testing time = 0.8256585597991943
+Testing accuracy = 81.57894642729508
+
+Epoch 816
+Training time = 3.0374183654785156
+Training loss = 0.4332052449385325
+Testing time = 0.6631886959075928
+Testing accuracy = 81.57894642729508
+
+Epoch 817
+Training time = 3.0196545124053955
+Training loss = 0.43317665259043375
+Testing time = 0.7588386535644531
+Testing accuracy = 81.57894642729508
+
+Epoch 818
+Training time = 3.230259895324707
+Training loss = 0.43314810991287234
+Testing time = 0.734126091003418
+Testing accuracy = 81.57894642729508
+
+Epoch 819
+Training time = 2.6839447021484375
+Training loss = 0.43311960498491925
+Testing time = 0.6827547550201416
+Testing accuracy = 81.57894642729508
+
+Epoch 820
+Training time = 2.624074697494507
+Training loss = 0.4330911338329315
+Testing time = 0.6991147994995117
+Testing accuracy = 81.57894642729508
+
+Epoch 821
+Training time = 2.962719678878784
+Training loss = 0.43306280771891276
+Testing time = 0.8558239936828613
+Testing accuracy = 81.57894642729508
+
+Epoch 822
+Training time = 2.7962660789489746
+Training loss = 0.4330343961715698
+Testing time = 0.6828382015228271
+Testing accuracy = 81.57894642729508
+
+Epoch 823
+Training time = 2.591676712036133
+Training loss = 0.43300612767537433
+Testing time = 0.7147126197814941
+Testing accuracy = 81.57894642729508
+
+Epoch 824
+Training time = 3.113495349884033
+Training loss = 0.43297789096832273
+Testing time = 1.2567145824432373
+Testing accuracy = 81.57894642729508
+
+Epoch 825
+Training time = 5.5212013721466064
+Training loss = 0.43294962843259177
+Testing time = 1.1704216003417969
+Testing accuracy = 81.57894642729508
+
+Epoch 826
+Training time = 5.157384634017944
+Training loss = 0.4329215109348297
+Testing time = 1.1839191913604736
+Testing accuracy = 81.57894642729508
+
+Epoch 827
+Training time = 5.235358953475952
+Training loss = 0.43289337158203123
+Testing time = 1.226348638534546
+Testing accuracy = 81.57894642729508
+
+Epoch 828
+Training time = 4.513498783111572
+Training loss = 0.43286534150441486
+Testing time = 0.9824082851409912
+Testing accuracy = 81.57894642729508
+
+Epoch 829
+Training time = 3.8889336585998535
+Training loss = 0.4328373670578003
+Testing time = 0.9868927001953125
+Testing accuracy = 81.57894642729508
+
+Epoch 830
+Training time = 4.045186758041382
+Training loss = 0.43280937472979225
+Testing time = 0.9383366107940674
+Testing accuracy = 81.57894642729508
+
+Epoch 831
+Training time = 3.605886220932007
+Training loss = 0.4327814261118571
+Testing time = 0.8405535221099854
+Testing accuracy = 81.57894642729508
+
+Epoch 832
+Training time = 3.2907209396362305
+Training loss = 0.43275354504585267
+Testing time = 0.8544349670410156
+Testing accuracy = 81.57894642729508
+
+Epoch 833
+Training time = 3.2820234298706055
+Training loss = 0.43272581497828166
+Testing time = 0.8423657417297363
+Testing accuracy = 81.57894642729508
+
+Epoch 834
+Training time = 3.2284440994262695
+Training loss = 0.4326979398727417
+Testing time = 1.0038399696350098
+Testing accuracy = 81.57894642729508
+
+Epoch 835
+Training time = 3.505469799041748
+Training loss = 0.4326702376206716
+Testing time = 0.882814884185791
+Testing accuracy = 81.57894642729508
+
+Epoch 836
+Training time = 3.4104695320129395
+Training loss = 0.43264254132906593
+Testing time = 0.830690860748291
+Testing accuracy = 81.57894642729508
+
+Epoch 837
+Training time = 3.270419120788574
+Training loss = 0.43261486689249673
+Testing time = 0.9687747955322266
+Testing accuracy = 81.57894642729508
+
+Epoch 838
+Training time = 4.554935932159424
+Training loss = 0.432587331533432
+Testing time = 1.048854112625122
+Testing accuracy = 81.57894642729508
+
+Epoch 839
+Training time = 3.4285664558410645
+Training loss = 0.4325597981611888
+Testing time = 0.7624917030334473
+Testing accuracy = 81.57894642729508
+
+Epoch 840
+Training time = 2.9364278316497803
+Training loss = 0.43253230253855385
+Testing time = 0.6762311458587646
+Testing accuracy = 81.57894642729508
+
+Epoch 841
+Training time = 37215.758852005005
+Training loss = 0.43250487446784974
+Testing time = 0.8546733856201172
+Testing accuracy = 81.57894642729508
+
+Epoch 842
+Training time = 2.8714423179626465
+Training loss = 0.43247743248939513
+Testing time = 0.7083127498626709
+Testing accuracy = 81.57894642729508
+
+Epoch 843
+Training time = 2.877150058746338
+Training loss = 0.43245005210240683
+Testing time = 0.6764369010925293
+Testing accuracy = 81.57894642729508
+
+Epoch 844
+Training time = 3.9113399982452393
+Training loss = 0.43242277900377907
+Testing time = 1.1865925788879395
+Testing accuracy = 81.57894642729508
+
+Epoch 845
+Training time = 3.3079917430877686
+Training loss = 0.4323954999446869
+Testing time = 0.8474946022033691
+Testing accuracy = 81.57894642729508
+
+Epoch 846
+Training time = 3.214404582977295
+Training loss = 0.4323682943979899
+Testing time = 0.7899236679077148
+Testing accuracy = 81.57894642729508
+
+Epoch 847
+Training time = 3.5996382236480713
+Training loss = 0.4323410868644714
+Testing time = 1.1526093482971191
+Testing accuracy = 81.57894642729508
+
+Epoch 848
+Training time = 5.8675713539123535
+Training loss = 0.4323139210542043
+Testing time = 1.2996459007263184
+Testing accuracy = 81.57894642729508
+
+Epoch 849
+Training time = 3.3578031063079834
+Training loss = 0.43228689630826317
+Testing time = 1.3053643703460693
+Testing accuracy = 81.57894642729508
+
+Epoch 850
+Training time = 3.3335459232330322
+Training loss = 0.4322598695755005
+Testing time = 0.8159799575805664
+Testing accuracy = 81.57894642729508
+
+Epoch 851
+Training time = 4.585761785507202
+Training loss = 0.43223280310630796
+Testing time = 1.3054530620574951
+Testing accuracy = 81.57894642729508
+
+Epoch 852
+Training time = 6.310245752334595
+Training loss = 0.4322059154510498
+Testing time = 1.400846004486084
+Testing accuracy = 81.57894642729508
+
+Epoch 853
+Training time = 4.685031175613403
+Training loss = 0.43217894037564597
+Testing time = 1.0060720443725586
+Testing accuracy = 81.57894642729508
+
+Epoch 854
+Training time = 3.7528235912323
+Training loss = 0.43215209046999614
+Testing time = 0.8368597030639648
+Testing accuracy = 81.57894642729508
+
+Epoch 855
+Training time = 2.7489702701568604
+Training loss = 0.4321252803007762
+Testing time = 0.6851840019226074
+Testing accuracy = 81.57894642729508
+
+Epoch 856
+Training time = 2.6833622455596924
+Training loss = 0.432098521788915
+Testing time = 0.6823842525482178
+Testing accuracy = 81.57894642729508
+
+Epoch 857
+Training time = 2.672462224960327
+Training loss = 0.43207174936930337
+Testing time = 0.6876680850982666
+Testing accuracy = 81.57894642729508
+
+Epoch 858
+Training time = 2.814664125442505
+Training loss = 0.4320450723171234
+Testing time = 0.7011306285858154
+Testing accuracy = 81.57894642729508
+
+Epoch 859
+Training time = 2.7852694988250732
+Training loss = 0.4320185124874115
+Testing time = 0.7082498073577881
+Testing accuracy = 81.57894642729508
+
+Epoch 860
+Training time = 2.795457601547241
+Training loss = 0.4319918692111969
+Testing time = 0.6944005489349365
+Testing accuracy = 81.57894642729508
+
+Epoch 861
+Training time = 2.8344874382019043
+Training loss = 0.43196528951327007
+Testing time = 0.7526369094848633
+Testing accuracy = 81.57894642729508
+
+Epoch 862
+Training time = 2.76835036277771
+Training loss = 0.4319388230641683
+Testing time = 0.7101409435272217
+Testing accuracy = 81.57894642729508
+
+Epoch 863
+Training time = 2.798553705215454
+Training loss = 0.4319123327732086
+Testing time = 0.7342908382415771
+Testing accuracy = 81.57894642729508
+
+Epoch 864
+Training time = 2.7608413696289062
+Training loss = 0.4318858842055003
+Testing time = 0.7080361843109131
+Testing accuracy = 81.57894642729508
+
+Epoch 865
+Training time = 2.7568435668945312
+Training loss = 0.4318595747152964
+Testing time = 0.6890919208526611
+Testing accuracy = 81.57894642729508
+
+Epoch 866
+Training time = 2.7631938457489014
+Training loss = 0.43183318376541135
+Testing time = 0.7253501415252686
+Testing accuracy = 81.57894642729508
+
+Epoch 867
+Training time = 2.8146347999572754
+Training loss = 0.431806888182958
+Testing time = 0.706244945526123
+Testing accuracy = 81.57894642729508
+
+Epoch 868
+Training time = 2.79337739944458
+Training loss = 0.43178057074546816
+Testing time = 0.7256147861480713
+Testing accuracy = 81.57894642729508
+
+Epoch 869
+Training time = 2.7530148029327393
+Training loss = 0.4317543864250183
+Testing time = 0.7015440464019775
+Testing accuracy = 81.57894642729508
+
+Epoch 870
+Training time = 2.9501750469207764
+Training loss = 0.43172823588053383
+Testing time = 0.738067626953125
+Testing accuracy = 81.57894642729508
+
+Epoch 871
+Training time = 2.813159465789795
+Training loss = 0.43170213103294375
+Testing time = 0.7091507911682129
+Testing accuracy = 81.57894642729508
+
+Epoch 872
+Training time = 2.8090643882751465
+Training loss = 0.4316760500272115
+Testing time = 0.7426085472106934
+Testing accuracy = 81.57894642729508
+
+Epoch 873
+Training time = 2.8731772899627686
+Training loss = 0.43164999087651573
+Testing time = 0.7060401439666748
+Testing accuracy = 81.57894642729508
+
+Epoch 874
+Training time = 2.7604894638061523
+Training loss = 0.43162396947542825
+Testing time = 0.7135705947875977
+Testing accuracy = 81.57894642729508
+
+Epoch 875
+Training time = 2.7792298793792725
+Training loss = 0.4315980354944865
+Testing time = 0.7251038551330566
+Testing accuracy = 81.57894642729508
+
+Epoch 876
+Training time = 3.039824962615967
+Training loss = 0.43157209157943727
+Testing time = 0.7478852272033691
+Testing accuracy = 81.57894642729508
+
+Epoch 877
+Training time = 3.0442700386047363
+Training loss = 0.431546155611674
+Testing time = 0.7017929553985596
+Testing accuracy = 81.57894642729508
+
+Epoch 878
+Training time = 2.772813081741333
+Training loss = 0.43152031501134236
+Testing time = 0.7053654193878174
+Testing accuracy = 81.57894642729508
+
+Epoch 879
+Training time = 2.7362136840820312
+Training loss = 0.4314945638179779
+Testing time = 0.706615686416626
+Testing accuracy = 81.57894642729508
+
+Epoch 880
+Training time = 2.7259840965270996
+Training loss = 0.43146877686182655
+Testing time = 0.7177996635437012
+Testing accuracy = 81.57894642729508
+
+Epoch 881
+Training time = 2.7593400478363037
+Training loss = 0.4314429461956024
+Testing time = 0.721782922744751
+Testing accuracy = 81.57894642729508
+
+Epoch 882
+Training time = 2.8728160858154297
+Training loss = 0.43141722679138184
+Testing time = 0.7323548793792725
+Testing accuracy = 81.57894642729508
+
+Epoch 883
+Training time = 2.8300116062164307
+Training loss = 0.43139159480730693
+Testing time = 0.7192857265472412
+Testing accuracy = 81.57894642729508
+
+Epoch 884
+Training time = 2.8609085083007812
+Training loss = 0.43136606812477113
+Testing time = 0.7290403842926025
+Testing accuracy = 81.57894642729508
+
+Epoch 885
+Training time = 2.829359292984009
+Training loss = 0.43134044408798217
+Testing time = 0.7723708152770996
+Testing accuracy = 81.57894642729508
+
+Epoch 886
+Training time = 2.812241554260254
+Training loss = 0.4313149313131968
+Testing time = 0.7468047142028809
+Testing accuracy = 81.57894642729508
+
+Epoch 887
+Training time = 2.829555034637451
+Training loss = 0.4312894602616628
+Testing time = 0.7353630065917969
+Testing accuracy = 81.57894642729508
+
+Epoch 888
+Training time = 2.8377482891082764
+Training loss = 0.4312639534473419
+Testing time = 0.7169365882873535
+Testing accuracy = 81.57894642729508
+
+Epoch 889
+Training time = 2.8491337299346924
+Training loss = 0.4312385698159536
+Testing time = 0.7163546085357666
+Testing accuracy = 81.57894642729508
+
+Epoch 890
+Training time = 2.815349817276001
+Training loss = 0.4312131325403849
+Testing time = 0.7244682312011719
+Testing accuracy = 81.57894642729508
+
+Epoch 891
+Training time = 2.8553197383880615
+Training loss = 0.4311878482500712
+Testing time = 0.7361171245574951
+Testing accuracy = 81.57894642729508
+
+Epoch 892
+Training time = 2.8953981399536133
+Training loss = 0.4311625460783641
+Testing time = 0.7200593948364258
+Testing accuracy = 81.57894642729508
+
+Epoch 893
+Training time = 2.8820199966430664
+Training loss = 0.43113722602526344
+Testing time = 0.748018741607666
+Testing accuracy = 81.57894642729508
+
+Epoch 894
+Training time = 2.8586630821228027
+Training loss = 0.43111191789309183
+Testing time = 0.7260470390319824
+Testing accuracy = 81.57894642729508
+
+Epoch 895
+Training time = 2.8207449913024902
+Training loss = 0.431086802482605
+Testing time = 0.7418308258056641
+Testing accuracy = 81.57894642729508
+
+Epoch 896
+Training time = 2.865278959274292
+Training loss = 0.43106168111165366
+Testing time = 0.7410099506378174
+Testing accuracy = 81.57894642729508
+
+Epoch 897
+Training time = 2.842078685760498
+Training loss = 0.4310364484786987
+Testing time = 0.7189805507659912
+Testing accuracy = 81.57894642729508
+
+Epoch 898
+Training time = 2.8541417121887207
+Training loss = 0.43101141254107156
+Testing time = 0.725579023361206
+Testing accuracy = 81.57894642729508
+
+Epoch 899
+Training time = 2.851860284805298
+Training loss = 0.43098636269569396
+Testing time = 0.74430251121521
+Testing accuracy = 81.57894642729508
+
+Epoch 900
+Training time = 2.8327603340148926
+Training loss = 0.43096132278442384
+Testing time = 0.7557110786437988
+Testing accuracy = 81.57894642729508
+
+Epoch 901
+Training time = 3.028510093688965
+Training loss = 0.4309363047281901
+Testing time = 0.7309181690216064
+Testing accuracy = 81.57894642729508
+
+Epoch 902
+Training time = 2.841732978820801
+Training loss = 0.43091142177581787
+Testing time = 0.7536056041717529
+Testing accuracy = 81.57894642729508
+
+Epoch 903
+Training time = 2.858731508255005
+Training loss = 0.43088640173276266
+Testing time = 0.7334945201873779
+Testing accuracy = 81.57894642729508
+
+Epoch 904
+Training time = 2.8602283000946045
+Training loss = 0.4308615684509277
+Testing time = 0.7363543510437012
+Testing accuracy = 81.57894642729508
+
+Epoch 905
+Training time = 2.8322622776031494
+Training loss = 0.4308366854985555
+Testing time = 0.7263267040252686
+Testing accuracy = 81.57894642729508
+
+Epoch 906
+Training time = 2.891404151916504
+Training loss = 0.43081188599268594
+Testing time = 0.7364804744720459
+Testing accuracy = 81.57894642729508
+
+Epoch 907
+Training time = 2.8316125869750977
+Training loss = 0.4307871361573537
+Testing time = 0.7496347427368164
+Testing accuracy = 81.57894642729508
+
+Epoch 908
+Training time = 2.881793737411499
+Training loss = 0.43076237638791404
+Testing time = 0.7513072490692139
+Testing accuracy = 81.57894642729508
+
+Epoch 909
+Training time = 2.864567756652832
+Training loss = 0.4307376841704051
+Testing time = 0.7457959651947021
+Testing accuracy = 81.57894642729508
+
+Epoch 910
+Training time = 2.8378705978393555
+Training loss = 0.43071297407150266
+Testing time = 0.7410240173339844
+Testing accuracy = 81.57894642729508
+
+Epoch 911
+Training time = 3.150026559829712
+Training loss = 0.4306883653004964
+Testing time = 0.9818825721740723
+Testing accuracy = 81.57894642729508
+
+Epoch 912
+Training time = 4.3142218589782715
+Training loss = 0.4306637187798818
+Testing time = 0.8869397640228271
+Testing accuracy = 81.57894642729508
+
+Epoch 913
+Training time = 3.6299502849578857
+Training loss = 0.43063924511273705
+Testing time = 0.9038577079772949
+Testing accuracy = 81.57894642729508
+
+Epoch 914
+Training time = 3.0312793254852295
+Training loss = 0.4306146224339803
+Testing time = 0.8082389831542969
+Testing accuracy = 81.57894642729508
+
+Epoch 915
+Training time = 3.6244924068450928
+Training loss = 0.43059011300404865
+Testing time = 0.9472277164459229
+Testing accuracy = 81.57894642729508
+
+Epoch 916
+Training time = 3.272500991821289
+Training loss = 0.4305655916531881
+Testing time = 0.7475502490997314
+Testing accuracy = 81.57894642729508
+
+Epoch 917
+Training time = 2.8867528438568115
+Training loss = 0.4305412371953328
+Testing time = 0.7578368186950684
+Testing accuracy = 81.57894642729508
+
+Epoch 918
+Training time = 2.9547245502471924
+Training loss = 0.4305168191591899
+Testing time = 0.7560288906097412
+Testing accuracy = 81.57894642729508
+
+Epoch 919
+Training time = 3.023637056350708
+Training loss = 0.4304923335711161
+Testing time = 0.7522971630096436
+Testing accuracy = 81.57894642729508
+
+Epoch 920
+Training time = 2.9177510738372803
+Training loss = 0.4304680645465851
+Testing time = 0.7372806072235107
+Testing accuracy = 81.57894642729508
+
+Epoch 921
+Training time = 2.968604564666748
+Training loss = 0.4304437398910522
+Testing time = 0.7557182312011719
+Testing accuracy = 81.57894642729508
+
+Epoch 922
+Training time = 2.9220869541168213
+Training loss = 0.43041938344637554
+Testing time = 0.7485029697418213
+Testing accuracy = 81.57894642729508
+
+Epoch 923
+Training time = 2.9429430961608887
+Training loss = 0.4303951660792033
+Testing time = 0.7575135231018066
+Testing accuracy = 81.57894642729508
+
+Epoch 924
+Training time = 2.9129014015197754
+Training loss = 0.43037099838256837
+Testing time = 0.7739071846008301
+Testing accuracy = 81.57894642729508
+
+Epoch 925
+Training time = 2.9867234230041504
+Training loss = 0.4303467651208242
+Testing time = 0.7533431053161621
+Testing accuracy = 81.57894642729508
+
+Epoch 926
+Training time = 2.951733112335205
+Training loss = 0.4303225855032603
+Testing time = 0.7714662551879883
+Testing accuracy = 81.57894642729508
+
+Epoch 927
+Training time = 2.9353559017181396
+Training loss = 0.43029850721359253
+Testing time = 0.7456200122833252
+Testing accuracy = 81.57894642729508
+
+Epoch 928
+Training time = 2.95503306388855
+Training loss = 0.43027446468671166
+Testing time = 0.7544071674346924
+Testing accuracy = 81.57894642729508
+
+Epoch 929
+Training time = 3.336219310760498
+Training loss = 0.43025036056836446
+Testing time = 0.9524936676025391
+Testing accuracy = 81.57894642729508
+
+Epoch 930
+Training time = 3.7655930519104004
+Training loss = 0.4302262842655182
+Testing time = 0.9202532768249512
+Testing accuracy = 81.57894642729508
+
+Epoch 931
+Training time = 2.965506076812744
+Training loss = 0.43020236293474834
+Testing time = 0.7438960075378418
+Testing accuracy = 81.57894642729508
+
+Epoch 932
+Training time = 2.880009412765503
+Training loss = 0.4301783323287964
+Testing time = 0.7388653755187988
+Testing accuracy = 81.57894642729508
+
+Epoch 933
+Training time = 2.9423563480377197
+Training loss = 0.4301544229189555
+Testing time = 0.7688271999359131
+Testing accuracy = 81.57894642729508
+
+Epoch 934
+Training time = 2.96223783493042
+Training loss = 0.4301304797331492
+Testing time = 0.763045072555542
+Testing accuracy = 81.57894642729508
+
+Epoch 935
+Training time = 3.0023157596588135
+Training loss = 0.43010668754577636
+Testing time = 0.7589986324310303
+Testing accuracy = 81.57894642729508
+
+Epoch 936
+Training time = 2.9313864707946777
+Training loss = 0.43008284171422323
+Testing time = 0.7700538635253906
+Testing accuracy = 81.57894642729508
+
+Epoch 937
+Training time = 3.0256550312042236
+Training loss = 0.430059015750885
+Testing time = 0.7839629650115967
+Testing accuracy = 81.57894642729508
+
+Epoch 938
+Training time = 2.957949161529541
+Training loss = 0.4300352136294047
+Testing time = 0.7547175884246826
+Testing accuracy = 81.57894642729508
+
+Epoch 939
+Training time = 2.9937596321105957
+Training loss = 0.43001150886217754
+Testing time = 0.7692725658416748
+Testing accuracy = 81.57894642729508
+
+Epoch 940
+Training time = 2.99910569190979
+Training loss = 0.42998782396316526
+Testing time = 0.7474429607391357
+Testing accuracy = 81.57894642729508
+
+Epoch 941
+Training time = 2.977416753768921
+Training loss = 0.4299641489982605
+Testing time = 0.7760930061340332
+Testing accuracy = 81.57894642729508
+
+Epoch 942
+Training time = 3.0138254165649414
+Training loss = 0.42994048198064166
+Testing time = 0.753732442855835
+Testing accuracy = 81.57894642729508
+
+Epoch 943
+Training time = 3.0251624584198
+Training loss = 0.4299168388048808
+Testing time = 0.7781410217285156
+Testing accuracy = 81.57894642729508
+
+Epoch 944
+Training time = 3.0237605571746826
+Training loss = 0.4298932095368703
+Testing time = 0.7679934501647949
+Testing accuracy = 81.57894642729508
+
+Epoch 945
+Training time = 3.041898250579834
+Training loss = 0.4298696498076121
+Testing time = 0.7712917327880859
+Testing accuracy = 81.57894642729508
+
+Epoch 946
+Training time = 3.037207841873169
+Training loss = 0.42984613378842673
+Testing time = 0.7694001197814941
+Testing accuracy = 81.57894642729508
+
+Epoch 947
+Training time = 3.0373690128326416
+Training loss = 0.42982264757156374
+Testing time = 0.7843074798583984
+Testing accuracy = 81.57894642729508
+
+Epoch 948
+Training time = 3.019937753677368
+Training loss = 0.4297992547353109
+Testing time = 0.7766597270965576
+Testing accuracy = 81.57894642729508
+
+Epoch 949
+Training time = 3.00126314163208
+Training loss = 0.42977583010991416
+Testing time = 0.7698068618774414
+Testing accuracy = 81.57894642729508
+
+Epoch 950
+Training time = 3.3228907585144043
+Training loss = 0.4297523776690165
+Testing time = 0.920867919921875
+Testing accuracy = 81.57894642729508
+
+Epoch 951
+Training time = 3.7268264293670654
+Training loss = 0.4297289729118347
+Testing time = 0.9213681221008301
+Testing accuracy = 81.57894642729508
+
+Epoch 952
+Training time = 3.1241300106048584
+Training loss = 0.4297056039174398
+Testing time = 0.7595932483673096
+Testing accuracy = 81.57894642729508
+
+Epoch 953
+Training time = 2.914307117462158
+Training loss = 0.42968232234319054
+Testing time = 0.7460803985595703
+Testing accuracy = 81.57894642729508
+
+Epoch 954
+Training time = 2.9439690113067627
+Training loss = 0.42965912421544394
+Testing time = 0.7850918769836426
+Testing accuracy = 81.57894642729508
+
+Epoch 955
+Training time = 3.0813465118408203
+Training loss = 0.42963581482569374
+Testing time = 0.7586209774017334
+Testing accuracy = 81.57894642729508
+
+Epoch 956
+Training time = 2.9417693614959717
+Training loss = 0.4296125789483388
+Testing time = 0.7627730369567871
+Testing accuracy = 81.57894642729508
+
+Epoch 957
+Training time = 2.997368097305298
+Training loss = 0.4295894106229146
+Testing time = 0.7699556350708008
+Testing accuracy = 81.57894642729508
+
+Epoch 958
+Training time = 2.971466302871704
+Training loss = 0.42956626216570537
+Testing time = 0.7695183753967285
+Testing accuracy = 81.57894642729508
+
+Epoch 959
+Training time = 3.040940046310425
+Training loss = 0.4295430898666382
+Testing time = 0.7568469047546387
+Testing accuracy = 81.57894642729508
+
+Epoch 960
+Training time = 2.9569180011749268
+Training loss = 0.42952003280321754
+Testing time = 0.8055493831634521
+Testing accuracy = 81.57894642729508
+
+Epoch 961
+Training time = 3.103569746017456
+Training loss = 0.4294969101746877
+Testing time = 0.8233082294464111
+Testing accuracy = 81.57894642729508
+
+Epoch 962
+Training time = 3.0806427001953125
+Training loss = 0.42947394053141275
+Testing time = 0.7830121517181396
+Testing accuracy = 81.57894642729508
+
+Epoch 963
+Training time = 3.082209825515747
+Training loss = 0.4294509172439575
+Testing time = 0.8391013145446777
+Testing accuracy = 81.57894642729508
+
+Epoch 964
+Training time = 3.087381362915039
+Training loss = 0.4294279118378957
+Testing time = 0.7845985889434814
+Testing accuracy = 81.57894642729508
+
+Epoch 965
+Training time = 3.053393602371216
+Training loss = 0.4294050176938375
+Testing time = 0.8010995388031006
+Testing accuracy = 81.57894642729508
+
+Epoch 966
+Training time = 3.0498664379119873
+Training loss = 0.4293820480505625
+Testing time = 0.8001527786254883
+Testing accuracy = 81.57894642729508
+
+Epoch 967
+Training time = 3.0865883827209473
+Training loss = 0.42935920755068463
+Testing time = 0.7756175994873047
+Testing accuracy = 81.57894642729508
+
+Epoch 968
+Training time = 3.0413057804107666
+Training loss = 0.42933629155159
+Testing time = 0.7919375896453857
+Testing accuracy = 81.57894642729508
+
+Epoch 969
+Training time = 3.045278549194336
+Training loss = 0.4293135186036428
+Testing time = 0.7934613227844238
+Testing accuracy = 81.57894642729508
+
+Epoch 970
+Training time = 3.029991388320923
+Training loss = 0.4292906880378723
+Testing time = 0.8080856800079346
+Testing accuracy = 81.57894642729508
+
+Epoch 971
+Training time = 3.044161081314087
+Training loss = 0.4292680124441783
+Testing time = 0.7932181358337402
+Testing accuracy = 81.57894642729508
+
+Epoch 972
+Training time = 3.046449661254883
+Training loss = 0.4292452136675517
+Testing time = 0.8511669635772705
+Testing accuracy = 81.57894642729508
+
+Epoch 973
+Training time = 3.0559191703796387
+Training loss = 0.42922254602114357
+Testing time = 0.7936763763427734
+Testing accuracy = 81.57894642729508
+
+Epoch 974
+Training time = 3.1037826538085938
+Training loss = 0.4291999141375224
+Testing time = 0.7885143756866455
+Testing accuracy = 81.57894642729508
+
+Epoch 975
+Training time = 3.105961322784424
+Training loss = 0.4291771948337555
+Testing time = 0.7975361347198486
+Testing accuracy = 81.57894642729508
+
+Epoch 976
+Training time = 3.0861594676971436
+Training loss = 0.4291546821594238
+Testing time = 0.787567138671875
+Testing accuracy = 81.57894642729508
+
+Epoch 977
+Training time = 3.054597854614258
+Training loss = 0.42913203239440917
+Testing time = 0.7989883422851562
+Testing accuracy = 81.57894642729508
+
+Epoch 978
+Training time = 3.1056606769561768
+Training loss = 0.42910951177279155
+Testing time = 0.7928431034088135
+Testing accuracy = 81.57894642729508
+
+Epoch 979
+Training time = 3.289677381515503
+Training loss = 0.42908695141474407
+Testing time = 0.864163875579834
+Testing accuracy = 81.57894642729508
+
+Epoch 980
+Training time = 3.326216220855713
+Training loss = 0.42906440496444703
+Testing time = 1.164766550064087
+Testing accuracy = 81.57894642729508
+
+Epoch 981
+Training time = 3.504767656326294
+Training loss = 0.4290420114994049
+Testing time = 0.8078854084014893
+Testing accuracy = 81.57894642729508
+
+Epoch 982
+Training time = 3.1566050052642822
+Training loss = 0.42901957432428994
+Testing time = 0.8029627799987793
+Testing accuracy = 81.57894642729508
+
+Epoch 983
+Training time = 3.187119245529175
+Training loss = 0.42899719476699827
+Testing time = 0.8227095603942871
+Testing accuracy = 81.57894642729508
+
+Epoch 984
+Training time = 3.230822801589966
+Training loss = 0.4289748748143514
+Testing time = 0.8083703517913818
+Testing accuracy = 81.57894642729508
+
+Epoch 985
+Training time = 3.1108458042144775
+Training loss = 0.4289525111516317
+Testing time = 0.8113086223602295
+Testing accuracy = 81.57894642729508
+
+Epoch 986
+Training time = 3.0928845405578613
+Training loss = 0.4289301911989848
+Testing time = 0.8482229709625244
+Testing accuracy = 81.57894642729508
+
+Epoch 987
+Training time = 3.265942096710205
+Training loss = 0.42890788515408834
+Testing time = 0.8182930946350098
+Testing accuracy = 81.57894642729508
+
+Epoch 988
+Training time = 3.167548894882202
+Training loss = 0.4288856585820516
+Testing time = 0.8144326210021973
+Testing accuracy = 81.57894642729508
+
+Epoch 989
+Training time = 3.4378082752227783
+Training loss = 0.4288634220759074
+Testing time = 0.8213338851928711
+Testing accuracy = 81.57894642729508
+
+Epoch 990
+Training time = 3.195439100265503
+Training loss = 0.4288412352403005
+Testing time = 0.8836829662322998
+Testing accuracy = 81.57894642729508
+
+Epoch 991
+Training time = 3.093864679336548
+Training loss = 0.4288190941015879
+Testing time = 0.813603401184082
+Testing accuracy = 81.57894642729508
+
+Epoch 992
+Training time = 3.18813157081604
+Training loss = 0.4287969847520193
+Testing time = 0.8250155448913574
+Testing accuracy = 81.57894642729508
+
+Epoch 993
+Training time = 3.136671543121338
+Training loss = 0.4287749151388804
+Testing time = 0.8069536685943604
+Testing accuracy = 81.57894642729508
+
+Epoch 994
+Training time = 3.0844435691833496
+Training loss = 0.42875275810559593
+Testing time = 0.8068785667419434
+Testing accuracy = 81.57894642729508
+
+Epoch 995
+Training time = 3.254682779312134
+Training loss = 0.42873074412345885
+Testing time = 0.9353451728820801
+Testing accuracy = 81.57894642729508
+
+Epoch 996
+Training time = 3.3230693340301514
+Training loss = 0.4287088135878245
+Testing time = 0.8583269119262695
+Testing accuracy = 81.57894642729508
+
+Epoch 997
+Training time = 3.5129473209381104
+Training loss = 0.4286868155002594
+Testing time = 0.9083535671234131
+Testing accuracy = 81.57894642729508
+
+Epoch 998
+Training time = 3.399893045425415
+Training loss = 0.42866477767626443
+Testing time = 0.9426760673522949
+Testing accuracy = 81.57894642729508
+
+Epoch 999
+Training time = 3.5775749683380127
+Training loss = 0.42864289283752444
+Testing time = 0.8036360740661621
+Testing accuracy = 81.57894642729508
+
+Epoch 1000
+Training time = 3.2902164459228516
+Training loss = 0.4286210815111796
+Testing time = 0.8182258605957031
+Testing accuracy = 81.57894642729508
+
+Epoch 1001
+Training time = 3.7498536109924316
+Training loss = 0.4285991092522939
+Testing time = 0.9327411651611328
+Testing accuracy = 81.57894642729508
+
+Epoch 1002
+Training time = 3.5090749263763428
+Training loss = 0.4285773396492004
+Testing time = 0.9821069240570068
+Testing accuracy = 81.57894642729508
+
+Epoch 1003
+Training time = 3.6647207736968994
+Training loss = 0.4285555442174276
+Testing time = 0.8880829811096191
+Testing accuracy = 81.57894642729508
+
+Epoch 1004
+Training time = 3.321364402770996
+Training loss = 0.4285337766011556
+Testing time = 0.848175048828125
+Testing accuracy = 81.57894642729508
+
+Epoch 1005
+Training time = 4.01008677482605
+Training loss = 0.4285120010375977
+Testing time = 1.0890884399414062
+Testing accuracy = 81.57894642729508
+
+Epoch 1006
+Training time = 3.499929666519165
+Training loss = 0.4284902632236481
+Testing time = 0.811032772064209
+Testing accuracy = 81.57894642729508
+
+Epoch 1007
+Training time = 3.0928826332092285
+Training loss = 0.42846865256627403
+Testing time = 0.8033638000488281
+Testing accuracy = 81.57894642729508
+
+Epoch 1008
+Training time = 3.858846426010132
+Training loss = 0.42844698230425515
+Testing time = 1.0048980712890625
+Testing accuracy = 81.57894642729508
+
+Epoch 1009
+Training time = 4.281972169876099
+Training loss = 0.42842532793680826
+Testing time = 1.0811285972595215
+Testing accuracy = 81.57894642729508
+
+Epoch 1010
+Training time = 4.060632944107056
+Training loss = 0.4284037212530772
+Testing time = 0.9299397468566895
+Testing accuracy = 81.57894642729508
+
+Epoch 1011
+Training time = 3.9479055404663086
+Training loss = 0.42838210264841714
+Testing time = 0.9795455932617188
+Testing accuracy = 81.57894642729508
+
+Epoch 1012
+Training time = 3.396481513977051
+Training loss = 0.4283607025941213
+Testing time = 0.9520015716552734
+Testing accuracy = 81.57894642729508
+
+Epoch 1013
+Training time = 3.156022071838379
+Training loss = 0.42833912968635557
+Testing time = 0.8262722492218018
+Testing accuracy = 81.57894642729508
+
+Epoch 1014
+Training time = 3.3923521041870117
+Training loss = 0.4283176163832347
+Testing time = 0.8475384712219238
+Testing accuracy = 81.57894642729508
+
+Epoch 1015
+Training time = 3.442539930343628
+Training loss = 0.4282961905002594
+Testing time = 0.880335807800293
+Testing accuracy = 81.57894642729508
+
+Epoch 1016
+Training time = 3.897890567779541
+Training loss = 0.4282748361428579
+Testing time = 0.9807305335998535
+Testing accuracy = 81.57894642729508
+
+Epoch 1017
+Training time = 3.701472520828247
+Training loss = 0.4282533923784892
+Testing time = 0.9411087036132812
+Testing accuracy = 81.57894642729508
+
+Epoch 1018
+Training time = 3.6308982372283936
+Training loss = 0.42823197642962135
+Testing time = 0.9268364906311035
+Testing accuracy = 81.57894642729508
+
+Epoch 1019
+Training time = 3.2987382411956787
+Training loss = 0.4282106916109721
+Testing time = 1.0501656532287598
+Testing accuracy = 81.57894642729508
+
+Epoch 1020
+Training time = 3.6791574954986572
+Training loss = 0.4281894067923228
+Testing time = 1.0444304943084717
+Testing accuracy = 81.57894642729508
+
+Epoch 1021
+Training time = 3.8564658164978027
+Training loss = 0.42816806634267174
+Testing time = 0.8639640808105469
+Testing accuracy = 81.57894642729508
+
+Epoch 1022
+Training time = 3.5765533447265625
+Training loss = 0.4281468391418457
+Testing time = 0.8668925762176514
+Testing accuracy = 81.57894642729508
+
+Epoch 1023
+Training time = 3.424830436706543
+Training loss = 0.42812561988830566
+Testing time = 0.8771011829376221
+Testing accuracy = 81.57894642729508

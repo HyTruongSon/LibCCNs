@@ -1,0 +1,25 @@
+Data name: Pubmed-Diabetes
+Log: Pubmed-Diabetes/Pubmed-Diabetes.log
+Cites: Pubmed-Diabetes/Pubmed-Diabetes.cites
+Content: Pubmed-Diabetes/Pubmed-Diabetes.content
+Vertex: Pubmed-Diabetes/Pubmed-Diabetes.vertex
+Edge: Pubmed-Diabetes/Pubmed-Diabetes.edge
+Feature: Pubmed-Diabetes/Pubmed-Diabetes.feature
+Class: Pubmed-Diabetes/Pubmed-Diabetes.class
+Meta: Pubmed-Diabetes/Pubmed-Diabetes.meta
+Train: Pubmed-Diabetes/Pubmed-Diabetes.train
+Val: Pubmed-Diabetes/Pubmed-Diabetes.val
+Test: Pubmed-Diabetes/Pubmed-Diabetes.test
+Read the citation from file Pubmed-Diabetes/Pubmed-Diabetes.cites
+Number of papers: 19717
+Number of citations: 44338
+Density: 2.24872
+Write to file Pubmed-Diabetes/Pubmed-Diabetes.vertex
+Write to file Pubmed-Diabetes/Pubmed-Diabetes.edge
+Read content from file Pubmed-Diabetes/Pubmed-Diabetes.content
+Write feature to file Pubmed-Diabetes/Pubmed-Diabetes.feature
+Write feature to file Pubmed-Diabetes/Pubmed-Diabetes.class
+Write meta data to file Pubmed-Diabetes/Pubmed-Diabetes.meta
+Save training set to file Pubmed-Diabetes/Pubmed-Diabetes.train
+Save validation set to file Pubmed-Diabetes/Pubmed-Diabetes.val
+Save testing set to file Pubmed-Diabetes/Pubmed-Diabetes.test
