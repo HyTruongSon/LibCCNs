@@ -44,7 +44,7 @@ Both TensorFlow side and PyTorch side use the same C++ core for actual contracti
 \begin{center}
 \begin{tabular}{| p{0.2\textwidth} | p{0.8\textwidth} |}
 \hline
-File & Role \\
+\textbf{File} & \textbf{Role} \\
 \hline
 \texttt{ccn1d\_cpu.h} & 
 \begin{itemize}
@@ -68,7 +68,7 @@ TensorFlow implementation of CCNs library using the C++ core (in sub-directory \
 \begin{center}
 \begin{tabular}{| p{0.2\textwidth} | p{0.4\textwidth} | p{0.4\textwidth} |}
 \hline
-Directory & File & Role \\
+\textbf{Directory} & \textbf{File} & \textbf{Role} \\
 \hline
 \texttt{ccn\_lib/}
 &
@@ -104,7 +104,7 @@ Gradient definition in Python
 \begin{center}
 \begin{tabular}{| p{0.2\textwidth} | p{0.4\textwidth} | p{0.4\textwidth} |}
 \hline
-Directory & File & Role \\
+\textbf{Directory} & \textbf{File} & \textbf{Role} \\
 \hline
 \texttt{large\_graph/}
 &
@@ -154,7 +154,8 @@ Vertex of citation graph definition
 \begin{center}
 \begin{tabular}{| p{0.2\textwidth} | p{0.4\textwidth} | p{0.4\textwidth} |}
 \hline
-Directory & File & Role \\
+\textbf{Directory} & \textbf{File} & 
+\textbf{Role} \\
 \hline
 \texttt{small\_graphs/}
 &
@@ -212,13 +213,205 @@ A single molecular graph
 
 \section{PyTorch side}
 
+PyTorch implementation of CCNs library using the C++ core (in sub-directory \texttt{ccn\_lib/}), CCNs models, and training programs in Python for both learning on large-scale citation graphs (in sub-directory \texttt{large\_graph/}) and learning molecular properties (in sub-directory \texttt{small\_graphs/}) are included in folder \texttt{pytorch/}.
+
+\begin{center}
+\begin{tabular}{| p{0.2\textwidth} | p{0.4\textwidth} | p{0.4\textwidth} |}
+\hline
+\textbf{Directory} & \textbf{File} & \textbf{Role} \\
+\hline
+\texttt{ccn\_lib/}
+&
+\texttt{ccn1d\_contractions.py}
+&
+Pythonic binding from PyTorch C++ into PyTorch operator of CCN 1D contractions
+\\
+\hline
+\texttt{ccn\_lib/}
+&
+\texttt{ccn1d\_lib.cpp}
+&
+Binding from the C++ core into PyTorch C++ API
+\\
+\hline
+\texttt{ccn\_lib/}
+&
+\texttt{ccn1d\_normalizing.py}
+&
+Pythonic binding from PyTorch C++ into PyTorch operator of normalizing tensor
+\\
+\hline
+\texttt{ccn\_lib/}
+&
+\texttt{ccn1d\_shrinking.py}
+&
+Pythonic binding from PyTorch C++ into PyTorch operator of shrinking a high-order tensor to a 1-dimenisonal tensor
+\\
+\hline
+\texttt{ccn\_lib/}
+&
+\texttt{compile.sh}
+&
+Compilation script
+\\
+\hline
+\texttt{ccn\_lib/}
+&
+\texttt{setup.py}
+&
+Setup
+\\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{| p{0.2\textwidth} | p{0.4\textwidth} | p{0.4\textwidth} |}
+\hline
+\textbf{Directory} & \textbf{File} & \textbf{Role} \\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{ccn1d\_training\_program.py}
+&
+Training program in Python
+\\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{ccn1d\_training\_program.sh}
+&
+Training script
+\\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{CCN1D.py}
+&
+PyTorch CCN 1D model
+\\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{Dataset.py}
+&
+Large-graph citation network data structure
+\\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{Edge.py}
+&
+Edge definition
+\\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{GCN.py}
+&
+Graph Convolution Neural Network model (this is not CCNs)
+\\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{gcn\_training\_program.py}
+&
+GCN's training program
+\\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{gcn\_training\_program.sh}
+&
+GCN's training script
+\\
+\hline
+\texttt{large\_graph/}
+&
+\texttt{Vertex.py}
+&
+Vertex definition
+\\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{| p{0.2\textwidth} | p{0.4\textwidth} | p{0.4\textwidth} |}
+\hline
+\textbf{Directory} & \textbf{File} & \textbf{Role} \\
+\hline
+\texttt{small\_graphs/}
+&
+\texttt{Atom.py}
+&
+Atom definition
+\\
+\hline
+\texttt{small\_graphs/}
+&
+\texttt{ccn1d\_training\_program.py}
+&
+Training program in Python
+\\
+\hline
+\texttt{small\_graphs/}
+&
+\texttt{ccn1d\_training\_program.sh}
+&
+Training script
+\\
+\hline
+\texttt{small\_graphs/}
+&
+\texttt{CCN1D.py}
+&
+CCN 1D model in PyTorch
+\\
+\hline
+\texttt{small\_graphs/}
+&
+\texttt{Dataset.py}
+&
+Small-graph molecules dataset structure
+\\
+\hline
+\texttt{small\_graphs/}
+&
+\texttt{Graph.py}
+&
+Graph definition as concatenation of multiple molecules
+\\
+\hline
+\texttt{small\_graphs/}
+&
+\texttt{Molecule.py}
+&
+Molecular graph definition
+\\
+\hline
+\end{tabular}
+\end{center}
+
 \clearpage
 
 \section{Node classification in large-scale networks}
 
+\subsection{Datasets}
+
+\subsection{Data pre-processing}
+
+\subsection{Some results}
+
 \clearpage
 
 \section{Learning molecular properties}
+
+\subsection{Datasets}
+
+\subsection{Data pre-processing}
+
+\subsection{Some results}
 
 \clearpage
 
