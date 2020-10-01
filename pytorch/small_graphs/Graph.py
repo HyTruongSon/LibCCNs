@@ -30,6 +30,9 @@ class Graph:
 		self.start_index[self.nMolecules] = self.nVertices
 		self.start_index = torch.from_numpy(self.start_index)
 
+		# Adjacency matrix (total of all smaller molecules)
+		self.adj = np.zeros((self.nVertices, self.nVertices), dtype = np.float32)
+
 		# Edge indexing
 		self.edges_tensor = np.zeros((self.nEdges, 2), dtype = np.float32)
 		count = 0
@@ -41,8 +44,13 @@ class Graph:
 					self.edges_tensor[count, 0] = u
 					self.edges_tensor[count, 1] = v
 					count += 1
+
+					# Adjacency matrix
+					self.adj[u, v] = 1.0
+					self.adj[v, u] = 1.0
 		assert count == self.nEdges
 		self.edges_tensor = torch.from_numpy(self.edges_tensor)
+		self.adj = torch.from_numpy(self.adj)
 
 		# Feature indexing
 		nAtomicTypes = len(all_atomic_type)
