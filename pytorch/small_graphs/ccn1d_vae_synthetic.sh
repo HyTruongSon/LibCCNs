@@ -4,9 +4,8 @@ sh compile.sh
 cd ../small_graphs
 
 # Data name
-#data_name=tree
-data_name=star
-#data_name=grid
+data_name=tree
+#data_name=star
 #data_name=er
 
 # Number of samples

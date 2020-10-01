@@ -29,5 +29,28 @@ class Synthetic_Dataset:
 						self.vertex_features[sample, vertex, 0] += 1
 						self.vertex_features[sample, center, 0] += 1
 
+		if self.data_name == 'er':
+			for sample in range(self.num_samples):
+				for u in range(self.graph_size):
+					for v in range(u + 1, self.graph_size):
+						coin = np.random.randint(0, 2)
+						if coin > 0:
+							self.adjacencies[sample, u, v] = 1.0
+							self.adjacencies[sample, v, u] = 1.0
+							self.vertex_features[sample, u, 0] += 1
+							self.vertex_features[sample, v, 0] += 1
+
+		if self.data_name == 'tree':
+			for sample in range(self.num_samples):
+				perm = np.random.permutation(self.graph_size)
+				for i in range(1, self.graph_size):
+					j = np.random.randint(0, i)
+					u = perm[i]
+					v = perm[j]
+					self.adjacencies[sample, u, v] = 1.0
+					self.adjacencies[sample, v, u] = 1.0
+					self.vertex_features[sample, u, 0] += 1
+					self.vertex_features[sample, v, 0] += 1
+
 		self.adjacencies = torch.from_numpy(self.adjacencies)
 		self.vertex_features = torch.from_numpy(self.vertex_features)

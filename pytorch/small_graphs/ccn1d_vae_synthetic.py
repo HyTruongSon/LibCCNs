@@ -72,7 +72,6 @@ def predict_batch(data, indices, model):
 	with torch.no_grad():
 		predict, z_mu, z_var = model(graph)
 		target = graph.adj
-		predict = torch.sigmoid(predict)
 		loss = vae_loss(predict, z_mu, z_var, target)
 	return loss.item()
 
