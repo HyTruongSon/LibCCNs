@@ -1,0 +1,17 @@
+To run all the experiments on GraphFlow (mini version):
+$ sh test_GraphFlow.sh
+
+Test for the CPU/C++ contraction of GraphFlow:
+$ g++ test_GraphFlow.cpp -o test_GraphFlow_cpu; ./test_GraphFlow_cpu 10 20
+
+Test for the GPU/CUDA contraction of GraphFlow:
+$ nvcc test_GraphFlow.cu -o test_GraphFlow_cuda; ./test_GraphFlow_cuda 10 20
+
+Mini version of the deep learning framework is in GraphFlow_gpu/ directory:
+* Entity: Entity.h
+* Vector: Vector.h
+* Matrix: Matrix.h
+* 3-dimensional tensor: Tensor3D.h
+* 4-dimensional tensor: Tensor4D.h
+* CPU/C++ contraction operator: RisiContraction_18.h
+* GPU/CUDA contraction operator: RisiContraction_18_gpu.h
