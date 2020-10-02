@@ -10,50 +10,23 @@ dtype_int = torch.int
 device = torch.device("cpu")
 
 class VAE(nn.Module):
-    """
-    Variational Autoencoder
-    """
-
-    def __init__(self, encoder, decoder):
+    ''' This the VAE, which takes a encoder and decoder. '''
+    def __init__(self, enc, dec):
         super().__init__()
 
-        self.encoder = encoder
-        self.decoder = decoder
+        self.enc = enc
+        self.dec = dec
 
-    def forward(self, graph):
-        # Encoder
-        encoded_vars = self.encoder(graph)
-        N_channels = encoded_vars.shape[-1]
-        assert(N_channels % 2 == 0), "Number of channels is not even!"
-        z_var = encoded_vars[..., :N_channels//2]
-        z_mu = encoded_vars[..., N_channels//2:]
+    def forward(self, x):
+        # encode
+        z_mu, z_var = self.enc(x)
 
-        # Re-parameterization trick: Sample from the distribution having latent parameters z_mu, z_var
+        # sample from the distribution having latent parameters z_mu, z_var
+        # reparameterize
         std = torch.exp(z_var / 2)
         eps = torch.randn_like(std)
         x_sample = eps.mul(std).add_(z_mu)
 
-        # Decoder
-        predict = self.decoder(x_sample)
-
-        return predict, z_mu, z_var
-
-class AE(nn.Module):
-    """
-    Autoencoder
-    """
-
-    def __init__(self, encoder, decoder):
-        super().__init__()
-
-        self.encoder = encoder
-        self.decoder = decoder
-
-    def forward(self, graph):
-        # Encoder
-        encoded = self.encoder(graph)
-
-        # Decoder
-        predict = self.decoder(encoded)
-
-        return predict
+        # decode
+        predicted = self.dec(x_sample)
+        return predicted, z_mu, z_var
