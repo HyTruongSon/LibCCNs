@@ -1,3 +1,22 @@
++--------------------------+
+| PyTorch & CUDA extension |
++--------------------------+
+
+To compile the CUDA extension for PyTorch:
+$ cd pytorch_gpu/
+$ sh compile.sh
+
+Test the CUDA extension with the PyTorch autograd function:
+$ python3 test_PyTorch.py
+
+* The CUDA kernels (forward/backward) and the binding functions are implemented in pytorch_gpu/RisiContraction_18.cu.
+* The PyTorch autograd function is in pytorch_gpu/RisiContraction_18_Op.py.
+* For CUDA extension compilation: pytorch_gpu/setup.py and pytorch_gpu/compile.sh.
+
++--------------------------------+
+| Mini GraphFlow (pure C++/CUDA) |
++--------------------------------+
+
 To run all the experiments on GraphFlow (mini version):
 $ sh test_GraphFlow.sh
 
