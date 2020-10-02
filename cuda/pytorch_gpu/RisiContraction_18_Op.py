@@ -14,10 +14,10 @@ class RisiContraction_18_Op(torch.autograd.Function):
 		nChannels = tensor.size(3)
 
 		# Output tensor creation
-		value = torch.zeros(N, N, nChannels * NCONTRACTIONS).to(device = 'cuda')
+		value = torch.zeros(N, N, nChannels * NCONTRACTIONS).type(torch.DoubleTensor).to(device = 'cuda')
 
 		# Call the CUDA extension
-		RisiContraction_18.RisiContraction_18_forward(tensor, adj, value, nThreads = NTHREADS)
+		RisiContraction_18.RisiContraction_18_forward(tensor, adj, value, NTHREADS)
 
 		# Save the tensors for backward pass
 		saved_variables = [adj]
@@ -36,10 +36,10 @@ class RisiContraction_18_Op(torch.autograd.Function):
 		nChannels = value_gradient.size(2) // NCONTRACTIONS
 
 		# Input gradient tensor creation
-		tensor_gradient = torch.zeros(N, N, N, nChannels).to(device = 'cuda')
+		tensor_gradient = torch.zeros(N, N, N, nChannels).type(torch.DoubleTensor).to(device = 'cuda')
 
 		# Compute the input gradient tensor
-		RisiContraction_18.RisiContraction_18_backward(tensor_gradient, adj, value_gradient, nThreads = NTHREADS)
+		RisiContraction_18.RisiContraction_18_backward(tensor_gradient, adj, value_gradient, NTHREADS)
 
 		# Return the input gradient tensor
 		return (tensor_gradient, None)

@@ -561,7 +561,7 @@ void RisiContraction_18_forward(
 	assert(adj.size(1) == N);
 	assert(value.size(0) == N);
 	assert(value.size(1) == N);
-	assert(value.size(3) == nChannels * NCONTRACTIONS);
+	assert(value.size(2) == nChannels * NCONTRACTIONS);
 
 	const int size = value.numel();
 	dim3 dimGrid(rounded_division(size, nThreads));
@@ -599,7 +599,7 @@ void RisiContraction_18_backward(
 	assert(adj.size(1) == N);
 	assert(value_gradient.size(0) == N);
 	assert(value_gradient.size(1) == N);
-	assert(value_gradient.size(3) == nChannels * NCONTRACTIONS);
+	assert(value_gradient.size(2) == nChannels * NCONTRACTIONS);
 
 	const int size = tensor_gradient.numel();
 	dim3 dimGrid(rounded_division(size, nThreads));
