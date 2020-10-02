@@ -13,6 +13,21 @@
 
 using namespace std;
 
+// +----------------------------+
+// | Additional Functionalities |
+// +----------------------------+
+
+// Number of contractions
+const int NCONTRACTIONS = 18;
+
+// Ceiling
+int rounded_division(int number1, int number2) {
+	if (number1 % number2 == 0) {
+		return number1 / number2;
+	}
+	return number1 / number2 + 1;
+}
+
 // +-------------------------------------------+
 // | Atomic Addition Operation For Double Type |
 // +-------------------------------------------+ 
@@ -37,26 +52,26 @@ using namespace std;
 // | Kernel Function For The Forward Job |
 // +-------------------------------------+
 
-__global__ void RisiContraction_18_forward_job(double *tensor, double *adj, double *value, int N, int nChanels) {
+__global__ void RisiContraction_18_forward_job(double *tensor, double *adj, double *value, int N, int nChannels) {
 	__shared__ int nContractions;
 	__shared__ int A;
 	__shared__ int B;
 	__shared__ int C;
 	__shared__ int Y;
 
-	nContractions = 18;
+	nContractions = NCONTRACTIONS;
 
 	int global_threadId = blockIdx.x * blockDim.x + threadIdx.x;
 	
-	if (global_threadId < N * N * nChanels * nContractions) {	
-		C = nChanels;
+	if (global_threadId < N * N * nChannels * nContractions) {	
+		C = nChannels;
 		B = N * C;
 		A = N * B;
 
-		Y = nChanels * nContractions;
+		Y = nChannels * nContractions;
 		
-		int f = (global_threadId % Y) % nChanels;
-		int Case = (global_threadId % Y) / nChanels + 1;
+		int f = (global_threadId % Y) % nChannels;
+		int Case = (global_threadId % Y) / nChannels + 1;
 		int y = (global_threadId / Y) % N;
 		int x = (global_threadId / Y) / N;
 
@@ -373,24 +388,24 @@ __global__ void RisiContraction_18_forward_job(double *tensor, double *adj, doub
 // | Kernel Function For The Backward Job |
 // +--------------------------------------+
 
-__global__ void RisiContraction_18_backward_job(double *tensor_gradient, double *adj, double *gradient, int N, int nChanels) {
+__global__ void RisiContraction_18_backward_job(double *tensor_gradient, double *adj, double *gradient, int N, int nChannels) {
 	
 	__shared__ int nContractions;
 	__shared__ int X;
 	__shared__ int Y;
 
-	nContractions = 18;
+	nContractions = NCONTRACTIONS;
 
 	int global_threadId = blockIdx.x * blockDim.x + threadIdx.x;
 
-	if (global_threadId < N * N * N * nChanels) {
-		X = N * nChanels * nContractions;
-		Y = nChanels * nContractions;
+	if (global_threadId < N * N * N * nChannels) {
+		X = N * nChannels * nContractions;
+		Y = nChannels * nContractions;
 
-		int f = global_threadId % nChanels;
-		int c = (global_threadId / nChanels) % N;
-		int b = ((global_threadId / nChanels) / N) % N;
-		int a = ((global_threadId / nChanels) / N) / N;
+		int f = global_threadId % nChannels;
+		int c = (global_threadId / nChannels) % N;
+		int b = ((global_threadId / nChannels) / N) % N;
+		int a = ((global_threadId / nChannels) / N) / N;
 
 		double sum = 0.0;
 
@@ -407,23 +422,23 @@ __global__ void RisiContraction_18_backward_job(double *tensor_gradient, double 
 					// +-----------+
 
 					// Case 1 (1/50): Fix a, b. Contract c, d, e.
-					ind = a * X + b * Y + 0 * nChanels + f;
+					ind = a * X + b * Y + 0 * nChannels + f;
 					sum += gradient[ind] * adj_value;
 
 					// Case 2 (3/50): Fix a, d. Contract b, c, e.
-					ind = a * X + d * Y + 1 * nChanels + f;
+					ind = a * X + d * Y + 1 * nChannels + f;
 					sum += gradient[ind] * adj_value;
 
 					// Case 3 (5/50): Fix b, c. Contract a, d, e.
-					ind = b * X + c * Y + 2 * nChanels + f;
+					ind = b * X + c * Y + 2 * nChannels + f;
 					sum += gradient[ind] * adj_value;
 
 					// Case 4 (6/50): Fix b, d. Contract a, c, e.
-					ind = b * X + d * Y + 3 * nChanels + f;
+					ind = b * X + d * Y + 3 * nChannels + f;
 					sum += gradient[ind] * adj_value;
 
 					// Case 5 (10/50): Fix d, e. Contract a, b, c.
-					ind = d * X + e * Y + 4 * nChanels + f;
+					ind = d * X + e * Y + 4 * nChannels + f;
 					sum += gradient[ind] * adj_value;
 
 					// +-------+
@@ -432,61 +447,61 @@ __global__ void RisiContraction_18_backward_job(double *tensor_gradient, double 
 
 					// Case 6 (11/50): (a, b). Contract (c, d). Singleton (e).
 					if (c == d) {
-						ind = a * X + b * Y + 5 * nChanels + f;
+						ind = a * X + b * Y + 5 * nChannels + f;
 						sum += gradient[ind] * adj_value;
 					}
 
 					// Case 7 (13/50): (a, b). Contract (d, e). Singleton (c).
 					if (d == e) {
-						ind = a * X + b * Y + 6 * nChanels + f;
+						ind = a * X + b * Y + 6 * nChannels + f;
 						sum += gradient[ind] * adj_value;
 					}
 
 					// Case 8 (17/50): (a, d). Contract (b, c). Singleton (e).
 					if (b == c) {
-						ind = a * X + d * Y + 7 * nChanels + f;
+						ind = a * X + d * Y + 7 * nChannels + f;
 						sum += gradient[ind] * adj_value;
 					}
 
 					// Case 9 (18/50): (a, d). Contract (b, e). Singleton (c).
 					if (b == e) {
-						ind = a * X + d * Y + 8 * nChanels + f;
+						ind = a * X + d * Y + 8 * nChannels + f;
 						sum += gradient[ind] * adj_value;
 					}
 
 					// Case 10 (23/50): (b, c). Contract (a, d). Singleton (e).
 					if (a == d) {
-						ind = b * X + c * Y + 9 * nChanels + f;
+						ind = b * X + c * Y + 9 * nChannels + f;
 						sum += gradient[ind] * adj_value;
 					}
 
 					// Case 11 (26/50): (b, d). Contract (a, c). Singleton (e).
 					if (a == c) {
-						ind = b * X + d * Y + 10 * nChanels + f;
+						ind = b * X + d * Y + 10 * nChannels + f;
 						sum += gradient[ind] * adj_value;
 					}
 
 					// Case 12 (27/50): (b, d). Contract (a, e). Singleton (c).
 					if (a == e) {
-						ind = b * X + d * Y + 11 * nChanels + f;
+						ind = b * X + d * Y + 11 * nChannels + f;
 						sum += gradient[ind] * adj_value;
 					}
 
 					// Case 13 (28/50): (b, d). Contract (c, e). Singleton (a).
 					if (c == e) {
-						ind = b * X + d * Y + 12 * nChanels + f;
+						ind = b * X + d * Y + 12 * nChannels + f;
 						sum += gradient[ind] * adj_value;
 					}
 
 					// Case 14 (38/50): (d, e). Contract (a, b). Singleton (c).
 					if (a == b) {
-						ind = d * X + e * Y + 13 * nChanels + f;
+						ind = d * X + e * Y + 13 * nChannels + f;
 						sum += gradient[ind] * adj_value;
 					}
 
 					// Case 15 (40/50): (d, e). Contract (b, c). Singleton (a).
 					if (b == c) {
-						ind = d * X + e * Y + 14 * nChanels + f;
+						ind = d * X + e * Y + 14 * nChannels + f;
 						sum += gradient[ind] * adj_value;
 					}
 
@@ -496,19 +511,19 @@ __global__ void RisiContraction_18_backward_job(double *tensor_gradient, double 
 
 					// Case 16 (43/50): (a, d). Contract (b, c, e).
 					if ((b == c) && (c == e))  {
-						ind = a * X + d * Y + 15 * nChanels + f;
+						ind = a * X + d * Y + 15 * nChannels + f;
 						sum += gradient[ind] * adj_value;
 					}
 
 					// Case 17 (46/50): (b, d). Contract (a, c, e).
 					if ((a == c) && (c == e))  {
-						ind = b * X + d * Y + 16 * nChanels + f;
+						ind = b * X + d * Y + 16 * nChannels + f;
 						sum += gradient[ind] * adj_value;
 					}
 
 					// Case 18 (50/50): (d, e). Contract (a, b, c).
 					if ((a == b) && (b == c))  {
-						ind = d * X + e * Y + 17 * nChanels + f;
+						ind = d * X + e * Y + 17 * nChannels + f;
 						sum += gradient[ind] * adj_value;
 					}
 				}
@@ -517,6 +532,86 @@ __global__ void RisiContraction_18_backward_job(double *tensor_gradient, double 
 		
 		tensor_gradient[global_threadId] += sum;
 	}
+}
+
+#define CHECK_CUDA(x) TORCH_CHECK(x.type().is_cuda(), #x " must be a CUDA tensor")
+#define CHECK_CONTIGUOUS(x) TORCH_CHECK(x.is_contiguous(), #x " must be contiguous")
+#define CHECK_INPUT(x) CHECK_CUDA(x); CHECK_CONTIGUOUS(x)
+
+void RisiContraction_18_forward(
+	const torch::Tensor &tensor,
+	const torch::Tensor &adj,
+	torch::Tensor &value,
+	const int nThreads = 1024
+) {
+	CHECK_INPUT(tensor);
+	CHECK_INPUT(adj);
+	CHECK_INPUT(value);
+
+	assert(tensor.dim() == 4);
+	assert(adj.dim() == 2);
+	assert(value.dim() == 3);
+
+	const int N = tensor.size(0);
+	const int nChannels = tensor.size(3);
+
+	assert(tensor.size(1) == N);
+	assert(tensor.size(2) == N);
+	assert(adj.size(0) == N);
+	assert(adj.size(1) == N);
+	assert(value.size(0) == N);
+	assert(value.size(1) == N);
+	assert(value.size(3) == nChannels * NCONTRACTIONS);
+
+	const int size = value.numel();
+	dim3 dimGrid(rounded_division(size, nThreads));
+	dim3 dimBlock(nThreads);
+
+	// Kernel launch
+	RisiContraction_18_forward_job <<< dimGrid, dimBlock >>> (
+		tensor.data<double>(), 
+		adj.data<double>(), 
+		value.data<double>(), 
+		N, 
+		nChannels);
+}
+
+void RisiContraction_18_backward(
+	torch::Tensor &tensor_gradient,
+	const torch::Tensor &adj,
+	const torch::Tensor &value_gradient,
+	const int nThreads = 1024
+) {
+	CHECK_INPUT(tensor_gradient);
+	CHECK_INPUT(adj);
+	CHECK_INPUT(value_gradient);
+
+	assert(tensor_gradient.dim() == 4);
+	assert(adj.dim() == 2);
+	assert(value_gradient.dim() == 3);
+
+	const int N = tensor_gradient.size(0);
+	const int nChannels = tensor_gradient.size(3);
+
+	assert(tensor_gradient.size(1) == N);
+	assert(tensor_gradient.size(2) == N);
+	assert(adj.size(0) == N);
+	assert(adj.size(1) == N);
+	assert(value_gradient.size(0) == N);
+	assert(value_gradient.size(1) == N);
+	assert(value_gradient.size(3) == nChannels * NCONTRACTIONS);
+
+	const int size = tensor_gradient.numel();
+	dim3 dimGrid(rounded_division(size, nThreads));
+	dim3 dimBlock(nThreads);
+
+	// Kernel launch
+	RisiContraction_18_backward_job <<< dimGrid, dimBlock >>> (
+		tensor_gradient.data<double>(), 
+		adj.data<double>(), 
+		value_gradient.data<double>(), 
+		N, 
+		nChannels);
 }
 
 std::vector<at::Tensor> test_api(const std::vector<at::Tensor> &tensors) {
@@ -530,4 +625,6 @@ std::vector<at::Tensor> test_api(const std::vector<at::Tensor> &tensors) {
 
 PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
 	m.def("test_api", &test_api, "Test API");
+	m.def("RisiContraction_18_forward", &RisiContraction_18_forward, "Forward functionality");
+	m.def("RisiContraction_18_backward", &RisiContraction_18_backward, "Backward functionality");
 }

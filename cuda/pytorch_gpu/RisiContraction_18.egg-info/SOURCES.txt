@@ -1,6 +1,0 @@
-RisiContraction_18.cu
-setup.py
-RisiContraction_18.egg-info/PKG-INFO
-RisiContraction_18.egg-info/SOURCES.txt
-RisiContraction_18.egg-info/dependency_links.txt
-RisiContraction_18.egg-info/top_level.txt
