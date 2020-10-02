@@ -21,7 +21,7 @@ import Molecule
 import Atom
 import CCN1D_Encoder
 import Dot_Decoder
-import Autoencoders
+import Variational_Autoencoder
 
 dtype = torch.float
 device = torch.device("cpu")
@@ -98,7 +98,7 @@ def predict_batch(data, indices, model):
 	with torch.no_grad():
 		predict, z_mu, z_var = model(graph)
 		target = graph.adj
-		predict = torch.sigmoid(predict)
+		# predict = torch.sigmoid(predict)
 		loss = vae_loss(predict, z_mu, z_var, target)
 	return loss.item()
 
@@ -180,7 +180,7 @@ def main(argv):
 
 	encoder = CCN1D_Encoder.CCN1D_Encoder(input_size, message_sizes, message_mlp_sizes, output_size, nThreads, activation)
 	decoder = Dot_Decoder.Dot_Decoder()
-	model = Autoencoders.VAE(encoder, decoder)
+	model = Variational_Autoencoder.VAE(encoder, decoder)
 	optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate, amsgrad = True)
 
 	print('\n--- Training -------------------------------')

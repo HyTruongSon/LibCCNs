@@ -15,7 +15,7 @@ import torch.optim as optim
 import BatchGraph
 import CCN1D_Encoder
 import Dot_Decoder
-import Autoencoders
+import Variational_Autoencoder
 import Synthetic_Dataset
 
 dtype = torch.float
@@ -105,7 +105,7 @@ def main(argv):
 
 	encoder = CCN1D_Encoder.CCN1D_Encoder(input_size, message_sizes, message_mlp_sizes, output_size, nThreads, activation)
 	decoder = Dot_Decoder.Dot_Decoder()
-	model = Autoencoders.VAE(encoder, decoder)
+	model = Variational_Autoencoder.VAE(encoder, decoder)
 	optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate, amsgrad = True)
 
 	print('\n--- Training -------------------------------')
