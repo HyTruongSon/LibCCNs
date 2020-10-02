@@ -84,7 +84,8 @@ class CCN1D_Encoder(nn.Module):
 		self.message_params = torch.nn.ParameterList([item for sublist in self.message_weights for item in sublist])
 
 		self.num_final_features = self.input_size[1] + sum(self.message_sizes)
-		self.fully_connected_2 = nn.Linear(self.num_final_features, self.output_size)
+		self.fully_connected_mu = nn.Linear(self.num_final_features, self.output_size)
+		self.fully_connected_var = nn.Linear(self.num_final_features, self.output_size)
 
 	def forward(self, graph):
 		# Compute the receptive fields
@@ -127,6 +128,7 @@ class CCN1D_Encoder(nn.Module):
 
 		# Total representation
 		self.total_representation = torch.cat([dense_feature] + self.shrinked_message, dim = 1)
-		self.encoded = self.fully_connected_2(self.total_representation)
+		self.encoded_mu = self.fully_connected_mu(self.total_representation)
+		self.encoded_var = self.fully_connected_var(self.total_representation)
 
-		return self.encoded
+		return self.encoded_mu, self.encoded_var
