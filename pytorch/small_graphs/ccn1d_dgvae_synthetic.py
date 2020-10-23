@@ -46,9 +46,34 @@ def LOG(report_fn, str):
 	report.close()
 
 def vae_loss(predict, mu_0, sigma_0, target):
+	# Reconstruction loss
 	predict_flat = predict.view(-1)
 	target_flat = target.view(-1)
-	return F.binary_cross_entropy_with_logits(predict_flat, target_flat, reduction = 'mean')
+	reconstruction_loss =  F.binary_cross_entropy_with_logits(predict_flat, target_flat, reduction = 'mean')
+
+	# KL divergence
+	ALPHA = 0.01 # From the NeurIPS 2020 paper "Dirichlet Graph Variational Autoencoder"
+	N = mu_0.size(0)
+	K = mu_0.size(1)
+	alpha = torch.zeros(K)
+	alpha[:] = ALPHA
+
+	log_alpha = torch.log(alpha)
+	inverse_alpha = 1.0 / alpha
+	mu_1 = log_alpha - torch.sum(log_alpha) / K
+	sigma_1 = (1.0 - 2.0 / K) * inverse_alpha + torch.sum(inverse_alpha) / (K * K)
+	inverse_sigma_1 = 1.0 / sigma_1
+
+	term_1 = torch.sum(torch.matmul(sigma_0, inverse_sigma_1))
+	term_2 = torch.matmul(torch.matmul(mu_1 - mu_0, torch.diag(inverse_sigma_1)), torch.transpose(mu_1 - mu_0, 1, 0))
+	term_2 = torch.trace(term_2)
+	term_3 = torch.sum(torch.log(sigma_1)) - torch.sum(torch.log(sigma_0))
+	KL_loss = 0.5 / N * (term_1 + term_2 - K + term_3)
+
+	# Total loss
+	total_loss = reconstruction_loss # + KL_loss
+
+	return total_loss, reconstruction_loss, KL_loss
 
 def train_batch(data, indices, model, optimizer):
 	# Graphs concatenation
@@ -58,11 +83,11 @@ def train_batch(data, indices, model, optimizer):
 	optimizer.zero_grad()
 	predict, mu_0, sigma_0 = model(graph)
 	target = graph.adj
-	loss = vae_loss(predict, mu_0, sigma_0, target) # F.nll_loss(predict, target)
-	loss.backward()
+	total_loss, reconstruction_loss, KL_loss = vae_loss(predict, mu_0, sigma_0, target) # F.nll_loss(predict, target)
+	total_loss.backward()
 	optimizer.step()
 
-	return loss.item()
+	return total_loss.item()
 
 def predict_batch(data, indices, model):
 	# Graphs concatenation
@@ -72,8 +97,8 @@ def predict_batch(data, indices, model):
 	with torch.no_grad():
 		predict, mu_0, sigma_0 = model(graph)
 		target = graph.adj
-		loss = vae_loss(predict, mu_0, sigma_0, target)
-	return loss.item()
+		total_loss, reconstruction_loss, KL_loss = vae_loss(predict, mu_0, sigma_0, target)
+	return total_loss.item()
 
 def main(argv):
 	data_name = FLAGS.data_name
@@ -105,7 +130,7 @@ def main(argv):
 
 	encoder = CCN1D_Encoder.CCN1D_Encoder(input_size, message_sizes, message_mlp_sizes, output_size, nThreads, activation)
 	decoder = Dot_Decoder.Dot_Decoder()
-	model = Variational_Autoencoder.VAE(encoder, decoder)
+	model = Variational_Autoencoder.DGVAE(encoder, decoder)
 	optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate, amsgrad = True)
 
 	print('\n--- Training -------------------------------')

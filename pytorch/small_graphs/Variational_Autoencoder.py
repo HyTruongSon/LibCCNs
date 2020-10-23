@@ -45,7 +45,7 @@ class DGVAE(nn.Module):
         # Reparameterization trick
         sigma_0 = torch.exp(log_sigma_0)
         eps = torch.randn_like(mu_0)
-        sample = torch.softmax(mu_0 + torch.matmul(torch.diag(torch.sqrt(sigma_0)), eps), dim = 0)
+        sample = torch.softmax(mu_0 + torch.sqrt(sigma_0) * eps, dim = 0)
 
         # The decoder
         predicted = self.dec(sample)
