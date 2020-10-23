@@ -18,15 +18,35 @@ class VAE(nn.Module):
         self.dec = dec
 
     def forward(self, x):
-        # encode
-        z_mu, z_var = self.enc(x)
+        # The encoder
+        mu, sigma = self.enc(x)
 
-        # sample from the distribution having latent parameters z_mu, z_var
-        # reparameterize
-        std = torch.exp(z_var / 2)
+        # Reparameterization trick
+        std = torch.exp(sigma / 2)
         eps = torch.randn_like(std)
-        x_sample = eps.mul(std).add_(z_mu)
+        sample = eps.mul(std).add_(mu)
 
-        # decode
-        predicted = self.dec(x_sample)
-        return predicted, z_mu, z_var
+        # The decoder
+        predicted = self.dec(sample)
+        return predicted, mu, sigma
+
+class DGVAE(nn.Module):
+    ''' This the DGVAE, which takes a encoder and decoder. '''
+    def __init__(self, enc, dec):
+        super().__init__()
+
+        self.enc = enc
+        self.dec = dec
+
+    def forward(self, x):
+        # The encoder
+        mu_0, log_sigma_0 = self.enc(x)
+
+        # Reparameterization trick
+        sigma_0 = torch.exp(log_sigma_0)
+        eps = torch.randn_like(mu_0)
+        sample = torch.softmax(mu_0 + torch.matmul(torch.diag(torch.sqrt(sigma_0)), eps), dim = 0)
+
+        # The decoder
+        predicted = self.dec(sample)
+        return predicted, mu_0, sigma_0
