@@ -1,0 +1,8 @@
+To run CCN 1D + VAE for graph kernels benchmark datasets:
+$ sh ccn1d_vae_training_program.sh
+
+To run CCN 1D + VAE for synthetic graphs:
+$ sh ccn1d_vae_synthetic.sh
+
+To run CCN 1D + Dirichlet Graph VAE for synthetic graphs:
+$ sh ccn1d_dgvae_synthetic.sh

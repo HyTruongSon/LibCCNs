@@ -62,9 +62,19 @@ def LOG(report_fn, str):
 	report.close()
 
 def vae_loss(predict, z_mu, z_var, target):
+	# Reconstruction loss
 	predict_flat = predict.view(-1)
 	target_flat = target.view(-1)
-	return F.binary_cross_entropy_with_logits(predict_flat, target_flat, reduction = 'mean')
+	reconstruction_loss =  F.binary_cross_entropy_with_logits(predict_flat, target_flat, reduction = 'mean')
+
+	# KL loss
+	N = z_mu.size(0)
+	KL_loss = 0.5 / N * torch.sum(torch.exp(z_var) + z_mu**2 - 1.0 - z_var)
+
+	# Total loss
+	total_loss = reconstruction_loss + KL_loss
+
+	return total_loss, reconstruction_loss, KL_loss
 
 def train_batch(data, indices, model, optimizer):
 	# Batch creation
@@ -79,11 +89,11 @@ def train_batch(data, indices, model, optimizer):
 	optimizer.zero_grad()
 	predict, z_mu, z_var = model(graph)
 	target = graph.adj
-	loss = vae_loss(predict, z_mu, z_var, target) # F.nll_loss(predict, target)
-	loss.backward()
+	total_loss, reconstruction_loss, KL_loss = vae_loss(predict, z_mu, z_var, target) # F.nll_loss(predict, target)
+	total_loss.backward()
 	optimizer.step()
 
-	return loss.item()
+	return total_loss.item()
 
 def predict_batch(data, indices, model):
 	# Batch creation
@@ -99,8 +109,8 @@ def predict_batch(data, indices, model):
 		predict, z_mu, z_var = model(graph)
 		target = graph.adj
 		# predict = torch.sigmoid(predict)
-		loss = vae_loss(predict, z_mu, z_var, target)
-	return loss.item()
+		total_loss, reconstruction_loss, KL_loss = vae_loss(predict, z_mu, z_var, target)
+	return total_loss.item()
 
 def get_batch(data, indices, model):
 	# Batch creation
